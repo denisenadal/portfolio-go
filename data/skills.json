@@ -1,0 +1,12 @@
+{
+	"title" : "Skills",
+	"skills" : {
+        "UI Design" : "80",
+        "UX Design":"90",
+        "Design Thinking": "95",
+        "Product Management" : "66",
+        "Front-End Engineering": "66",
+        "Full-Stack Engineering": "33",
+        "Agile/SCRUM" : "75"
+	}
+}

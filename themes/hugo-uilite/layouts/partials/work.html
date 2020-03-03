@@ -1,0 +1,34 @@
+<section class="blue">
+  <h2 class="heading">
+    <a href="{{ .Site.BaseURL }}work">Work</a>
+  </h2>
+
+  <div class="row">
+    {{ range first 6 (where (where .Site.Pages "Section" "work") ".Title" "!=" "Works" )}}
+    <div class="col-lg-4 col-md-4 col-12 mb-3">
+        <div class="card p-4">
+          <a class="mb-3" href="{{ .Permalink }}">
+            <div class="featuredImage rounded" style="background-size:cover;background-position:center;background-image: url('{{.Site.BaseURL}}images/work/{{ .Params.featured_image }}'); height: 180px;background-color:#fbfbfb;">   
+            </div>
+          </a>
+          <!-- <small class="text-muted">{{ .Date.Format "Jan 2, 2006"}}</small> -->
+          <a href="{{ .Permalink }}"><h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3></a>
+          
+          <div>
+            {{ range .Params.categories }}
+              <span class="badge badge-light">{{ title . }}</span>
+            {{ end }}
+
+            <div class="float-right">
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="text-center mt-5">
+    <a href="{{ .Site.BaseURL }}work" class="btn btn-lg btn-dark-faded ">Browse All</a>
+  </div>
+</section>

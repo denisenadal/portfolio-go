@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container mt-4">
+	<h1 class="text-center heading">{{ .Title }}</h1>
+	<small class="text-center d-block text-muted">Posted on {{.Date.Format "Jan 2, 2006"}}</small>
+</div>
+
+<img src="{{ .Site.BaseURL }}/images/blog/{{ .Params.featured_image }}" class="mx-auto d-block my-4" style="max-width:100%;width:800px" alt="">
+
+<article style="max-width:890px" class="container w-100 my-5">
+	{{ .Content }}
+
+	{{ partial "share.html" . }}
+
+	{{ partial "disqus.html" . }}
+
+</article>
+
+{{ partial "footer.html" . }}
+{{ partial "footer-scripts.html" . }}

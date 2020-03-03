@@ -1,0 +1,37 @@
+{{ $basicInfo := .Site.Data.sidebar }}
+{{ $navigation := .Site.Data.navigation }}
+{{ $social := .Site.Data.social }}
+{{ $baseURL := .Site.BaseURL }}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white mt-lg-0 mt-3 d-flex align-items-center" style="position:relative">
+	<a id="menuBar" href="#0" class="bg-white position-absolute" >
+		<div class="hamburger-menu"></div>
+	</a>
+
+	<div class="secondaryMenu p-3 bg-white">
+		<div class="">
+			{{ range $navigation }}
+			<a href="{{ $baseURL }}{{ .href }}"><h4 class="d-inline-block mr-3 text-dark mb-0">{{ .title }}</h4></a>
+			{{ end }}
+		</div>
+	</div>
+
+	<span class="mr-auto primaryMenu active ">
+		<a class="navbar-brand ml-auto d-flex align-items-center" href="{{ .Site.BaseURL }}">
+				<img src="{{.Site.BaseURL}}/images/{{ $basicInfo.displayPicture }}" alt="{{ $basicInfo.Title }}" width="30" height="30" class="d-inline-block align-top rounded-circle mr-2">
+				<span class="heading d-inline-block">{{ $basicInfo.title }}&nbsp; </span>  // {{ $basicInfo.highlightedText }}
+			</a>
+	</span>
+	<div class="collapse navbar-collapse float-right" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			
+			</ul>
+			
+			{{ range $key, $value := $social }}
+				<a target="_blank" class="nav-link text-dark" href="{{ $value }}">
+					<i class="{{ $key }}"></i>
+				</a>
+			{{ end }}
+
+		</div>
+</nav>

@@ -1,0 +1,9 @@
+[submodule "hugo-uilite"]
+	path = hugo-uilite
+	url = https://github.com/uicardiodev/hugo-uilite
+[submodule "kross-hugo"]
+	path = kross-hugo
+	url = https://github.com/themefisher/kross-hugo.git
+[submodule "blank"]
+	path = blank
+	url = https://github.com/vimux/blank
