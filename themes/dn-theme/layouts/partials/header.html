@@ -2,15 +2,16 @@
 {{ $navigation := .Site.Data.navigation }}
 {{ $baseURL := .Site.BaseURL }}
 
-	<header id="main-header" class="navbar justify-content-between py-3 px-4">
+	<header id="main-header" class="navbar justify-content-between meta-section">
 			<div class="branding d-flex">
 				<a id="logo-link"
 				   data-menuanchor="intro"
-				   href="/#intro">
+				   href="/#intro"
+				   class="">
 					<img src="{{$config.logo}}"
 						 alt="logo"
-						 class="navbar-brand rounded-circle"
-						 width="48">
+						 class="navbar-brand rounded-circle p-0 mb-1"
+						 width="36">
 				</a>
 				<a id="logo-link"
 				   data-menuanchor="intro"
