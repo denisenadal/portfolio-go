@@ -1,12 +1,34 @@
-<header>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-	{{ with .Site.Menus.main }}
-	<nav>
-		<ul>
-			{{ range . }}
-			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-			{{ end }}
-		</ul>
-	</nav>
-	{{ end }}
-</header>
+{{ $config := .Site.Data.config }}
+{{ $navigation := .Site.Data.navigation }}
+{{ $baseURL := .Site.BaseURL }}
+
+	<header id="main-header">
+		<div class="mobile-btn-wrap">
+			<button id="menu-icon"
+					class="btn mobile-menu-btn closed">
+				<span></span>
+			</button>
+		</div>
+		<div class="container">
+			<a id="logo-link"
+			   data-menuanchor="intro"
+			   href="/#intro">
+				<h1 class="nav-logo"><span class="title">{{ .Site.Title }}</span>
+				{{with $config.subtitle}}//<span class="subtitle">{{ $config.subtitle }}</span>{{ end }}
+				</h1>
+			</a>
+
+            {{ with $navigation}}
+			<nav id="main-menu">
+					{{ range . }}
+						{{if .fullPage}}
+						<a href="{{ $baseURL }}/{{ .href }}">{{ .title }}</a>
+						{{else }}
+						<a data-menuanchor="{{ .href }}" href="{{ $baseURL}}#{{ .href }}">{{ .title }}</a>
+						{{end}}
+					{{ end }}
+			</nav>
+				{{ end }}
+
+		</div>
+	</header>

@@ -1,14 +1,21 @@
-            [
-                {
-                    "title": "Blog",
-                    "href": "blog"
-                },
-                {
-                    "title": "Work",
-                    "href": "work"
-                },
-                {
-                    "title": "contact",
-                    "href": "#contact"
-                }
-            ]
+[
+    {
+        "title": "About",
+        "href": "intro",
+        "fullPage": false
+    },    {
+        "title": "Blog",
+        "href": "blog",
+        "fullPage": true
+    },
+    {
+        "title": "Work",
+        "href": "work",
+        "fullPage": true
+    },
+    {
+        "title": "Contact",
+        "href": "contact",
+        "fullPage": false
+    }
+]

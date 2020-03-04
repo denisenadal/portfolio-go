@@ -1,0 +1,321 @@
+@import "den-vars";
+
+body {
+    background: color("teal");
+    overflow-x: hidden !important;
+    max-width: 100vw;
+}
+
+main {
+    overflow: hidden;
+    
+    > section,
+    > section.container {
+        min-height: 100vh;
+        max-width: 100%;
+        position: relative;
+        z-index: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+//=================   slide bgs   ===================//
+
+#intro-section {
+    background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
+}
+#about-section {
+    background: color("teal");
+    background: linear-gradient(0deg, color("purple") 0%, color("teal") 100%);
+}
+#skills-section {
+    background: linear-gradient(to bottom, color("teal") 20%, #fff);
+}
+
+#work-section {
+    background: color("teal");
+    background: linear-gradient(0deg, color("teal") 0%, color("purple") 100%);
+}
+
+#experience-section {
+    background: linear-gradient(0deg, color("lavender") 0%, color("teal") 100%);
+}
+
+#contact-section {
+    background: linear-gradient(0deg, color("teal") 0%, color("lavender") 100%);
+    overflow:hidden;
+}
+//=================   intro   ===================//
+//credit: https://codepen.io/NitrodeXXer/pen/zdEwgg
+
+#loader {
+    min-height:calc( 100vh - 4rem);
+    opacity: 1;
+    position: absolute;
+
+    .inner {
+        border:3px solid color('pink');
+        width:200px;
+        height:200px;
+        border-radius:50%; 
+        border-left-color: transparent;
+        border-right-color: transparent;
+        animation:rotate 2s cubic-bezier(0.26, 1.36, 0.74,-0.29) infinite;
+    }
+}
+@keyframes rotate{
+	0%{transform:rotateZ(-360deg)}
+	100%{transform:rotateZ(0deg)}
+}
+
+//=================   intro   ===================//
+.bg-layers {
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: visible;
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+.bg-top-right {
+    background: 70vw -30vh/40vw auto no-repeat url("../images/montsera31down.png");
+}
+.bg-bottom-right {
+    background: 70vw -30vh/40vw auto no-repeat url("../images/montsera31down.png");
+    top: 70vh;
+}
+.bg-bottom-left {
+    background: -10vw 0/40vw auto no-repeat url("../images/montsera01.png");
+    top: 70vh;
+}
+
+#intro-section {
+    z-index: 1;
+
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        min-height: 100vh;
+        justify-content: center;
+        align-content: center;
+        max-height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .intro-content {
+        background: url("../images/swoosh1.png") no-repeat top left;
+        background-size: auto;
+        background-size: 600px 180px;
+        background-position: 4px 15px;
+        padding: 2rem 10vw;
+    }
+
+    .title {
+        margin: 1rem 0;
+        padding: 0;
+        line-height: 100%;
+    }
+}
+
+//=================   about  ===================//
+
+#about-section {
+    figure {
+        width: 25%;
+        max-width: 200px;
+    }
+}
+//=================   work ===================//
+
+#work-section {
+    .works-gallery {
+        opacity: 0;
+        transition:  opacity ease-in-out 1s;
+    }
+
+    .work-item-wrapper {
+        padding: 0.5rem;
+    }
+
+    .work-summary {
+        font-size: 0.9rem;
+        line-height: 1.65;
+    }
+
+    .fp-section.fp-table,
+    .fp-slide.fp-table {
+        padding: 0 10px;
+    }
+}
+
+#fp-nav ul,
+.fp-slidesNav ul {
+    text-align: center;
+
+    a {
+        color: color("darkpurple");
+    }
+
+    a:hover {
+        border-color: transparent;
+        color: color("pink");
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #work-section .section-menu {
+        flex-flow: column nowrap;
+    }
+    #work-section div.work-listing {
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #work-section {
+        .row .col12x {
+            padding: 1rem;
+        }
+
+        .row.side-outdent {
+            margin: auto -1rem;
+            max-width: calc(100% + 2rem) !important;
+        }
+    }
+}
+
+//=================   skills ===================//
+#skills-section {
+    h1 {
+        padding-bottom: 0;
+    }
+
+    h2 {
+        margin: 0 0 0.5rem;
+    }
+
+    .skill-list li {
+        list-style: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0.25rem 0;
+        display: flex;
+    }
+
+    .skill-name {
+        font-weight: normal;
+        font-family: $titleFont;
+        color: color("darkteal");
+    }
+
+    .skill-level {
+        display: inline-block;
+        background: color("dark-teal");
+        /*dark teal*/
+        flex-grow: 1;
+        margin-left: 1rem;
+        color: transparent;
+
+        .bar {
+            background: color("pink");
+            width: 0;
+            height: 100%;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    #skills-section .skill-set {
+        margin: 1rem 0 1rem 0;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #skills-section .container {
+        max-height: calc(100vh - 120px);
+    }
+}
+//=================   experience ===================//
+
+#experience-section {
+    .work-item {
+        margin: 1rem .25rem;
+
+        > div {
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #experience-section {
+        .fp-controlArrow {
+            top: 12rem;
+        }
+
+        .fp-tableCell {
+            padding: 0 1px;
+        }
+    }
+}
+@media (min-width: 769px) {
+    .work-item {
+        margin:1rem 2rem;
+        > div {
+            padding:2rem;
+        }
+    }
+}
+
+//=================   contact  ===================//
+.contact .bg-top-right {
+    top: -20vh;
+    background-position: 70vw 0vh;
+}
+//=================   footer  ===================//
+
+#main-footer {
+   display: none;
+}
+//=================   3rd party overrides  ===================//
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+    border: none;
+    top:50vh;
+}
+.fp-controlArrow.fp-prev::after,
+.fp-controlArrow.fp-next::after {
+    color: color("white");
+    font-weight: 300;
+    font-size: 48px;
+    position: absolute;
+    font-family: Montserrat;
+}
+
+@media (min-width: 769px) {
+    .fp-controlArrow.fp-prev::after,
+    .fp-controlArrow.fp-next::after {
+        font-size: 102px;
+    }
+}
+.fp-controlArrow.fp-prev::after {
+    content: "«";
+    left: -2px;
+}
+
+.fp-controlArrow.fp-next::after {
+    content: "»";
+    right: -2px;
+}
+
+.fp-controlArrow.fp-prev:hover::after,
+.fp-controlArrow.fp-next:hover::after {
+    color: color("pink");
+}

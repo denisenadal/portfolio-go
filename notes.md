@@ -19,3 +19,16 @@ Experienced
 Familiar 
 •	Node.js, Vue.js, Git
 •	Python, PHP, MySQL
+
+
+
+	<!-- <link rel="stylesheet" href='{{ "css/normalize.css" | relURL }}'>
+	<link rel="stylesheet"  href='{{ "css/den-base.css" | relURL }}'>
+	{{if .IsHome }}
+	<link rel="stylesheet"  href='{{ "css/den-home.css" | relURL }}'>
+
+	{{else if isset .Page "Type"}}
+		<link rel="stylesheet"
+			  href='{{ "css/den-{{.Page.Type}}.css" | relURL }}'>
+
+	{{ end }} -->

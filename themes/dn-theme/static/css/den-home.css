@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*!======= variables =========*/
+body {
+  background: #7CFFE6;
+  overflow-x: hidden !important;
+  max-width: 100vw; }
+
+main {
+  overflow: hidden; }
+  main > section,
+  main > section.container {
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+#intro-section {
+  background: linear-gradient(0deg, #7CFFE6 0%, #d0d3ff 100%); }
+
+#about-section {
+  background: #7CFFE6;
+  background: linear-gradient(0deg, #B5CCEA 0%, #7CFFE6 100%); }
+
+#skills-section {
+  background: linear-gradient(to bottom, #7CFFE6 20%, #fff); }
+
+#work-section {
+  background: #7CFFE6;
+  background: linear-gradient(0deg, #7CFFE6 0%, #B5CCEA 100%); }
+
+#experience-section {
+  background: linear-gradient(0deg, #d0d3ff 0%, #7CFFE6 100%); }
+
+#contact-section {
+  background: linear-gradient(0deg, #7CFFE6 0%, #d0d3ff 100%);
+  overflow: hidden; }
+
+#loader {
+  min-height: calc( 100vh - 4rem);
+  opacity: 1;
+  position: absolute; }
+  #loader .inner {
+    border: 3px solid #ff1fa2;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: rotate 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite; }
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(-360deg); }
+  100% {
+    transform: rotateZ(0deg); } }
+.bg-layers {
+  width: 100vw;
+  height: 200vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  overflow: visible;
+  opacity: 0.85;
+  pointer-events: none; }
+
+.bg-top-right {
+  background: 70vw -30vh/40vw auto no-repeat url("../images/montsera31down.png"); }
+
+.bg-bottom-right {
+  background: 70vw -30vh/40vw auto no-repeat url("../images/montsera31down.png");
+  top: 70vh; }
+
+.bg-bottom-left {
+  background: -10vw 0/40vw auto no-repeat url("../images/montsera01.png");
+  top: 70vh; }
+
+#intro-section {
+  z-index: 1; }
+  #intro-section .container {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    max-height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+  #intro-section .intro-content {
+    background: url("../images/swoosh1.png") no-repeat top left;
+    background-size: auto;
+    background-size: 600px 180px;
+    background-position: 4px 15px;
+    padding: 2rem 10vw; }
+  #intro-section .title {
+    margin: 1rem 0;
+    padding: 0;
+    line-height: 100%; }
+
+#about-section figure {
+  width: 25%;
+  max-width: 200px; }
+
+#work-section .works-gallery {
+  opacity: 0;
+  transition: opacity ease-in-out 1s; }
+#work-section .work-item-wrapper {
+  padding: 0.5rem; }
+#work-section .work-summary {
+  font-size: 0.9rem;
+  line-height: 1.65; }
+#work-section .fp-section.fp-table,
+#work-section .fp-slide.fp-table {
+  padding: 0 10px; }
+
+#fp-nav ul,
+.fp-slidesNav ul {
+  text-align: center; }
+  #fp-nav ul a,
+  .fp-slidesNav ul a {
+    color: #630cff; }
+  #fp-nav ul a:hover,
+  .fp-slidesNav ul a:hover {
+    border-color: transparent;
+    color: #ff1fa2; }
+
+@media screen and (max-width: 768px) {
+  #work-section .section-menu {
+    flex-flow: column nowrap; }
+
+  #work-section div.work-listing {
+    padding: 1rem 0; } }
+@media screen and (min-width: 769px) {
+  #work-section .row .col12x {
+    padding: 1rem; }
+  #work-section .row.side-outdent {
+    margin: auto -1rem;
+    max-width: calc(100% + 2rem) !important; } }
+#skills-section h1 {
+  padding-bottom: 0; }
+#skills-section h2 {
+  margin: 0 0 0.5rem; }
+#skills-section .skill-list li {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  display: flex; }
+#skills-section .skill-name {
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+  color: #00a1a5; }
+#skills-section .skill-level {
+  display: inline-block;
+  /*dark teal*/
+  flex-grow: 1;
+  margin-left: 1rem;
+  color: transparent; }
+  #skills-section .skill-level .bar {
+    background: #ff1fa2;
+    width: 0;
+    height: 100%; }
+
+@media screen and (max-width: 768px) {
+  #skills-section .skill-set {
+    margin: 1rem 0 1rem 0; } }
+@media screen and (min-width: 769px) {
+  #skills-section .container {
+    max-height: calc(100vh - 120px); } }
+#experience-section .work-item {
+  margin: 1rem .25rem; }
+  #experience-section .work-item > div {
+    margin-top: 2rem;
+    padding: 1rem; }
+
+@media screen and (max-width: 768px) {
+  #experience-section .fp-controlArrow {
+    top: 12rem; }
+  #experience-section .fp-tableCell {
+    padding: 0 1px; } }
+@media (min-width: 769px) {
+  .work-item {
+    margin: 1rem 2rem; }
+    .work-item > div {
+      padding: 2rem; } }
+.contact .bg-top-right {
+  top: -20vh;
+  background-position: 70vw 0vh; }
+
+#main-footer {
+  display: none; }
+
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+  border: none;
+  top: 50vh; }
+
+.fp-controlArrow.fp-prev::after,
+.fp-controlArrow.fp-next::after {
+  color: #feffff;
+  font-weight: 300;
+  font-size: 48px;
+  position: absolute;
+  font-family: Montserrat; }
+
+@media (min-width: 769px) {
+  .fp-controlArrow.fp-prev::after,
+  .fp-controlArrow.fp-next::after {
+    font-size: 102px; } }
+.fp-controlArrow.fp-prev::after {
+  content: "«";
+  left: -2px; }
+
+.fp-controlArrow.fp-next::after {
+  content: "»";
+  right: -2px; }
+
+.fp-controlArrow.fp-prev:hover::after,
+.fp-controlArrow.fp-next:hover::after {
+  color: #ff1fa2; }
+
+/*# sourceMappingURL=den-home.css.map */
