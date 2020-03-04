@@ -1,4 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Denise Nadal | Product & Design"
-theme = 'hugo-uilite'
+theme = 'dn-theme'
