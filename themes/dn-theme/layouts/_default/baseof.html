@@ -7,12 +7,9 @@
 	<title>{{ .Site.Title}} -  {{.Page.Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
 	<link rel="stylesheet"
-		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-		  crossorigin="anonymous">
-	<link rel="stylesheet"
-	 	 href='{{ "css/new.css" | relURL }}'>
+	 	 href='{{ "css/custom.css" | relURL }}'>
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{end }}

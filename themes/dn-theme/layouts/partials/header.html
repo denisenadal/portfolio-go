@@ -2,33 +2,36 @@
 {{ $navigation := .Site.Data.navigation }}
 {{ $baseURL := .Site.BaseURL }}
 
-	<header id="main-header">
-		<div class="mobile-btn-wrap">
-			<button id="menu-icon"
-					class="btn mobile-menu-btn closed">
-				<span></span>
-			</button>
-		</div>
-		<div class="container">
-			<a id="logo-link"
-			   data-menuanchor="intro"
-			   href="/#intro">
-				<h1 class="nav-logo"><span class="title">{{ .Site.Title }}</span>
-				{{with $config.subtitle}}//<span class="subtitle">{{ $config.subtitle }}</span>{{ end }}
-				</h1>
-			</a>
+	<header id="main-header" class="navbar justify-content-between py-3 px-4">
+			<div class="branding d-flex">
+				<a id="logo-link"
+				   data-menuanchor="intro"
+				   href="/#intro">
+					<img src="{{$config.logo}}"
+						 alt="logo"
+						 class="navbar-brand rounded-circle"
+						 width="48">
+				</a>
+				<a id="logo-link"
+				   data-menuanchor="intro"
+				   href="/#intro">
+					<h1 class="nav-logo h4"><span class="title">{{ .Site.Title }}</span>
+						{{with $config.subtitle}} // <span
+							  class="subtitle">{{ $config.subtitle }}</span>{{ end }}
+					</h1>
+				</a>
+			</div>
 
             {{ with $navigation}}
-			<nav id="main-menu">
+			<nav id="main-menu" class=" d-flex">
 					{{ range . }}
 						{{if .fullPage}}
-						<a href="{{ $baseURL }}/{{ .href }}">{{ .title }}</a>
+						<a href="{{ $baseURL }}/{{ .href }}" class="nav-item nav-link">{{ .title }}</a>
 						{{else }}
-						<a data-menuanchor="{{ .href }}" href="{{ $baseURL}}#{{ .href }}">{{ .title }}</a>
+						<a data-menuanchor="{{ .href }}" href="{{ $baseURL}}#{{ .href }}" class="nav-item nav-link">{{ .title }}</a>
 						{{end}}
 					{{ end }}
 			</nav>
 				{{ end }}
 
-		</div>
 	</header>

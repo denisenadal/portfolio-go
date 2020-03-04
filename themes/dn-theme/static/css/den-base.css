@@ -131,8 +131,8 @@ header nav a {
   position: relative;
   transition: 0.25s ease-in; }
 
-#main-header .title-cursive,
-.branding .title-cursive {
+#main-header .title-display,
+.branding .title-display {
   color: #ff1fa2; }
 
 @media screen and (max-width: 768px) {
@@ -247,7 +247,7 @@ header nav a {
         width: 240px;
         height: 75px;
         z-index: -1; }
-      header #logo-link .title-cursive {
+      header #logo-link .title-display {
         font-size: 1.4rem;
         line-height: 1.6rem; }
       header #logo-link .subtitle {
@@ -257,8 +257,8 @@ header nav a {
         font-weight: 700;
         width: auto; }
       header #logo-link:hover .subtitle,
-      header #logo-link:hover .title-cursive, header #logo-link:active .subtitle,
-      header #logo-link:active .title-cursive {
+      header #logo-link:hover .title-display, header #logo-link:active .subtitle,
+      header #logo-link:active .title-display {
         color: #ff1fa2; }
     header nav a {
       font-weight: 700;
@@ -302,23 +302,23 @@ figcaption,
 [class*="title"] + p {
   margin-top: 0; }
 
-[class*="cursive"] {
+[class*="display"] {
   font-family: "Playfair Display", serif;
   text-transform: none;
   font-weight: normal; }
 
-h1:not(.title):not([class*="cursive"]),
-h2:not(.title):not([class*="cursive"]),
-h3:not(.title):not([class*="cursive"]),
-h4:not(.title):not([class*="cursive"]),
-h5:not(.title):not([class*="cursive"]),
-h6:not(.title):not([class*="cursive"]),
-.h1:not(.title):not([class*="cursive"]),
-.h2:not(.title):not([class*="cursive"]),
-.h3:not(.title):not([class*="cursive"]),
-.h4:not(.title):not([class*="cursive"]),
-.h5:not(.title):not([class*="cursive"]),
-.h6:not(.title):not([class*="cursive"]) {
+h1:not(.title):not([class*="display"]),
+h2:not(.title):not([class*="display"]),
+h3:not(.title):not([class*="display"]),
+h4:not(.title):not([class*="display"]),
+h5:not(.title):not([class*="display"]),
+h6:not(.title):not([class*="display"]),
+.h1:not(.title):not([class*="display"]),
+.h2:not(.title):not([class*="display"]),
+.h3:not(.title):not([class*="display"]),
+.h4:not(.title):not([class*="display"]),
+.h5:not(.title):not([class*="display"]),
+.h6:not(.title):not([class*="display"]) {
   font-weight: 600; }
 
 .material {
@@ -336,7 +336,7 @@ strong,
   font-family: "Raleway", sans-serif;
   font-weight: 600; }
 
-.branding .title-cursive {
+.branding .title-display {
   font-size: 4.4rem;
   line-height: 4.8rem;
   margin: 0; }

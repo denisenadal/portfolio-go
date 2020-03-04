@@ -4,27 +4,38 @@ $s1-5x: 18px;
 $s2x: 24px;
 $s3x:36px;
 
-$colors : (
-	"pink": #ff1fa2,
-	"teal": #7CFFE6,
-	"darkteal":#00a1a5,
-	"yellow": #fef102,
-	"textdark": #686a8a,
-	'black':#0a1326,
-	"darkpurple":#630cff,
-	"ice-blue": #d9fcf8,
-    "lavender":  #d0d3ff,
-    'purple':#B5CCEA,
-	"white":#feffff
-    );
-    
-@function color($key) {
-  @return map-get($colors, $key);
-}
 
-$bodyFont: 'Raleway', sans-serif;
-$cursiveFont: 'Playfair Display', serif;
-$titleFont: 'Raleway', sans-serif;
+$pink: #ff1fa2;
+$cyan: #7CFFE6;
+$teal:#00a1a5;
+$yellow: #fef102;
+$textdark: #686a8a;
+$black:#0a1326;
+$purple:#630cff;
+$ice-blue: #d9fcf8;
+$lavender:  #d0d3ff;
+$white:#feffff;
+
+$primary: $purple;
+$secondary: $teal;
+
+
+
+$bodyFont: 'Montserrat', sans-serif;
+$displayFont: 'Playfair Display', serif;
+$titleFont: 'Montserrat', sans-serif;
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           200;
+$font-weight-normal:           300;
+$font-weight-medium:          500;
+$font-weight-bold:            700;
+$font-weight-black:            900;
+$font-weight-bolder:          bolder;
+
+
+
+
 $default-animation : .25s ease-in;
 $materialShadow: 0 8px 6px -6px rgba(0,0,0,.2),  0 0 1px 1px rgba(0,0,0,.06);
 

@@ -104,7 +104,7 @@ main > section {
       box-shadow: none; }
       #main-header #logo-link:hover::before {
         background: #fef102; }
-      #main-header #logo-link:hover [class*="cursive"] {
+      #main-header #logo-link:hover [class*="display"] {
         color: #B5CCEA; }
       #main-header #logo-link:hover .subtitle {
         color: #ff1fa2; }

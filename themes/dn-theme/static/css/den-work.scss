@@ -39,7 +39,7 @@ main{
 }
 .project-title {
     margin: 0;
-	font-family: $cursiveFont;
+	font-family: $displayFont;
     line-height: 1.1;
 
 }
@@ -115,7 +115,7 @@ main > section{
 					background: color('yellow')
 				}
 
-				[class*="cursive"]{
+				[class*="display"]{
 					color: color('purple');
 				}
 				.subtitle{

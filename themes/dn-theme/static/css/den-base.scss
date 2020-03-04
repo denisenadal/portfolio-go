@@ -1,6 +1,6 @@
 @import "den-vars";
 @import "typebase";
- @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,900,900i|Playfair+Display:900,900i');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,500,500i,700,700i|Playfair+Display:900,900i');
 
 /*!======= base styles =========*/
 * {
@@ -8,246 +8,9 @@
 }
 html,
 body {
-  color: color("textdark");
-}
-header {
-  .container,
-  nav {
-    display: flex;
-    flex-flow: column nowrap;
-  }
-
-  h1,
-  a,
-  span {
-    margin: 0;
-    padding: 0;
-  }
-
-  h1 span {
-    display: block;
-    padding: 0;
-    margin: 0;
-    font-size: 1.25rem;
-    color: color("darkteal");
-    transition: $default-animation;
-  }
-
-  nav a {
-    color: color("darkpurple");
-    font-family: $titleFont;
-    font-size: 1.25rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 0.5rem 0.5rem 0.25rem;
-    margin-left: 0.25rem;
-    position: relative;
-    transition: $default-animation;
-  }
+  color:$textdark;
 }
 
-#main-header .title-cursive,
-.branding .title-cursive {
-      color: color("pink");
-}
-
-@media screen and (max-width: 768px) {
-  header nav a {
-    padding: 1rem 0.5rem;
-  }
-  #main-header {
-    top: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-  }
-  #main-menu,
-  #logo-link {
-    display: none;
-    position: fixed;
-    background: white;
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 60vh;
-    text-align: center;
-    flex-flow: column;
-    justify-content: center;
-    box-shadow: 0px 0px 10px 3000px rgba(0, 0, 0, 0.6);
-  }
-
-  .mobile-btn-wrap {
-    display: block;
-    top: 1.5rem;
-    right: 1.5rem;
-    z-index: 100;
-    position: absolute;
-  }
-  /*mobile btn styles based on https://codepen.io/kellyex/pen/gLqRxR*/
-  #main-header .mobile-menu-btn {
-    position: relative;
-    outline: none;
-    cursor: pointer;
-    width: 70px;
-    height: 70px;
-    padding: 0;
-    margin: 0;
-    border-radius: 50%;
-    border: none;
-    box-sizing: border-box;
-    transition-duration: 0.5s;
-    background: color("darkpurple");
-    color: color("yellow");
-
-    &:active {
-      transition-duration: 0.1s;
-      background: color("pink");
-    }
-
-    span {
-      top: 48%;
-      left: 25%;
-      width: 50%;
-
-      &,
-      &:before,
-      &:after {
-        transition-duration: 0.5s;
-        position: absolute;
-        height: 3px;
-        display: block;
-        content: "";
-        background: color("yellow");
-      }
-      &:before,
-      &:after {
-        width: 100%;
-      }
-      &:before {
-        top: -10px;
-      }
-      &:after {
-        bottom: -10px;
-      }
-    }
-  }
-
-  #main-header .mobile-menu-btn.open {
-
-    span {
-      background: transparent;
-
-      &:before {
-        top: 0;
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-      }
-      &:after {
-        top: 0;
-        -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        transform: rotate(-45deg);
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 769px) {
-  header {
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    right: 0;
-
-    .mobile-btn-wrap {
-      display: none;
-    }
-
-    .container,
-    nav {
-      flex-flow: row nowrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    #logo-link {
-      position: relative;
-
-      ::before{
-        content:'';
-         background: url("../images/swoosh4.png") no-repeat top left;
-        background-size: 208px 67px;
-        background-position: 0px 0px;
-        position: absolute;
-        top: -10px;
-        left: -30px;
-        width: 240px;
-        height: 75px;
-        z-index: -1;
-      }
-
-      .title-cursive {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-      }
-
-      .subtitle {
-        color: color("darkteal");
-        font-size: 1rem;
-        line-height: 1.2rem;
-        font-weight: 700;
-        width: auto;
-	  }
-
-      &:hover, &:active {
-          .subtitle,
-          .title-cursive {
-              color:color('pink');
-          }
-      } 
-    }
-
-    /*nav animations for desktop & tablet*/
-    nav a {
-	  font-weight: 700;	
-      color: color("white");
-      border-bottom: dotted 5px transparent;
-      &.active{
-         color: color("darkteal");
-         border-color: color("darkteal");
-      }
-
-      &:hover {
-        color: color("pink");
-        border-color: color("pink");
-      }
-    }
-  }
-}//end header desktop
-
-main {
-  p,
-  li {
-    a {
-      color: color("darkpurple");
-      font-weight: 600;
-      position: relative;
-      border-bottom: dotted 5px transparent;
-
-      &:hover {
-        color: color("pink");
-        border-bottom: dotted 5px color("pink");
-      }
-    }
-  }
-}//end main
 hr {
   margin: 100px 0;
   border: 0.04rem inset;
@@ -255,7 +18,6 @@ hr {
 }
 figcaption,
 .caption {
-  color: color('textdark');
   font-family: $bodyFont;
   font-size: 0.8rem;
   font-weight: 600;
@@ -269,208 +31,47 @@ figcaption,
 [class*="title"] + p {
   margin-top: 0;
 }
-[class*="cursive"] {
-  font-family: $cursiveFont;
+[class*="display"] {
+  font-family: $displayFont;
   text-transform: none;
-  font-weight: normal;
+  font-weight: $font-weight-black;
 }
-h1:not(.title):not([class*="cursive"]),
-h2:not(.title):not([class*="cursive"]),
-h3:not(.title):not([class*="cursive"]),
-h4:not(.title):not([class*="cursive"]),
-h5:not(.title):not([class*="cursive"]),
-h6:not(.title):not([class*="cursive"]),
-.h1:not(.title):not([class*="cursive"]),
-.h2:not(.title):not([class*="cursive"]),
-.h3:not(.title):not([class*="cursive"]),
-.h4:not(.title):not([class*="cursive"]),
-.h5:not(.title):not([class*="cursive"]),
-.h6:not(.title):not([class*="cursive"]) {
-  font-weight: 600;
-}
-.material {
-  -webkit-box-shadow: $materialShadow;
-  -moz-box-shadow: $materialShadow;
-  box-shadow: $materialShadow;
-}
-em,
-.italic {
-  font-family: $bodyFont;
-  font-style: italic;
+h1:not(.title):not([class*="display"]),
+h2:not(.title):not([class*="display"]),
+h3:not(.title):not([class*="display"]),
+h4:not(.title):not([class*="display"]),
+h5:not(.title):not([class*="display"]),
+h6:not(.title):not([class*="display"]),
+.h1:not(.title):not([class*="display"]),
+.h2:not(.title):not([class*="display"]),
+.h3:not(.title):not([class*="display"]),
+.h4:not(.title):not([class*="display"]),
+.h5:not(.title):not([class*="display"]),
+.h6:not(.title):not([class*="display"]) {
+  font-weight: $font-weight-bold;
 }
 
-strong,
-.bold {
-  font-family: $bodyFont;
-  font-weight: 600;
-}
+/*!================== header ======================== */
 
-.branding {
-  .title-cursive {
-    font-size: 4.4rem;
-    line-height: 4.8rem;
-    margin: 0;
-  }
-  .subtitle {
-    color: color("darkteal");
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-  }
-}
 
-.card-title {
-  font-size: 1.6rem;
-  line-height: 1.6rem;
-  letter-spacing: 0.01rem;
-  color: color("darkteal");
-  border-bottom: 3px solid color("teal");
-  padding-bottom: 0.5rem;
-  text-transform: none;
-  font-family: $cursiveFont;
-  font-weight: 600;
-}
+/*!================== main content area ======================== */
+main {
+  p,
+  li {
+    a {
+      color:$primary;
+      font-weight: 600;
+      position: relative;
+      border-bottom: dotted 5px transparent;
 
-.section-title {
-  color: color("darkteal");
-  font-family: $titleFont;
-  position: relative;
-  width: 100%;
-}
-
-main figure {
-  a:hover {
-    background: none;
-
-    img {
-      outline: 3px solid color("darkpurple");
-      transition: $default-animation;
-    }
-
-    > figcaption + img {
-      margin-top: 1rem;
+      &:hover {
+        color:$primary;
+        border-bottom: dotted 5px $primary;
+      }
     }
   }
+}//end main
 
-}
 
-/*--------------------------------form styling */
-form,
-.form {
-  background: #fff;
-  padding: 1.5rem 2.5rem;
-  box-shadow: $materialShadow;
-}
-input,
-label {
-  height: 1.6rem;
-  line-height: 1rem;
-  max-width: 100%;
-  padding: 0;
-}
-input:focus,
-textarea:focus {
-  outline: none;
-  background: #f8f8f8;
-}
-input,
-textarea {
-  border: 1px solid rgba(189, 204, 212, 0.5);
-  padding: 0 0.5rem;
-  text-indent: 0.5rem;
-}
-input + label {
-  margin: 0.5rem 1.5rem 0.5rem 0.4rem;
-}
-[type="text"],
-[type="email"],
-[type="tel"],
-[type="password"],
-[type="submit"],
-textarea {
-  width: 100%;
-}
-textarea {
-  height: 6rem;
-}
-[type="submit"],
-.btn {
-  margin-top: 1rem;
-  min-height: 3rem;
-  padding: 1rem 2rem;
-  width:auto;
-  background: color('white');
-  border: color('darkpurple') 3px solid;
-  color: color('darkpurple');
-  border-radius: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-indent: 0;
-  text-align: center;
-  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.2);
-}
-a.btn {
-  line-height: 100%;
-}
-.btn:hover,
-.btn:focus,
-[type="submit"]:hover,
-[type="submit"]:focus {
-  background: color('darkpurple');
-  color:color('white');
-  box-shadow: 0px 0px 3px 2px rgba(50, 50, 50, 0.2);
-  transition: background 0.3s ease, box-shadow 0.3s ease;
-}
-/*radio styles, reference: http://codepen.io/anon/pen/vEwboL*/
-[type="radio"]:not(:checked),
-[type="radio"]:checked {
-  display: none;
-}
 
-[type="radio"]:not(:checked) + label,
-[type="radio"]:checked + label {
-  position: relative;
-  padding-left: 1.5rem;
-}
-
-[type="radio"]:not(:checked) + label:before,
-[type="radio"]:checked + label:before {
-  content: "";
-  position: absolute;
-  left: -0.25rem;
-  top: 0.25rem;
-  width: 1rem;
-  height: 1rem;
-  border: 1px solid rgba(189, 204, 212, 0.5);
-  background: #f8f8f8;
-}
-[type="radio"]:not(:checked) + label:after,
-[type="radio"]:checked + label:after {
-  content: "✔";
-  position: absolute;
-  left: -0.25rem;
-  top: 0.25rem;
-  bottom: 0;
-  font-size: 0.8rem;
-  text-align: center;
-  line-height: 1rem;
-  width: 1rem;
-  height: 1rem;
-  color: #fff;
-  background: color("pink");
-  box-shadow: 0px 1px 2px 0px rgba(50, 50, 50, 0.2);
-  transition: $default-animation;
-}
-
-[type="radio"]:not(:checked) + label:after {
-  opacity: 0;
-}
-
-[type="radio"]:checked + label:after {
-  opacity: 1;
-}
-
-.error {
-  color: red;
-  font-style: italic;
-}
 @import "den-utility";

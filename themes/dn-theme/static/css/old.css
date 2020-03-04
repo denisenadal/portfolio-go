@@ -32,7 +32,7 @@ header,main,footer{
 	background:hsla(174, 76%, 58%,1);
 }
 h1{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', display;
 	color: #EC008B; /*pink*/
 	margin:0;
 }
@@ -377,7 +377,7 @@ width:768px;
 	visibility:hidden;
 }
 .fancytype{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', display;
 	color: #EC008B; /*pink*/
 	font-size:4.4rem;
 	line-height:4.8rem;
@@ -633,7 +633,7 @@ a.btn{
 #blog-post img.float-left{padding-left:0;}
 #blog-post img.float-right{padding-right:0;}
 .contact-name{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', display;
 	color: #EC008B; /*pink*/
 	font-size: 2rem;
 	line-height: 2rem;
@@ -655,7 +655,7 @@ form h2{
 	border-bottom:3px solid hsla(174, 76%, 58%,1);
 	padding-bottom:.2rem;
     text-transform: none;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Pacifico', display;
 	font-weight:600;
 }
 input, label{
