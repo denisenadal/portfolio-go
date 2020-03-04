@@ -1,0 +1,13 @@
+{{ $about := .Site.Data.about }}
+<section id="contact" class="bg-light d-flex align-items-center">
+  <div class="container">
+    <div>
+        {{ partial "sidebar.html" . }}
+    </div>
+      <h2 class="heading mb-3">About{{$about.name}}</h2>
+
+      <div>
+        {{ $about.bio | safeHTML }}
+      </div>
+  </div>
+</section>

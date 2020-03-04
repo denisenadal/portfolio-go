@@ -1,6 +1,9 @@
 {{ $config := .Site.Data.config }}
-<section id="contact" class="bg-light d-flex align-items-center" style="height: 100vh;">
+<section id="contact" class="bg-light d-flex align-items-center">
   <div class="container">
+    <div>
+        {{ partial "sidebar.html" . }}
+    </div>
       <h2 class="heading mb-3">Contact</h2>
 
       <div class="text-success my-3">
