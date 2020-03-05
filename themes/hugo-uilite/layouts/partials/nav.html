@@ -3,8 +3,8 @@
 {{ $social := .Site.Data.social }}
 {{ $baseURL := .Site.BaseURL }}
 
-<nav class="navbar navbar-expand-lg navbar-light bg-white mt-lg-0 mt-3 d-flex align-items-center" style="position:relative">
-	<a id="menuBar" href="#0" class="bg-white position-absolute" >
+<nav class="navbar navbar-expand-lg navbar-light bg-white mt-lg-0 mt-3" style="position:relative">
+	<a id="menuBar" href="#0" class="bg-white" style="cursor: pointer; position: absolute; height: 22px; width: 30px;">
 		<div class="hamburger-menu"></div>
 	</a>
 
@@ -16,10 +16,10 @@
 		</div>
 	</div>
 
-	<span class="mr-auto primaryMenu active ">
-		<a class="navbar-brand ml-auto d-flex align-items-center" href="{{ .Site.BaseURL }}">
-				<img src="{{.Site.BaseURL}}/images/{{ $basicInfo.displayPicture }}" alt="{{ $basicInfo.Title }}" width="30" height="30" class="d-inline-block align-top rounded-circle mr-2">
-				<span class="heading d-inline-block">{{ $basicInfo.title }}&nbsp; </span>  // {{ $basicInfo.highlightedText }}
+	<span class="mr-auto primaryMenu active">
+		<a class="navbar-brand ml-auto" href="{{ .Site.BaseURL }}">
+				<img style="width:40px" src="{{.Site.BaseURL}}/images/{{ $basicInfo.displayPicture }}" alt="" class="rounded-circle mr-2">
+				<span style="font-size: 20px" class="heading">{{ $basicInfo.highlightedText }}</span>
 			</a>
 	</span>
 	<div class="collapse navbar-collapse float-right" id="navbarSupportedContent">

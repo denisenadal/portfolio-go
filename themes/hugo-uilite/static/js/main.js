@@ -48,19 +48,19 @@ menuBtn.click(function(){
   }
 });
 
-// $(document).ready(function(){
+$(document).ready(function(){
   
-//   $(".sidebar .main-info img,.sidebar .main-info figure, .sidebar .main-info h1, .sidebar .main-info h1 span, .sidebar .main-info p,.sidebar .main-info .social,.sidebar .main-info a").each(function(i){
-//     var $li = $(this);
-//     setTimeout(function(){
-//       $li.addClass("bs");
-//       $li.children().addClass("bs");
-//     }, (400 * i) - 190 * i );
-//   })
+  $(".sidebar .main-info img, .sidebar .main-info h1, .sidebar .main-info h1 span, .sidebar .main-info p,.sidebar .main-info .social,.sidebar .main-info a").each(function(i){
+    var $li = $(this);
+    setTimeout(function(){
+      $li.addClass("bs");
+      $li.children().addClass("bs");
+    }, (400 * i) - 190 * i );
+  })
 
-//   setTimeout(function(){
-//     $(".main-content .emp").addClass("bs");
-//     $("#overEl").removeClass("d-none");
-//   }, 2200);
+  setTimeout(function(){
+    $(".main-content .emp").addClass("bs");
+    $("#overEl").removeClass("d-none");
+  }, 2200);
 
-// });
+});

@@ -1,6 +1,5 @@
 {{ $experience := .Site.Data.experience }}
 
-
 <section id="experience" class="green">
   <h2 class="heading">{{ $experience.title }}</h2>
   <div id="timeline">
@@ -10,17 +9,8 @@
       
       <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
         <span class="date">{{ $element.timeperiod }}</span>
-        <h3 class="h3 my-2">{{ $element.company }}</h3>
-        <p class="h4 my-2">{{replace $element.title "\n" "<br/>" | safeHTML }}</p>
+        <h6 class="h3 my-2">{{ $element.company }}</h6>
         <p class="">{{ $element.description }}</p>
-        <details>
-          <summary class="h5 my-2">Highlights</summary>
-          <ul>
-            {{ range $key, $value := $element.highlights }}
-            <li>{{$value}}</li>
-            {{end}}
-          </ul>
-        </details>
       </div>
     </div>
     {{ end }}
