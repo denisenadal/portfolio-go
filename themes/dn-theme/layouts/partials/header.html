@@ -2,7 +2,7 @@
 {{ $navigation := .Site.Data.navigation }}
 {{ $baseURL := .Site.BaseURL }}
 
-	<header id="main-header" class="navbar justify-content-between meta-section">
+	<header id="main-header" class="navbar meta-section ">
 			<div class="branding d-flex">
 				<a id="logo-link"
 				   data-menuanchor="intro"
@@ -13,18 +13,18 @@
 						 class="navbar-brand rounded-circle p-0 mb-1"
 						 width="36">
 				</a>
-				<a id="logo-link"
+				<a id="logo-link nav-link"
 				   data-menuanchor="intro"
 				   href="/#intro">
 					<h1 class="nav-logo h4"><span class="title">{{ .Site.Title }}</span>
-						{{with $config.subtitle}} // <span
-							  class="subtitle">{{ $config.subtitle }}</span>{{ end }}
+						{{with $config.subtitle}} <span
+							  class="subtitle">// {{ $config.subtitle }}</span>{{ end }}
 					</h1>
 				</a>
 			</div>
 
             {{ with $navigation}}
-			<nav id="main-menu" class=" d-flex">
+			<nav id="main-menu" class="nav-links">
 					{{ range . }}
 						{{if .fullPage}}
 						<a href="{{ $baseURL }}/{{ .href }}" class="nav-item nav-link">{{ .title }}</a>

@@ -7780,4 +7780,28 @@ a.text-dark:hover, a.text-dark:focus {
     .meta-section {
       padding: 1rem 1.5rem; } }
 
+.navbar,
+.nav-links {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-align: center; }
+
+.nav-item {
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 700;
+  font-size: 1.5rem; }
+
+@media (min-width: 768px) {
+  .navbar,
+  .nav-links {
+    flex-flow: row;
+    text-align: left; }
+
+  .navbar {
+    justify-content: space-between; }
+
+  .nav-links {
+    width: auto; } }
+
 /*# sourceMappingURL=custom.css.map */

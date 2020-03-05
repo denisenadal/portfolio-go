@@ -1,58 +1,81 @@
 //overrides
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,500,500i,700,700i,900,900i");
 
-  $blue: #007bff;
-  $indigo: #6610f2;
-  $purple: #6f42c1;
-  $pink: #e83e8c;
-  $red: #dc3545;
-  $orange: #fd7e14;
-  $yellow: #ffc107;
-  $green: #28a745;
-  $teal: #20c997;
-  $cyan: #17a2b8;
-  $white: #fff;
-  $gray: #6c757d;
-  $gray-dark: #343a40;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
 
+$primary: $teal;
+$secondary: $cyan;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
 
-  $primary: $teal;
-  $secondary: $cyan;
-  $success: #28a745;
-  $info: #17a2b8;
-  $warning: #ffc107;
-  $danger: #dc3545;
-  $light: #f8f9fa;
-  $dark: #343a40;
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
 
+$font-family-sans-serif: "Montserrat", sans-serif;
 
-  $breakpoint-xs: 0;
-  $breakpoint-sm: 576px;
-  $breakpoint-md: 768px;
-  $breakpoint-lg: 992px;
-  $breakpoint-xl: 1200px;
+$font-weight-light: 300;
+$font-weight-normal: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
 
-
-  $font-family-sans-serif: "Montserrat", sans-serif;
-  
-$font-weight-light:           300;
-$font-weight-normal:          500;
-$font-weight-bold:            700;
-$font-weight-black:          900;
-
-$font-weight-base:            $font-weight-light;
-$headings-font-weight:        $font-weight-bold;
-
-
+$font-weight-base: $font-weight-light;
+$headings-font-weight: $font-weight-bold;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-//new 
+//new
 
 //for top-level items such as header, footer, main wrapper
 .meta-section {
-  padding: 1rem;
+    padding: 1rem;
 
-  @include media-breakpoint-up(md) {
-    padding: 1rem 1.5rem;
-  }
+    @include media-breakpoint-up(md) {
+        padding: 1rem 1.5rem;
+    }
+}
+
+//heading & nav layout
+.navbar,
+.nav-links {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+.nav-item {
+    border-bottom: 2px solid $gray-300;
+    font-weight: $headings-font-weight;
+    font-size: 1.5rem;
+}
+
+@include media-breakpoint-up(md) {
+    .navbar,
+    .nav-links {
+        flex-flow: row;
+        text-align: left;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+    .nav-links {
+        width: auto;
+    }
 }
