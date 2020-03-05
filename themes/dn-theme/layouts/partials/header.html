@@ -2,23 +2,26 @@
 {{ $navigation := .Site.Data.navigation }}
 {{ $baseURL := .Site.BaseURL }}
 
-	<header id="main-header" class="navbar meta-section ">
+	<header id="main-header" class="navbar meta-section fixed-top shadow-sm">
 			<div class="branding d-flex">
-				<a id="logo-link"
+				<button class="hamburger-menu mr-2 mt-1">
+					<div class="hamburger-inner"></div>
+				</button>
+				<!--<a id="logo-link"
 				   data-menuanchor="intro"
 				   href="/#intro"
-				   class="">
+				   class="nav-link px-0">
 					<img src="{{$config.logo}}"
 						 alt="logo"
-						 class="navbar-brand rounded-circle p-0 mb-1"
+						 class="navbar-brand rounded-circle p-0 m-0"
 						 width="36">
-				</a>
-				<a id="logo-link nav-link"
+				</a> -->
+				<a id="logo-link" class="nav-link p-0"
 				   data-menuanchor="intro"
 				   href="/#intro">
 					<h1 class="nav-logo h4"><span class="title">{{ .Site.Title }}</span>
-						{{with $config.subtitle}} <span
-							  class="subtitle">// {{ $config.subtitle }}</span>{{ end }}
+						{{with $config.subtitle}} <br class="d-sm-none">//<span
+							  class="subtitle"> {{ $config.subtitle }}</span>{{ end }}
 					</h1>
 				</a>
 			</div>

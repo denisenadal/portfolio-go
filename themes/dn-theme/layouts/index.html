@@ -1,5 +1,21 @@
 {{ define "main" }}
-	<main class="meta-section">
-		<h1>hello world</h1>
-	</main>
+<main class="home">
+	{{ if .Site.Data.about }}
+		{{ partial "about.html" . }}
+	{{end}}
+	{{ if .Site.Data.skills }}
+		{{ partial "skills.html" . }}
+	{{end}}
+	{{ if .Site.Data.experience }}
+		{{ partial "experience.html" . }}
+	{{end}}
+	{{ if gt (len (where .Data.Pages "Type" "work")) 0 }}
+		{{ partial "works-gallery.html" . }}
+	{{end}}
+	{{ if gt (len (where .Data.Pages "Type" "blog")) 0 }}
+		{{ partial "blog-gallery.html" . }}
+	{{ end }}
+
+	{{ partial "contact.html" . }}
+</main>
 {{ end }}

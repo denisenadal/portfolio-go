@@ -4,8 +4,8 @@
 $blue: #007bff;
 $indigo: #6610f2;
 $purple: #6f42c1;
-$pink: #e83e8c;
-$red: #dc3545;
+$pink: #ff006c;
+$red: #bd1324;
 $orange: #fd7e14;
 $yellow: #ffc107;
 $green: #28a745;
@@ -16,13 +16,16 @@ $gray: #6c757d;
 $gray-dark: #343a40;
 
 $primary: $teal;
-$secondary: $cyan;
-$success: #28a745;
-$info: #17a2b8;
-$warning: #ffc107;
-$danger: #dc3545;
+$secondary: $pink;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
 $light: #f8f9fa;
 $dark: #343a40;
+
+$overlay-light: rgba(255, 255, 255, 0.87);
+$overlay-dark: rgba(0, 0, 0, 0.87);
 
 $breakpoint-xs: 0;
 $breakpoint-sm: 576px;
@@ -40,6 +43,11 @@ $font-weight-black: 900;
 $font-weight-base: $font-weight-light;
 $headings-font-weight: $font-weight-bold;
 
+$animation-rate: cubic-bezier(0.23, 1, 0.32, 1);
+$adjusted-vh: calc(100vh - 4rem);
+
+$enable-gradients: true;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 //new
 
@@ -47,23 +55,68 @@ $headings-font-weight: $font-weight-bold;
 .meta-section {
     padding: 1rem;
 
+    section {
+        padding: 1rem 0;
+    }
+
     @include media-breakpoint-up(md) {
         padding: 1rem 1.5rem;
+
+        section {
+            padding: 3rem 0;
+        }
     }
 }
 
+.home .meta-section {
+    min-height: $adjusted-vh;
+}
+
+main {
+    margin-top: 4rem;
+    min-height: $adjusted-vh;
+}
+
 //heading & nav layout
+.navbar {
+    background: $white;
+}
 .navbar,
 .nav-links {
     display: flex;
     flex-flow: column;
     width: 100%;
-    text-align: center;
+    align-items: flex-start;
 }
-.nav-item {
-    border-bottom: 2px solid $gray-300;
-    font-weight: $headings-font-weight;
-    font-size: 1.5rem;
+
+.nav-links {
+    align-items: stretch;
+    height: calc(100vh - 8rem);
+    display: none;
+
+    .nav-link {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: $headings-font-weight;
+        font-size: 1.5rem;
+        border-bottom: 2px solid $gray-300;
+    }
+}
+#logo-link {
+    color: $black;
+    border-bottom: 4px dotted transparent;
+    transition: all 300ms $animation-rate;
+
+    .title {
+        color: $pink;
+        transition: all 300ms $animation-rate;
+    }
+    .subtitle {
+        color: $teal;
+        transition: all 300ms $animation-rate;
+    }
 }
 
 @include media-breakpoint-up(md) {
@@ -72,10 +125,83 @@ $headings-font-weight: $font-weight-bold;
         flex-flow: row;
         text-align: left;
     }
+
     .navbar {
         justify-content: space-between;
     }
     .nav-links {
+        height: auto;
         width: auto;
+        display: flex !important;
+
+        .nav-link {
+            width: auto;
+            pointer-events: initial;
+            border: none;
+            font-size: inherit;
+            font-weight: inherit;
+            flex: 0;
+        }
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+    #logo-link:hover {
+        border-bottom: 4px dotted $gray-300;
+        .title {
+            color: $gray-300;
+        }
+        .subtitle {
+            color: $gray-300;
+        }
+    }
+}
+
+//hamburger menu from hugo-uilite theme
+.hamburger-menu {
+    height: 24px;
+    background: none;
+    border: none;
+    .hamburger-inner,
+    .hamburger-inner:after,
+    .hamburger-inner:before {
+        width: 24px;
+        height: 4px;
+        position: relative;
+        background: $black;
+        transition: all 0ms 300ms;
+    }
+
+    .hamburger-inner.animate {
+        background: $white;
+    }
+    .hamburger-inner:before,
+    .hamburger-inner:after {
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    .hamburger-inner:before {
+        bottom: 8px;
+        transition: bottom 300ms 300ms $animation-rate, transform 350ms $animation-rate;
+    }
+
+    .hamburger-inner:after {
+        top: 8px;
+        transition: top 300ms 300ms $animation-rate, transform 350ms $animation-rate;
+    }
+
+    .hamburger-inner.animate:after {
+        top: 0;
+        transform: rotate(45deg);
+        transition: top 300ms $animation-rate, transform 350ms 350ms $animation-rate;
+    }
+
+    .hamburger-inner.animate:before {
+        bottom: 0;
+        transform: rotate(-45deg);
+        transition: bottom 300ms $animation-rate, transform 350ms 350ms $animation-rate;
     }
 }
