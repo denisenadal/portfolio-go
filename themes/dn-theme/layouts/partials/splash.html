@@ -1,0 +1,38 @@
+{{ $splash := .Site.Data.splash }}
+{{ $social := .Site.Data.social }}
+<aside id="splash"
+         class="d-flex flex-column justify-content-center align-items-start">
+
+        <img src="{{.Site.BaseURL}}/images/{{ $splash.displayPicture }}"
+             class="rounded-circle mb-3"
+             width="160px">
+
+        <h2 class="heading">
+            <span class="display-4">{{ $splash.title }}</span>
+            <br>
+            <span class="text-white highlight px-4 py-1">{{ $splash.highlightedText }}</span>
+        </h2>
+        <p class="text-muted my-1">{{ $splash.description | safeHTML }}</p>
+
+        <div class="social my-4">
+
+            {{ range $key, $value := $social }}
+            <a class="text-dark mx-2 d-inline-block"
+                target="_blank"
+               href="{{ $value }}"
+               rel="me">
+                <i class="fa fa-{{$key}} fa-2x"  aria-hidden="true"></i>
+            </a>
+            {{ end }}
+
+            <a class="text-dark mx-2  d-inline-block"
+            target="_blank"
+               href="mailto:{{ .Site.Params.email }}">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
+
+        <a href="#contact"
+           class="btn btn-dark btn-lg">Contact</a>
+
+</aside>

@@ -26,6 +26,8 @@ $dark: #343a40;
 
 $overlay-light: rgba(255, 255, 255, 0.87);
 $overlay-dark: rgba(0, 0, 0, 0.87);
+$rainbow-gradient: linear-gradient(292deg, rgba(115,11,179,1) 0%, rgba(0,181,218,1) 31%, rgba(231,231,11,1) 63%, rgba(238,228,6,1) 68%, rgba(233,208,16,1) 71%, rgba(255,0,156,1) 96%); 
+$brand-gradient: linear-gradient(292deg, rgba(19,206,200,1) 0%, rgba(35,113,179,1) 36%, rgba(22,73,196,1) 54%, rgba(255,0,156,1) 96%);
 
 $breakpoint-xs: 0;
 $breakpoint-sm: 576px;
@@ -42,14 +44,21 @@ $font-weight-black: 900;
 
 $font-weight-base: $font-weight-light;
 $headings-font-weight: $font-weight-bold;
+// $headings-font-family:        null !default;
+
+$display1-weight:             300 !default;
+$display2-weight:             300 !default;
+$display3-weight:             700 !default;
+$display4-weight:             700 !default;
 
 $animation-rate: cubic-bezier(0.23, 1, 0.32, 1);
-$adjusted-vh: calc(100vh - 4rem);
-
-$enable-gradients: true;
+$adjusted-vh: calc(100vh - 8rem);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-//new
+//bootstrap overrides
+a:hover {
+  text-decoration: none;
+}
 
 //for top-level items such as header, footer, main wrapper
 .meta-section {
@@ -73,7 +82,7 @@ $enable-gradients: true;
 }
 
 main {
-    margin-top: 4rem;
+    margin-top: 4.5rem;
     min-height: $adjusted-vh;
 }
 
@@ -149,12 +158,6 @@ main {
     }
     #logo-link:hover {
         border-bottom: 4px dotted $gray-300;
-        .title {
-            color: $gray-300;
-        }
-        .subtitle {
-            color: $gray-300;
-        }
     }
 }
 
@@ -204,4 +207,37 @@ main {
         transform: rotate(-45deg);
         transition: bottom 300ms $animation-rate, transform 350ms 350ms $animation-rate;
     }
+}
+//========== SFX ============//
+.highlight{
+  background: $rainbow-gradient;
+  border-radius:.2rem;
+}
+.highlight-text{
+  background: $rainbow-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.highlight-text-link:hover {
+  background: $rainbow-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight-block-link:hover {
+  background: $brand-gradient;
+}
+
+.section-break {
+  border-top: 4px dotted $gray-300;
+}
+
+//========== splash ============//
+#splash  a.text-dark:hover {
+  color:  $gray-300!important;
+}
+#splash  a.btn-dark:hover {
+  background:  $gray-300;
+  border-color: $gray-300;
+  color: $dark;
 }

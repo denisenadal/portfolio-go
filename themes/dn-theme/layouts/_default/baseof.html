@@ -7,7 +7,14 @@
 	<title>{{ .Site.Title}} -  {{.Page.Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	  rel="stylesheet"
+	  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+	  crossorigin="anonymous">
+	
+	<link rel="icon"
+		  href="{{ .Site.BaseURL }}favicon.png"
+		  type="image/x-icon">
 	<link rel="stylesheet"
 	 	 href='{{ "css/custom.css" | relURL }}'>
 	{{ with .OutputFormats.Get "RSS" -}}

@@ -1,8 +1,24 @@
-<section class="meta-section bg-gradient-warning">
-    <div class="row">
-        <div class="col-12 col-md-6">Into stuff</div>
+{{ $about := .Site.Data.about }}
+
+<div class="meta-section">
+    <section  id="about" class="row">
         <div class="col-12 col-md-6">
-            <h3>About</h3>
+                    {{ partial "splash.html" . }}
         </div>
-    </div>
-</section>
+        <div class="col-12 col-md-6">
+            <h2 class="heading mb-3 h1">About {{ $about.name }}</h2>
+            <p>
+                {{ $about.bio | safeHTML }}
+            </p>
+            {{with $about.likes }}
+            <h3 class="mt-4">Likes</h3>
+            <ul>
+                {{range $about.likes}}
+                    <li class="my-2">{{.}}</li>
+                {{end}}
+            </ul>
+            {{end}}
+        </div>
+    </section>
+     <hr class="section-break">
+</div>

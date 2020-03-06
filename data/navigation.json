@@ -1,7 +1,7 @@
 [
     {
         "title": "About",
-        "href": "intro",
+        "href": "about",
         "fullPage": false
     },    {
         "title": "Blog",
