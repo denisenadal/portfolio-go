@@ -1,5 +1,5 @@
 {
-    "title": "Skills",
+    "title": "Strengths & Skills",
     "chart": {
         "UI Design": "80",
         "UX Design": "90",
@@ -9,42 +9,48 @@
         "Full-Stack Engineering": "33",
         "Agile/SCRUM": "75"
     },
-    "list": {
-        "Skills": [
-            "Design Thinking",
-            "User-Centered Design",
-            "UX Research ",
-            "Product Discovery",
-            "Product Analytics",
-            "Usability Testing",
-            "Rapid Prototyping",
-            "Experienced leader",
-            "Creative Collaborator",
-            "Agile & Lean Methodologies"
-        ],
-        "Tools": [
-            "Adobe Creative Suite",
-            "Sketch, InVision, Balsamiq ",
-            "Mixpanel",
-            "Amplitude",
-            "Google Analytics",
-            "GTM",
-            "FullStory"
-        ],
-        "Coding Strengths": [
-            "JavaScript",
-            "AngularJS",
-            "jQuery",
-            "HTML5",
-            "CSS3",
-            "Material",
-            "SASS"
-        ],
-        "Coding Basics": [
-            "Node.js, Vue.js, Git",
-            "Python",
-            "PHP",
-            "MySQL"
-        ]
-    }
+    "list": [
+        {
+            "Skills & Techniques": [
+                "Design Thinking",
+                "User-Centered Design",
+                "UX Research ",
+                "Product Discovery",
+                "Product Analytics",
+                "Usability Testing",
+                "Rapid Prototyping",
+                "Experienced leader",
+                "Creative Collaborator",
+                "Agile & Lean Methodologies"
+            ]
+        },{
+            "Tools & Technology": [
+                "Adobe Creative Suite",
+                "Sketch"," InVision","Balsamiq ",
+                "Mixpanel",
+                "Amplitude",
+                "Google Analytics",
+                "GTM",
+                "FullStory"
+            ]
+        },{
+            "Programming Strengths": [
+                "JavaScript",
+                "AngularJS",
+                "jQuery",
+                "HTML5",
+                "CSS3",
+                "Material",
+                "SASS"
+            ]
+        },
+        {
+            "Programming Basics": [
+                "Node.js, Vue.js, Git",
+                "Python",
+                "PHP",
+                "MySQL"
+            ]
+        }
+    ]
 }

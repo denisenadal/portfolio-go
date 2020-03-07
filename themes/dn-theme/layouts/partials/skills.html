@@ -1,34 +1,41 @@
 {{ $data := .Site.Data.skills }}
 
-<section id="skills"
-         class="meta-section">
-    <h2 class="heading">{{ $data.title }}</h2>
-
-    {{ range $key, $value := $data.chart }}
-
-    <div class="skill">
-        <span class="h6">{{ $key }}</span>
-        <div class="progress">
-            <div class="progress-bar"
-                 role="progressbar"
-                 style="width:{{ $value }}%"
-                 aria-valuenow="10"
-                 aria-valuemin="0"
-                 aria-valuemax="100"></div>
+<div class="meta-section bg-light d-flex">
+    <section id="skills"
+             class="d-flex">
+        <h2 class="heading mb-3 h1 d-none">{{ $data.title }}</h2>
+    
+        <div class="skills-list row align-content-center">
+            {{range $index, $skillGroup := $data.list }}
+            {{range $skillGroupName, $skills := $skillGroup}}
+            <div class="col">
+                <h3>{{$skillGroupName}}</h3>
+                <ul>
+                    {{range $skill := $skills}}
+                    <li>{{$skill}}</li>
+                    {{end}}
+                </ul>
+            </div>
+            {{end}}
+            {{ end }}
         </div>
-    </div>
-    {{end}}
-
-   <div class="row">
-        {{range $skillType, $skills := $data.list | sort $index}}
-        <div>
-            <h3>{{$skillType}}</h3>
-            <ul>
-                {{range $index, $skill := $skills}}
-                <li>{{$skill}}</li>
-                {{end}}
-            </ul>
-        </div>
-        {{ end }}
-   </div>
-</section>
+    
+        <!--<div class="skills-chart">
+           <h3>Strengths</h3>
+            {{ range $key, $value := $data.chart }}
+            <div class="skill">
+                <span class="h6">{{ $key }}</span>
+                <div class="progress">
+                    <div class="progress-bar"
+                         role="progressbar"
+                         style="width:{{ $value }}%"
+                         aria-valuenow="10"
+                         aria-valuemin="0"
+                         aria-valuemax="100"></div>
+                </div>
+            </div>
+            {{end}}
+       </div> -->
+    
+    </section>
+</div>
