@@ -1,12 +1,12 @@
 name = "Blank"
 license = "MIT"
 licenselink = "https://github.com/vimux/blank/blob/master/LICENSE"
-description = "Starter Hugo theme for developers."
+description = "1st Hugo project, based on Vimux's blank starter theme and the paid version of the Huge UI-Lite theme by Arvind"
 homepage = "https://github.com/vimux/blank/"
-tags = ["blog", "plain", "blank", "starter", "development"]
+tags = ["blog", "portfolio"]
 features = ["blog"]
 min_version = "0.20"
 
 [author]
-  name = "Vimux"
-  homepage = "https://github.com/vimux"
+  name = "Denise Nadal"
+  homepage = "https://github.com/denisenadal"

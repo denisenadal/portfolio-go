@@ -2,7 +2,7 @@
 title: "Personal Portfolio & Branding"
 subtitle: "UI/UX Design"
 date: 2018-04-31T20:46:03-05:00
-date_range:"UI/UX Design, 2018"
+date_range: "UI/UX Design, 2018"
 draft: 
 image: {
    "image":"personal-group.jpg",

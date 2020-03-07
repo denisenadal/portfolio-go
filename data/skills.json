@@ -1,12 +1,50 @@
 {
-	"title" : "Skills",
-	"skills" : {
-        "UI Design" : "80",
-        "UX Design":"90",
+    "title": "Skills",
+    "chart": {
+        "UI Design": "80",
+        "UX Design": "90",
         "Design Thinking": "95",
-        "Product Management" : "66",
+        "Product Management": "66",
         "Front-End Engineering": "66",
         "Full-Stack Engineering": "33",
-        "Agile/SCRUM" : "75"
-	}
+        "Agile/SCRUM": "75"
+    },
+    "list": {
+        "Skills": [
+            "Design Thinking",
+            "User-Centered Design",
+            "UX Research ",
+            "Product Discovery",
+            "Product Analytics",
+            "Usability Testing",
+            "Rapid Prototyping",
+            "Experienced leader",
+            "Creative Collaborator",
+            "Agile & Lean Methodologies"
+        ],
+        "Tools": [
+            "Adobe Creative Suite",
+            "Sketch, InVision, Balsamiq ",
+            "Mixpanel",
+            "Amplitude",
+            "Google Analytics",
+            "GTM",
+            "FullStory"
+        ],
+        "Coding Strengths": [
+            "JavaScript",
+            "AngularJS",
+            "jQuery",
+            "HTML5",
+            "CSS3",
+            "Material",
+            "SASS"
+        ],
+        "Coding Basics": [
+            "Node.js, Vue.js, Git",
+            "Python",
+            "PHP",
+            "MySQL"
+        ]
+    }
 }
