@@ -21,14 +21,4 @@ Familiar
 •	Python, PHP, MySQL
 
 
-
-	<!-- <link rel="stylesheet" href='{{ "css/normalize.css" | relURL }}'>
-	<link rel="stylesheet"  href='{{ "css/den-base.css" | relURL }}'>
-	{{if .IsHome }}
-	<link rel="stylesheet"  href='{{ "css/den-home.css" | relURL }}'>
-
-	{{else if isset .Page "Type"}}
-		<link rel="stylesheet"
-			  href='{{ "css/den-{{.Page.Type}}.css" | relURL }}'>
-
-	{{ end }} -->
+TODO switch main page to use spacer to offset top

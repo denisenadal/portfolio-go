@@ -30,7 +30,7 @@ include('../../header.php');
 			<div class="col12x col12s col9m col8l pad1">
 				<h2 class="h3"><span class="uiux">Design</span><span class="gd">Design</span><span class="dev">Development</span> Process</h2>
 				<p  class=" uiux">I started this site by spending a few weeks sketching out ideas as thumbnails and storyboards. Once I had clear idea about what I wanted the site to look and feel like, I took it to mockups and began figuring out the details of the design. From there I built it out into code. </p>
-				<p class=" uiux">It has undergone several iterations, first as a simple php site, then as WordPress theme, and now it's something of a hybrid.</p>
+				<p >It has undergone several iterations, first as a simple php site, then as WordPress theme, and now it's something of a hybrid.</p>
 			</div>
 			<div class=" col12x no-pad">
 				<div id="personal-process-gallery" class="project-gallery " data-sizes="4422">

@@ -1,4 +1,23 @@
-## The Final Pitch
+---
+title: "The Final Pitch"
+date: 2020-01-31T20:46:03-05:00
+draft: 
+images: [{
+    "image":"amandaHaven-NewHomeowner.png",
+    "alt":"Our Primary Persona",
+    "caption":"Our Primary Persona"
+},{
+    "image":"ScottCarpenter-DIYHomeowner.png",
+    " alt":"Our Secondary Persona",
+    "caption":"Our Secondary Persona
+},{
+    "image":valueprop.png",
+    "alt":" Exploring value props",
+    "caption":"Exploring value proposition & product positioning"
+}]
+---
+The final result was a pitch deck that we presented to the CEO. The summary of our pitch is as follows:
+
 > Homeowners end up paying almost 10K a year in unexpected hidden costs most of which could have been avoided with regular, simple maintenance.
  >Let's make it easy for homeowners to save money and protect their homes with subscription service that provides regular maintenance. 
  > Over $80 billion is spent on home repairs each year and of the homeowners we've talked to 75% are interested in a service to provide regular maintenance.
