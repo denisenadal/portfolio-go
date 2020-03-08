@@ -19,8 +19,6 @@
                 "Product Analytics",
                 "Usability Testing",
                 "Rapid Prototyping",
-                "Experienced leader",
-                "Creative Collaborator",
                 "Agile & Lean Methodologies"
             ]
         },{
@@ -29,8 +27,7 @@
                 "Sketch"," InVision","Balsamiq ",
                 "Mixpanel",
                 "Amplitude",
-                "Google Analytics",
-                "GTM",
+                "Google Analytics/GTM",
                 "FullStory"
             ]
         },{
@@ -40,16 +37,21 @@
                 "jQuery",
                 "HTML5",
                 "CSS3",
+                 "PHP",                
                 "Material",
                 "SASS"
             ]
         },
         {
             "Programming Basics": [
-                "Node.js, Vue.js, Git",
+                "Node.js", 
+                "Vue.js", 
+                "Git",
                 "Python",
-                "PHP",
-                "MySQL"
+                "MySQL",
+                "MongoDB",
+                "React",
+                "Bootstrap"
             ]
         }
     ]

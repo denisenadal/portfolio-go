@@ -1,0 +1,28 @@
+{{ $experience := .Site.Data.experience }}
+{{$colors := .Site.Data.config.colors}}
+<!-- this section copied from UI-Lite theme-->
+<div class="meta-section">
+    <section id="experience">
+        <h2>{{ $experience.title }}</h2>
+        <div id="timeline">
+            {{ range $index, $element := $experience.experience }}
+            <div class="timeline-item d-flex d-column position-relative">
+                <i class="timeline-icon fa fa-circle fa-2x text-{{index $colors $index}}"
+                   aria-label="none"></i>
+    
+                <div class="timeline-content">
+                    <p class="date h6 bg-light p-2 mb-2 d-inline-block">
+                        {{ $element.timeperiod }}</p>
+                    <h3>
+                        <span
+                              class="h5 d-block">{{ $element.title | safeHTML}}</span>
+                        <span class=" d-block">{{ $element.company |}}</span>
+                    </h3>
+                    <p class="text-muted">{{ $element.description |safeHTML}}</p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+</div>
+    <hr class="section-break">

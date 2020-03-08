@@ -1,0 +1,28 @@
+{{$subsection := .Resources.GetMatch "process/index-process.md"}}
+
+<section class="process meta-section bg-accent">
+    <div class="row wrapper grid">
+        <div class="col-md-6 col-lg-5 grid-item">
+            <h1 class="text-pink">{{$subsection.Title}}</h1>
+            <p>{{$subsection.Content}}</p>
+        </div>
+        {{$images := .Resources.ByType "image"}}
+        {{len $images}}
+
+        {{with .Resources.ByType "image"}}
+            {{range .}}
+                    <div class="col-md-4 col-lg-2 grid-item">
+                        <figure>
+                            <img src="{{.Permalink}}"
+                                 alt="{{.Title}}">
+                            {{with .Params.Caption}}
+                            <figcaption>{{.Title}}</figcaption>
+                            {{end }}
+                        </figure>
+                    </div>
+            {{end}}
+        {{end}}
+ 
+        
+    </div>
+</section>

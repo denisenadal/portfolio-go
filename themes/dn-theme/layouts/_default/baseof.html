@@ -23,9 +23,20 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src='{{ "js/main.js" | relURL }}'></script>
+	{{if eq .Page.Type "work" }}
+	<script
+			src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	{{end}}
 </head>
-<body class="{{.Page.Type }}">
+{{ $class:= "generic" }}
+{{if .IsHome}}
+{{$class = "home"}}
+{{else }}
+{{$class = .Page.Type }}
+{{end}}
+<body class="{{ $class }}">
 	{{ partial "header" . }}
+	<div class="body-offset"></div>
 	{{ block "main" . }}
 		<main>{{.Content}}</main>
 	{{ end }}

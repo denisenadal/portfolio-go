@@ -5,7 +5,7 @@ date: 2018-04-31T20:46:03-05:00
 date_range: "UI/UX Design, 2018"
 draft: 
 image: {
-   "image":"personal-group.jpg",
+   "name":"personal-group.jpg",
     "alt":"personal portfolio site on various screen sizes"}
 type: "work"
 tags: ["ux design","ui design","development"]

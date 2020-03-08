@@ -1,0 +1,31 @@
+{{ define "main" }}
+<main>
+	<section class="meta-section">
+		<div class="row">
+			<div class="col-md-5">
+				{{with .Params.image}}
+				<img src="{{.name}}"
+					 alt=".alt}}">
+				{{end}}
+			</div>
+			<div class="col-md-7">
+				<h2 class="h1 m-0">{{.Title}}</h2>
+				<p class="h2 mt-0">{{.Params.subtitle}}</p>
+				<p class="h5 mb-0 mt-3 text-gray"> {{.Params.date_range}}</p>
+				<p class="m-0 text-muted">
+					{{.Content}}
+				</p>
+			</div>
+		</div>
+	</section>
+
+	{{if .Resources.GetMatch "process/index-process.md"}}
+		{{partial "single-work/process-gallery.html" .}}
+	{{end}}
+
+	{{$final := .Resources.Match "index-final.md"}}
+	{{range $final}}
+		{{partial "single-work/final.html" .}}
+	{{end}}
+</main>
+{{ end }}

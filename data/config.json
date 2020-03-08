@@ -2,5 +2,6 @@
 	"author" : "Denise Nadal",
 	"email" : "denisenadal@outlook.com",
 	"subtitle":"Product & Design",
-	"logo": "/images/unicorn-06.jpg"
+	"logo": "/images/unicorn-06.jpg",
+	"colors": ["purple","pink","red","orange","yellow","green","teal","cyan","blue","indigo"]
 }
