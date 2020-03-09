@@ -7824,6 +7824,17 @@ img {
   height: auto;
   object-fit: contain; }
 
+figure,
+.figure {
+  background: rgba(255, 255, 255, 0.8);
+  padding: .5rem;
+  border-radius: 2px; }
+  figure figcaption,
+  figure .fig-caption,
+  .figure figcaption,
+  .figure .fig-caption {
+    font-size: .75rem; }
+
 .body-offset {
   height: 4.5rem; }
 
@@ -7844,7 +7855,8 @@ img {
         padding: 3rem 0; } }
 
 main,
-.home .meta-section {
+main.home .meta-section,
+.full-height {
   min-height: calc(100vh - 8rem); }
 
 .navbar {

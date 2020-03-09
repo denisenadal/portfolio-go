@@ -12,11 +12,5 @@ range first 6
     {{ printf "%#v" . }}
 </pre>
 
-
-<figure>
-    <img src="{{.src}}"
-            alt="{{.name}}">
-    {{with .params.caption}}
-    <figcaption>{{.name}}</figcaption>
-    {{end }}
-</figure>
+\
+        

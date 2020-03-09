@@ -9,6 +9,18 @@ img {
     object-fit: contain;
 }
 
+figure,
+.figure {
+    background:  rgba(255,255,255,.8);
+    padding: .5rem;
+    border-radius: 2px;
+
+    figcaption,
+    .fig-caption {
+        font-size: .75rem;
+    }
+}
+
 //for top-level items such as header, footer, main wrapper
 .body-offset{
     height: 4.5rem;
@@ -38,7 +50,8 @@ img {
 }
 
 main,
-.home .meta-section  {
+main.home .meta-section,
+.full-height  {
     min-height: $adjusted-vh;
 }
 
