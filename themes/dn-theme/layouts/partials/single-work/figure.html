@@ -1,0 +1,8 @@
+<figure class="figure">
+    <img src="{{.Permalink}}"
+         alt="{{.Title}}"
+         class="figure-img img-fluid">
+    {{if .Params.caption }}
+    <figcaption class="figure-caption">{{.Title}}</figcaption>
+    {{end }}
+</figure>

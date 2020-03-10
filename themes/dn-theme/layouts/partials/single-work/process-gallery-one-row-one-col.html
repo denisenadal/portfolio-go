@@ -1,5 +1,5 @@
 <section class="process meta-section bg-accent">
-    <div class="row wrapper">
+    <div class="row wrapper masonry">
         <div class="col-md-6 col-lg-5">
             <h1 class="text-pink">{{.subsection.Title}}</h1>
             <p>{{.subsection.Content}}</p>
@@ -7,19 +7,11 @@
 
         <!-- Group 2: images to right of  description -->
         {{with .page.Resources.Match "process-image"}}
-        {{range sort . "Params.order"}}
-        {{if eq .Params.group 1}}
-        <div class="col-md-6 col-lg-4 grid-item img">
-            <figure class="figure">
-                <img src="{{.Permalink}}"
-                     alt="{{.Title}}"
-                     class="figure-img img-fluid">
-                {{if .Params.caption }}
-                <figcaption class="figure-caption">{{.Title}}</figcaption>
-                {{end }}
-            </figure>
+        {{ $group2 := where . "Params.group" 2 }}
+        {{range sort $group2 "Params.order"}}
+        <div class="col-md-6 col-lg-4 grid-item masonry-item">
+            {{partial "single-work/figure.html" .}}
         </div>
-        {{end}}
         {{end}}
         {{end}}
     </div>

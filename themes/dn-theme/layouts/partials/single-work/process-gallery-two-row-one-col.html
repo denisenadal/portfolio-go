@@ -7,19 +7,11 @@
 
         <!-- Group 2: images to right of  description -->
             {{with .page.Resources.Match "process-image"}}
-            {{range sort . "Params.order"}}
-            {{if eq .Params.group 1}}
+            {{ $group2 := where . "Params.group" 2 }}
+            {{range sort $group2 "Params.order"}}
             <div class="col-md-6 col-lg-4 grid-item img">
-                <figure class="figure">
-                    <img src="{{.Permalink}}"
-                         alt="{{.Title}}"
-                         class="figure-img img-fluid">
-                    {{if .Params.caption }}
-                    <figcaption class="figure-caption">{{.Title}}</figcaption>
-                    {{end }}
-                </figure>
+                {{partial "single-work/figure.html" .}}
             </div>
-            {{end}}
             {{end}}
             {{end}}
         </div>
@@ -27,19 +19,11 @@
     <!-- Group 3: images in new row -->
     <div class="row wrapper grid">
         {{with .page.Resources.Match "process-image"}}
-        {{range sort . "Params.order"}}
-        {{if eq .Params.group 2}}
+        {{ $group3 := where . "Params.group" 3 }}
+        {{range sort $group3 "Params.order"}}
         <div class="col-md-4 col-lg-2 grid-item img">
-            <figure class="figure">
-                <img src="{{.Permalink}}"
-                     alt="{{.Title}}"
-                     class="figure-img img-fluid">
-                {{if .Params.caption }}
-                <figcaption class="figure-caption">{{.Title}}</figcaption>
-                {{end }}
-            </figure>
+            {{partial "single-work/figure.html" .}}
         </div>
-        {{end}}
         {{end}}
         {{end}}
     </div>
