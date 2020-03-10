@@ -24,8 +24,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src='{{ "js/main.js" | relURL }}'></script>
 	{{if eq .Page.Type "work" }}
-	<script
-			src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+		<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+		<script src='{{ "js/work.js" | relURL }}'></script>
 	{{end}}
 </head>
 {{ $class:= "generic" }}

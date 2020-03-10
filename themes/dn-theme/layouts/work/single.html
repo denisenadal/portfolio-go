@@ -20,12 +20,18 @@
 	</section>
 
 	{{if .Resources.GetMatch "process/index-process.md"}}
-		{{partial "single-work/process-gallery.html" .}}
+		{{$processSection := .Resources.GetMatch "process/index-process.md"}}
+		{{$layout := string $processSection.Params.layout | default "one-row-one-col"}}
+
+		{{$partial := (printf "single-work/process-gallery-%s.html" ($layout | default "one-row-one-col") )}}
+
+		{{partial $partial (dict "page" . "subsection" $processSection) }}
 	{{end}}
 
-	{{$final := .Resources.Match "index-final.md"}}
-	{{range $final}}
-		{{partial "single-work/final.html" .}}
+	{{if .Resources.GetMatch "process/index-final.md"}}
+	{{$finalSection := .Resources.GetMatch "process/index-final.md"}}
+		{{partial "single-work/final.html" (dict "page" . "subsection" $finalSection)}}
 	{{end}}
 </main>
 {{ end }}
+

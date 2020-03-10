@@ -5,11 +5,11 @@
             <p>{{.subsection.Content}}</p>
 
             <!-- Group 1: images below description -->
-            {{with .page.Resources.Match "final-image"}}
+            {{with .page.Resources.Match "process-image"}}
             {{range sort . "Params.order"}}
             {{if eq .Params.group 1}}
             <div class="row">
-                <div class="col-md-3 grid-item">
+                <div class="col-md-3 grid-item img">
                     <figure class="figure">
                         <img src="{{.Permalink}}"
                              alt="{{.Title}}"
@@ -28,10 +28,10 @@
 
         <!-- Group 2: images to right of  description -->
         <div class="col-md-6 col-lg-7  row grid ">
-            {{with .page.Resources.Match "final-image"}}
+            {{with .page.Resources.Match "process-image"}}
             {{range sort . "Params.order"}}
             {{if eq .Params.group 2}}
-            <div class="col-md-4 grid-item">
+            <div class="col-md-4 grid-item img">
                 <figure class="figure">
                     <img src="{{.Permalink}}"
                          alt="{{.Title}}"

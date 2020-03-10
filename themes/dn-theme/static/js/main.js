@@ -9,11 +9,4 @@ $(document).ready(function () {
     $('.navbar.open .nav-link').click(function(){
         $('.nav-links').toggle(350);
     });
-
-
-    $('.grid').masonry({
-        // options
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-item.img'
-    });
 });

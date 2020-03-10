@@ -1,0 +1,46 @@
+<section class="process meta-section bg-accent">
+    <div class="row wrapper grid">
+        <div class="col-md-6 col-lg-5">
+            <h1 class="text-pink">{{.subsection.Title}}</h1>
+            <p>{{.subsection.Content}}</p>
+        </div>
+
+        <!-- Group 2: images to right of  description -->
+            {{with .page.Resources.Match "process-image"}}
+            {{range sort . "Params.order"}}
+            {{if eq .Params.group 1}}
+            <div class="col-md-6 col-lg-4 grid-item img">
+                <figure class="figure">
+                    <img src="{{.Permalink}}"
+                         alt="{{.Title}}"
+                         class="figure-img img-fluid">
+                    {{if .Params.caption }}
+                    <figcaption class="figure-caption">{{.Title}}</figcaption>
+                    {{end }}
+                </figure>
+            </div>
+            {{end}}
+            {{end}}
+            {{end}}
+        </div>
+
+    <!-- Group 3: images in new row -->
+    <div class="row wrapper grid">
+        {{with .page.Resources.Match "process-image"}}
+        {{range sort . "Params.order"}}
+        {{if eq .Params.group 2}}
+        <div class="col-md-4 col-lg-2 grid-item img">
+            <figure class="figure">
+                <img src="{{.Permalink}}"
+                     alt="{{.Title}}"
+                     class="figure-img img-fluid">
+                {{if .Params.caption }}
+                <figcaption class="figure-caption">{{.Title}}</figcaption>
+                {{end }}
+            </figure>
+        </div>
+        {{end}}
+        {{end}}
+        {{end}}
+    </div>
+</section>
