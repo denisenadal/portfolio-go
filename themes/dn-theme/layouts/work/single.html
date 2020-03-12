@@ -28,8 +28,8 @@
 		{{partial $partial (dict "page" . "subsection" $processSection) }}
 	{{end}}
 
-	{{if .Resources.GetMatch "process/index-final.md"}}
-	{{$finalSection := .Resources.GetMatch "process/index-final.md"}}
+	{{if .Resources.GetMatch "index-final.md"}}
+	{{$finalSection := .Resources.GetMatch "index-final.md"}}
 		{{partial "single-work/final.html" (dict "page" . "subsection" $finalSection)}}
 	{{end}}
 </main>

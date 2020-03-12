@@ -11,6 +11,11 @@ rating: 30,
 resources: [
     {"src":"process/index-process.md"},
     {"src":"index-final.md"},
+    {"src":"weefee-logo-design.png",
+    "name":"final-image",
+    "title":"the final logo design",
+    "params" : {"caption": true, "group":2, "order":0}
+    },
     {"src":"process/logo-thumbnails.jpg",
     "name":"process-image",
     "title":"ideating on logo design",

@@ -1,32 +1,28 @@
 <section class="process meta-section bg-accent">
-    <div class="row wrapper "> 
-        <div class="col-md-6 col-lg-5">
+    <div class="row wrapper">
+        <div class="col-md-6 col-lg-5 col-xl-5">
             <h1 class="text-pink">{{.subsection.Title}}</h1>
-            <p>{{.subsection.Content}}</p>
-
+            <div class="pb-3">{{.subsection.Content}}</div>
+    
             <!-- Group 1: images below description -->
-                {{with .page.Resources.Match "process-image"}}
-                {{ $group1 := where . "Params.group" 1 }}
-                {{range sort $group1 "Params.order"}}
-            <div class="row ">
-                <div class="col-md-3 masonry-item">
+            {{with .page.Resources.Match "process-image"}}
+            {{ $group1 := where . "Params.group" 1 }}
+            {{range sort $group1 "Params.order"}}
+            <div class="row grid">
+                <div class="col-md-3 grid-item grid-sizer">
                     {{partial "single-work/figure.html" .}}
                 </div>
             </div>
             {{end}}
             {{end}}
         </div>
-
         <!-- Group 2: images to right of  description -->
-        <div class="col-md-6 col-lg-7">
-            <div class="masonry group-2 ">
+        <div class="col-md-6 col-lg-7 col-xl-7 ">
+            <div class="row grid">
                 {{with .page.Resources.Match "process-image"}}
                 {{ $group2 := where . "Params.group" 2 }}
-                {{$colsa := div (len $group2) 2.0 }}
-                {{$colsb := math.Ceil $colsa}}
-                {{$colsmd := div 12 $colsb}}
                 {{range sort $group2 "Params.order"}}
-                <div class="masonry-item ">
+                <div class="col-md-5 col-lg-4 col-xl-3 grid-item grid-sizer">
                     {{partial "single-work/figure.html" .}}
                 </div>
                 {{end}}
@@ -34,20 +30,16 @@
             </div>
         </div>
     </div>
-    
+    <hr class="content-divider">
     <!-- Group 3: images in new row -->
-    <div class="row wrapper masonry group-3 py-4">
+    <div class="row wrapper grid">
         {{with .page.Resources.Match "process-image"}}
         {{ $group3 := where . "Params.group" 3 }}
-        {{$colsa := div (len $group3) 2.0 }}
-        {{$colsb := math.Ceil $colsa}}
-        {{$colsmd := div 12 $colsb}}
-        {{$colslg := div 12 (len $group3)}}
         {{range sort $group3 "Params.order"}}
-        <div class="masonry-item">
-                {{partial "single-work/figure.html" .}}
-            </div>
-            {{end}}
-            {{end}}
+        <div class="col-md-4 col-lg-3 col-xl-2 grid-item grid-sizer">
+            {{partial "single-work/figure.html" .}}
+        </div>
+        {{end}}
+        {{end}}
     </div>
 </section>
