@@ -1,33 +1,4 @@
-<?php
-$category = strip_tags($_GET['type'] );
-$pageVars = array(
-	'css' => array('den-work'),
-	'title' => '',
-	'category'=>$category,
-	'js'	=>array('macy','projects','projects/homemaint')
-);
-include('../../header.php');
-?>
-<main id="content-sections-wrap">
-    <section id="project-intro"
-             class="container">
-        <div class="flex-row outdent flex-vcenter">
-            <div class="preview-image col5l col5m col4s col12x">
-                <img src="pitchDeck-Title.png"
-                 alt="design for subscription home maintenance service">
-            </div>
-            <div class="col7l col7m col8s col12x">
-                <h1 class="project-title h1">Home Maintenance Service</h1>
-                <p class="h4 project-date uiux">Product Research & UI/UX Design <br>Jan 2020 </p>
-                <p class="h4 project-date dev">Dev</p>
-                <p class="h4 project-date gd">Design</p>
-                <h2 class="h3">Summary</h2>
-                <p>Product Exploration, Market & UX Research Project to identify new product opportunities to help
-                    homeowners avoid problems with home service contractors.</p>
-                <p>This project was 3 week experiment by a cross-functional Innovation Team.</p>
-            </div>
-        </div>
-    </section>
+
     <section id="project-process"
              class="accent-bar">
         <div class="container clearfix">

@@ -1,6 +1,6 @@
-<section class="process meta-section bg-accent">
-    <div class="row wrapper grid">
-        <div class="col-md-6 col-lg-5 grid-item">
+<section class="process meta-section bg-accent two-row-one-col">
+    <div class="row wrapper">
+        <div class="col-md-6 col-lg-6"> 
             <h1 class="text-pink">{{.subsection.Title}}</h1>
             <div class="pb-3">{{.subsection.Content}}</div>
         </div>
@@ -15,7 +15,7 @@
         {{end}}
         {{end}}
     </div>
-     <hr class="content-divider">
+    <hr class="content-divider">
     <!-- Group 3: images in new row -->
     <div class="row wrapper grid">
         {{with .page.Resources.Match "process-image"}}

@@ -19,8 +19,8 @@
 		</div>
 	</section>
 
-	{{if .Resources.GetMatch "process/index-process.md"}}
-		{{$processSection := .Resources.GetMatch "process/index-process.md"}}
+	{{if .Resources.GetMatch "index-process.md"}}
+		{{$processSection := .Resources.GetMatch "index-process.md"}}
 		{{$layout := string $processSection.Params.layout | default "one-row-one-col"}}
 
 		{{$partial := (printf "single-work/process-gallery-%s.html" ($layout | default "one-row-one-col") )}}

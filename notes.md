@@ -10,7 +10,5 @@ range first 6
     {{ printf "%#v" . }}
 </pre>
 
-TODO make columns more customizable
-fix load order issues of js
-
-make a figure template
+TODO
+add way to turn off Masonry when not needed
