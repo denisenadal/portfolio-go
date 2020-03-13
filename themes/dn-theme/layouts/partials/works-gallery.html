@@ -3,6 +3,7 @@
         <h2 class="heading">Work </h2>
         
         <div class="row">
+            {{$works := where (where .Site.Pages "Type" "work") ".Title" "!=" "Works"}}
             {{ range sort $works "Params.weight"}}
             <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <div class="card p-4">
