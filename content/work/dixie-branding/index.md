@@ -1,11 +1,20 @@
 ---
-title: 
-subtitle:
-date: 2020-01-31T20:46:03-05:00
-date_range:
-draft: 
-image: {"name":""," alt":""}
+title:  "Dixie Branding"
+subtitle: "Branding & UI Design"
+date: 2017-10-31T20:46:03-05:00
+date_range: "Fall 2017"
+draft: true
+image: {"name":"weefee-logo-design.png"," alt":"branding for WeeFee app"}
 type: "work"
-tags: []
+tags: ["UI Design","Branding"]
+weight: 20,
+resources: [
+    {"src":"index-process.md"},
+    {"src":"index-final.md"},
+    {"src":"weefee-logo-design.png",
+    "name":"final-image",
+    "title":"the final logo design",
+    "params" : {"caption": true, "group":2, "order":0}
+    }]
 ---
-Description goes here
+Preliminary branding and UI Design for an Electron app of network scanning tools for network security professionals and enthusiasts.

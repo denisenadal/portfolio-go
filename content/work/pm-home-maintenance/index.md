@@ -8,8 +8,8 @@ image: {
     "name":"pitchDeck-Title.png", 
     "alt":"design for subscription home maintenance service"}
 type: "work"
-tags: [product-strategy,product-design,innovation,start-up]
-rating: 100,
+tags: [Product Strategy,Product Design,Innovation,Start Up]
+weight: 100,
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},
@@ -54,4 +54,6 @@ resources: [
     "params" : {"caption": true, "group":2, "order":3}
     }]
 ---
-Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors. <br>This project was 3 week experiment by a cross-functional Innovation Team.
+Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors. 
+
+This project was 3 week experiment by a cross-functional Innovation Team.

@@ -1,34 +1,7 @@
 <section class="final meta-section">
-    <div class="row wrapper">
-        <div class="col-md-6 col-lg-5">
-            <h1 class="text-pink">{{.subsection.Title}}</h1>
-            <p>{{.subsection.Content}}</p>
- 
-            <!-- Group 1: images below description -->
-            {{with .page.Resources.Match "final-image"}}
-            {{range sort . "Params.order"}}
-            {{if eq .Params.group 1}}
-            <div class="row">
-                <div class="col">
-                    {{partial "single-work/figure.html" .}}
-                </div>
-            </div>
-            {{end}}
-            {{end}}
-            {{end}}
-        </div>
+        {{$layout := string .subsection.Params.layout | default "one-row-one-col"}}
+        {{$partial := (printf "single-work/%s.html" ($layout | default "one-row-one-col") )}}
+        
+        {{partial $partial (dict "page" .page "subsection" .subsection "type" "final-image") }}
 
-        <!-- Group 2: images to right of  description -->
-        <div class="col-md-6 col-lg-7  row ">
-            {{with .page.Resources.Match "final-image"}}
-            {{range sort . "Params.order"}}
-            {{if eq .Params.group 2}}
-            <div class="col">
-                {{partial "single-work/figure.html" .}}
-            </div>
-            {{end}}
-            {{end}}
-            {{end}}
-        </div>
-    </div>
 </section>

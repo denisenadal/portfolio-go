@@ -12,3 +12,4 @@ range first 6
 
 TODO
 add way to turn off Masonry when not needed
+move over files from Macbook

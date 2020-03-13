@@ -25,6 +25,23 @@ figure,
     }
 }
 
+blockquote {
+    line-height: 2rem;
+    margin-left: 1rem;
+    padding-left: 1rem; 
+    display: block;
+    font-style: italic;
+    position: relative;
+
+    &:before{
+        content:"“";
+        font-size: 5rem;
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    }
+}
+
 //for top-level items such as header, footer, main wrapper
 .body-offset {
     height: 4.5rem;

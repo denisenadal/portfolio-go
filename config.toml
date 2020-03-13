@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Denise Nadal"
 theme = 'dn-theme'
+[taxonomies]
+  post = "posts"
+  tag = "tags"
+  work = "work"

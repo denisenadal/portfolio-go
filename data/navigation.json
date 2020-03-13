@@ -3,15 +3,11 @@
         "title": "About",
         "href": "about",
         "fullPage": false
-    },    {
-        "title": "Blog",
-        "href": "blog",
-        "fullPage": true
-    },
+    },   
     {
         "title": "Work",
         "href": "work",
-        "fullPage": true
+        "fullPage": false
     },
     {
         "title": "Contact",

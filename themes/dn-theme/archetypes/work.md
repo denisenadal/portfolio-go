@@ -7,5 +7,5 @@ description: {{.Description | safeHTML}}
 image: 
 type: "work"
 tags: []
-rating: 50
+weight: 50
 ---

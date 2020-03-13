@@ -1,9 +1,9 @@
-<div class="meta-section bg-accent">
-    <section class="">
+<div id="work" class="meta-section bg-accent">
+    <section  class="">
         <h2 class="heading">Work </h2>
         
         <div class="row">
-            {{ range (where (where .Site.Pages "Section" "work") ".Title" "!=" "Works" )}}
+            {{ range sort $works "Params.weight"}}
             <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <div class="card p-4">
                     <a class="mb-3"
@@ -28,9 +28,9 @@
             {{ end }}
         </div>
         
-        <div class="text-center mt-5">
+        <!-- <div class="text-center mt-5">
             <a href="{{ .Site.BaseURL }}work"
                class="btn btn-lg btn-dark-faded ">Browse All</a>
-        </div>
+        </div> -->
     </section>
 </div>

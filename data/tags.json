@@ -1,0 +1,37 @@
+[
+    {
+        "title": "UX Design",
+        "color": "primary"
+    },
+    {
+        "title": "UI Design",
+        "color": "secondary"
+    },
+    {
+        "title": "Product Design",
+        "color": "success"
+    },
+    {
+        "title": "Branding",
+        "color": "danger"
+    },
+    {
+        "title": "Product Strategy",
+        "color": "warning"
+    },
+    {
+        "title": "Innovation",
+        "color": "info"
+    },{
+        "title": "Start Up",
+        "color": "light"
+    },
+    {
+        "title": "Development",
+        "color": "dark"
+    },
+    {
+        "title": "Print Design",
+        "color": "primary"
+    }
+]

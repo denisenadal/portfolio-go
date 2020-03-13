@@ -1,11 +1,12 @@
 {{ define "main" }}
 <main>
 	<section class="meta-section">
-		<div class="row">
+		<div class="row wrapper">
 			<div class="col-md-5">
 				{{with .Params.image}}
 				<img src="{{.name}}"
-					 alt=".alt}}">
+					 alt=".alt}}"
+					 class="shadow-sm border">
 				{{end}}
 			</div>
 			<div class="col-md-7">
@@ -21,11 +22,7 @@
 
 	{{if .Resources.GetMatch "index-process.md"}}
 		{{$processSection := .Resources.GetMatch "index-process.md"}}
-		{{$layout := string $processSection.Params.layout | default "one-row-one-col"}}
-
-		{{$partial := (printf "single-work/process-gallery-%s.html" ($layout | default "one-row-one-col") )}}
-
-		{{partial $partial (dict "page" . "subsection" $processSection) }}
+		{{partial "single-work/process-gallery.html" (dict "page" . "subsection" $processSection ) }}
 	{{end}}
 
 	{{if .Resources.GetMatch "index-final.md"}}
