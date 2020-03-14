@@ -1,8 +1,19 @@
 
 <section class="process meta-section bg-accent">
-    {{$layout := string .subsection.Params.layout | default "one-row-one-col"}}
-    {{$partial := (printf "single-work/%s.html" ($layout | default "one-row-one-col") )}}
+    <div class="row wrapper grid newgrid">
+        <div class="grid-item" data-w="{{.subsection.Params.params.w}}" data-h="{{.subsection.Params.params.h}}" >
+        
+            <h1 class="text-pink">{{.subsection.Title}}</h1>
+            <div class="pb-3">{{.subsection.Content}}</div>
+        </div>
     
-    {{partial $partial (dict "page" .page "subsection" .subsection "type" "process-image") }}
-
+        <!-- Group 2: images to right of  description -->
+        {{with .page.Resources.Match "process-image"}}
+        {{range sort . "Params.order"}}
+        <div class="grid-item"  data-w="{{.Params.w}}" data-h="{{.Params.h}}">
+            {{partial "single-work/figure.html" .}}
+        </div>
+        {{end}}
+        {{end}}
+    </div>
 </section>

@@ -17,7 +17,8 @@ resources: [
    "title": "early paper prototypes & information architecture",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -26,7 +27,8 @@ resources: [
    "title": "trying to apply the new contact page layout to existing design patterns",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 2
    }
 },{
@@ -35,7 +37,8 @@ resources: [
    "title": "trying to apply the new property page layout to existing design patterns",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 3
    }
 },{
@@ -44,7 +47,8 @@ resources: [
    "title": "I was dissatisfied with the existing design patterns, and explored some alternatives",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 4
    }
 },{
@@ -53,7 +57,8 @@ resources: [
    "title": "After being stalled, we re-approached the project and tried to simplify the design some more",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 5
    }
 },{
@@ -62,7 +67,8 @@ resources: [
    "title": "diagramming all the workflows",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 6
    }
 },{
@@ -71,7 +77,8 @@ resources: [
    "title": "the contact page design, tablet size",
    "params": {
        "caption": true,
-       "group": 3,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 }, {
@@ -80,7 +87,8 @@ resources: [
    "title": "a closed out job screen, tablet sized",
    "params": {
        "caption": true,
-       "group": 3,
+       "w": 1,
+         "h": 1,
        "order": 2
    }
 }, {
@@ -89,7 +97,8 @@ resources: [
    "title": "an in progress job at desktop size",
    "params": {
        "caption": true,
-       "group": 3,
+       "w": 1,
+         "h": 1,
        "order": 3
    }
 }, {
@@ -98,7 +107,8 @@ resources: [
    "title": "the job screen on a mobile device",
    "params": {
        "caption": true,
-       "group": 3,
+       "w": 1,
+         "h": 1,
        "order": 4
    }
 }]

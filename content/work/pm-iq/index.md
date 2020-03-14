@@ -14,7 +14,8 @@ resources: [ {
    "title": "overview of all screens",
    "params": {
        "caption": true,
-       "group": 1,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -23,7 +24,8 @@ resources: [ {
    "title": "quote selection screen",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -32,7 +34,8 @@ resources: [ {
    "title": "invoice builder exploration, p1",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -41,7 +44,8 @@ resources: [ {
    "title": "invoice builder exploration, p2",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -50,7 +54,8 @@ resources: [ {
    "title": "A tech starts a new quote",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -59,7 +64,8 @@ resources: [ {
    "title": "She then adds work items to the quote",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{
@@ -68,7 +74,8 @@ resources: [ {
    "title": "The customized quote",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
    }
 },{

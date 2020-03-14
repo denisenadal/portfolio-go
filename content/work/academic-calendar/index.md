@@ -14,7 +14,8 @@ resources: [{
     "title":"academic calendar home page",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -23,7 +24,8 @@ resources: [{
     "title":"calendar's  filtered results page",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -32,7 +34,8 @@ resources: [{
     "title":"smaller view",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -41,7 +44,8 @@ resources: [{
     "title":"mobile view",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 }]

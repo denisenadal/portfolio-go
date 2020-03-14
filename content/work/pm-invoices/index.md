@@ -13,7 +13,8 @@ resources: [ {"src": "process/v00invoice01.jpg",
    "title": "original invoice design",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 1
 
    }
@@ -23,7 +24,8 @@ resources: [ {"src": "process/v00invoice01.jpg",
    "title": "improved invoice design",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 2
 
    }
@@ -33,7 +35,8 @@ resources: [ {"src": "process/v00invoice01.jpg",
    "title": "testing layout for windowed envelopes and converting from points to pixels ",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 3
 
    }
@@ -43,7 +46,8 @@ resources: [ {"src": "process/v00invoice01.jpg",
    "title": "the final implemented design",
    "params": {
        "caption": true,
-       "group": 2,
+       "w": 1,
+         "h": 1,
        "order": 4
 
    }

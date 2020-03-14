@@ -1,15 +1,8 @@
 $(window).on("load", function(){
-    var masons = [];
-
-    $('.grid').each(function () {
-        console.log(this);
-        var mason = $(this).masonry({
-            // options
-            itemSelector: '.grid-item',
-            columnWidth: '.grid-sizer',
-            percentPosition: true
-        });
-        masons.push(mason);
+    $('.grid').cement({
+        columnMinWidth: 200,
+        brickSelector: ".grid-item",
+        horizontalGutter: 24,
+        verticalGutter: 24
     });
-    console.log(masons);
 });

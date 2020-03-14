@@ -15,7 +15,8 @@ resources: [{"src": "index-process.md"},
     "title":"Desktop Mockup version 1",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -24,7 +25,8 @@ resources: [{"src": "index-process.md"},
     "title":"Desktop Mockup version 2",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -33,7 +35,8 @@ resources: [{"src": "index-process.md"},
     "title":"Mobile Mockup version 1",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -42,7 +45,8 @@ resources: [{"src": "index-process.md"},
     "title":"Mobile Mockup version 2",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -51,7 +55,8 @@ resources: [{"src": "index-process.md"},
     "title":"desktop version",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 },{
@@ -60,7 +65,8 @@ resources: [{"src": "index-process.md"},
     "title":"mobile version",
     "params":{
         "caption":true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order":0
     }
 }]

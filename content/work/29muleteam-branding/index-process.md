@@ -2,7 +2,7 @@
 title: "The Design"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-layout: "one-row-one-col"
+params: {"w": 2, "h": 4}
 ---
 I wanted to create a bold design that captured some of the "Old West" nostaglia of the 29 Mule story and frontier mining, while also being modern and forward-thinking.
 

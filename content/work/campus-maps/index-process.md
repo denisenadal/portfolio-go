@@ -2,7 +2,7 @@
 title: "Design & Development"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-layout: "one-row-one-col"
+params: {"w": 2, "h": 4}
 ---
 For the design, I tried to integrate the university’s typography, color schemes and flat design approach with aspects of Google’s Material design in terms of spacing, economy of design and icon usage. 
 

@@ -2,7 +2,7 @@
 title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-layout: "one-row-one-col"
+params: {"w": 2, "h": 4}
 ---
 I began this project by sketching several ideas and taking the best two to mockups. During the process of designing the mockups a clear front-runner emerged, but I verified my conclusion by requesting feedback from other members of the team. Once we agreed on a design, I built out a quick HTML/CSS wireframe for the frontend, build out the javascript-based event handling, and refined the CSS.
 

@@ -16,7 +16,8 @@ resources: [
 "name": "final-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 1}
 },{
 "src":"spilker-branding.jpg",
@@ -24,7 +25,8 @@ resources: [
 "name": "final-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 2
     }
 },{
@@ -33,7 +35,8 @@ resources: [
 "name": "process-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 1
     }
 },{
@@ -42,7 +45,8 @@ resources: [
 "name": "process-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 2
     }
 },{
@@ -51,7 +55,8 @@ resources: [
 "name": "process-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 3
     }
 },{
@@ -60,7 +65,8 @@ resources: [
 "name": "process-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 4
     }
 },{
@@ -69,7 +75,8 @@ resources: [
 "name": "process-image",
 "params": {
     "caption": true,
-    "group": 2,
+    "w": 1,
+         "h": 1,
     "order": 5
     }
 }]

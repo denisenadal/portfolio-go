@@ -2,7 +2,7 @@
 title: "The Design Process"
 date: 2019-11-01:46:03-05:00
 draft: false
-layout: "one-row-two-col"
+params: {"w": 2, "h": 4}
 ---
 One of the most frequent complaints about the Pointman app was that it was difficult to view information about customers and jobs, because the information was spread out across several
 screen.

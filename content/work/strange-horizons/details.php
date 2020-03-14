@@ -4,7 +4,8 @@
     "name": "process-image",
 	"params": {
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	 }
 },{
@@ -13,7 +14,8 @@
     "name": "process-image",
     "params": {
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	 }
 },{
@@ -22,7 +24,8 @@
     "name": "process-image",
     "params": {
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	 }
 },{
@@ -31,7 +34,8 @@
     "name": "process-image",
 	"params": { 
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	}
 },{
@@ -40,7 +44,8 @@
     "name": "process-image",
     "params": {
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	 }
 },{
@@ -49,7 +54,8 @@
     "name": "process-image",
 	"params": { 
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	}
 },{
@@ -58,7 +64,8 @@
     "name": "final-image",
 	"params": { 
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	}
 },{
@@ -67,7 +74,8 @@
     "name": "final-image",
 	"params": { 
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	}
 },{
@@ -76,7 +84,8 @@
     "name": "final-image",
 	"params": { 
 		"caption": true,
-		"group": 2,
+		"w": 1,
+         "h": 1,
 		"order": 1
 	}
 }

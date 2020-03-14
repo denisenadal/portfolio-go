@@ -17,7 +17,8 @@ resources: [
     "name": "final-image",
     "params": {
         "caption": true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order": 1
     }
 },{
@@ -26,7 +27,8 @@ resources: [
     "name": "final-image",
     "params": {
         "caption": true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order": 1
     }
 },{
@@ -35,7 +37,8 @@ resources: [
     "name": "final-image",
     "params": {
         "caption": true,
-        "group": 2,
+        "w": 1,
+         "h": 1,
         "order": 1
     }
 }]
