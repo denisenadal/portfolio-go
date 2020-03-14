@@ -4,7 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>{{ .Site.Title}} -  {{.Page.Title }}</title>
+
+	{{ $title1 := print .Site.Title " //"}}
+	{{$title2 := ""}}
+	{{if ne .Page.Type "page"}}
+	{{ $title2 = print .Page.Type " - "}}
+	{{end}}
+	<title>{{ $title1 }} {{$title2}} {{.Page.Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,7 +19,7 @@
 	  crossorigin="anonymous">
 	
 	<link rel="icon"
-		  href="{{ .Site.BaseURL }}favicon.png"
+		  href="{{ .Site.BaseURL }}/images/favicon.ico"
 		  type="image/x-icon">
 	<link rel="stylesheet"
 	 	 href='{{ "css/custom.css" | relURL }}'>

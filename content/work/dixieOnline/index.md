@@ -6,7 +6,7 @@ date_range: "Fall 2017"
 draft: false
 image: {"name":"MiniLapTop.jpg"," alt":"Dixie Online web presence"}
 type: "work"
-tags: ["Web Design"]
+tags: ["Web Design", "Web Development"]
 weight: 47,
 resources: [
     {"src":"index-process.md"},

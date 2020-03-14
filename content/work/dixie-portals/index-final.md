@@ -1,0 +1,13 @@
+---
+title: "The Final Project"
+date: 2020-01-31T20:46:03-05:00
+draft: 
+layout: "one-row-two-col"
+---
+The final result was a easily modified WordPress template that our Web Team could update regularly.
+
+[Live Student Portal](http://students.dixie.edu)
+
+[Live Employee Portal](http://employees.dixie.edu)
+
+[Live Alumni Portal](http://alumni.dixie.edu)

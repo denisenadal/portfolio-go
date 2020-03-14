@@ -9,7 +9,7 @@
             {{ $group1 := where . "Params.group" 1 }}
             {{range sort $group1 "Params.order"}}
             <div class="row grid">
-                <div class="col-md-3 grid-item grid-sizer">
+                <div class="col grid-item grid-sizer">
                     {{partial "single-work/figure.html" .}}
                 </div>
             </div>

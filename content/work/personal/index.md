@@ -8,7 +8,7 @@ image: {
    "name":"personal-group.jpg",
     "alt":"personal portfolio site on various screen sizes"}
 type: "work"
-tags: ["UX Design","UI Design","Development"]
+tags: ["UX Design","UI Design","Web Development"]
 weight: 70
 resources: [
     {"src":"index-process.md"},

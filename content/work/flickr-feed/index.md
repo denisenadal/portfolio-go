@@ -6,7 +6,7 @@ date_range: "March 2018"
 draft: false
 image: {"name":"final/flickrfeed-desktop-default.png"," alt":"Desktop Latest Results"}
 type: "work"
-tags: ["Front End Eng"]
+tags: ["Web App", "Development"]
 weight: 45,
 resources: [
     {"src":"index-process.md"},

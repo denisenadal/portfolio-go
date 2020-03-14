@@ -1,12 +1,12 @@
 ---
-title:  A Day in the Life
+title:  A Day in the Life of ..
 subtitle: "UX Research"
 date: 2019-12-31T20:46:03-05:00
 date_range: "Fall 2019"
 draft: false
 image: {"name":"system-map.jpg"," alt":"early draft at mapping the lifecycle of an HVAC service job"}
 type: "work"
-tags: ["UI Design","Branding"]
+tags: ["UX Research","Customer Discovery"]
 weight: 80,
 resources: [
     {"src":"index-process.md"},
