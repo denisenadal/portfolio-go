@@ -33,5 +33,17 @@
     {
         "title": "Print Design",
         "color": "primary"
+    },
+    {
+        "title": "Front End Eng",
+        "color": "secondary"
+    },
+    {
+        "title": "Web Design",
+        "color": "success"
+    },
+    {
+        "title": "Web Development",
+        "color": "danger"
     }
 ]

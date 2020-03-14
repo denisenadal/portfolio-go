@@ -1,8 +1,6 @@
 
 {{ if eq (mod $index 2) 0 }} right {{ end }}
 
-{{ index $colors $index }}
-
 
 range first 6
 
@@ -12,4 +10,11 @@ range first 6
 
 TODO
 add way to turn off Masonry when not needed
-move over files from Macbook
+make sections repeatable
+finish summary, tech exp
+clean up flickr
+review tags on all
+review wieght on all
+get weight to work!!
+
+do tutoring, critiqit, campusmaps,portals,branding

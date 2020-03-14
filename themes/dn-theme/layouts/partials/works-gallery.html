@@ -3,14 +3,14 @@
         <h2 class="heading">Work </h2>
         
         <div class="row">
-            {{$works := where (where .Site.Pages "Type" "work") ".Title" "!=" "Works"}}
+            {{$works := where (where .Site.Pages "Type" "work") ".Title" "not in" (slice "Work" "Works")}}
             {{ range sort $works "Params.weight"}}
             <div class="col-lg-4 col-md-4 col-12 mb-3">
-                <div class="card p-4">
+                <div class="bg-white p-4 shadow-sm">
                     <a class="mb-3"
                        href="{{ .Permalink }}">
-                        <div class="featuredImage rounded"
-                             style="background-size:cover;background-position:center;background-image: url('{{ .Permalink }}{{ .Params.image.name }}'); height: 180px;background-color:#fbfbfb;">
+                        <div class="featuredImage border"
+                             style="background-image: url('{{ .Permalink }}{{ .Params.image.name }}');">
                         </div>
                     </a>
                     <!-- <small class="text-muted">{{ .Date.Format "Jan 2, 2006"}}</small> -->

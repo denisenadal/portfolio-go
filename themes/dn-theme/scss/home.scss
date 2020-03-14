@@ -8,8 +8,13 @@
         border-color: $gray-300;
         color: $dark;
     }
+    .bio-img {
+        width: 144px;
+        height: 144px;
+        object-fit: cover;
+        box-shadow: 44px 18px 0px 0px rgba(0,0,0,.05);
+    }
 }
-
 //====//
 
 #timeline {
@@ -76,5 +81,16 @@
                 }
             }
         }
+    }
+}
+
+
+#work {
+    .featuredImage {
+        background-color: $gray;
+        min-height: 180px;
+        width:100%;
+        background-size:cover;
+        background-position:center;
     }
 }

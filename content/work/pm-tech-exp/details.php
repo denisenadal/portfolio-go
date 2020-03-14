@@ -1,31 +1,18 @@
-<?php
-$category = strip_tags($_GET['type'] );
-$pageVars = array(
-	'css' => array('den-work'),
-	'title' => '',
-	'category'=>$category,
-	'js'	=>array('macy','projects')
-);
-include('../../header.php');
-?>
-<main id="content-sections-wrap">
-    <section id="project-intro"
-             class="container">
-        <div class="flex-row outdent flex-vcenter">
-           <div class="preview-image col5l col5m col4s col12x vertical">
-                <img src="mobileScreens.png"
-                 alt="mobile device">
-           </div>
-            <div class="col7l col7m col8s col12x">
-                <h1 class="project-title h1">Guided User Experiences</h1>
-                <p class="h4 project-date uiux">UI/UX Design <br>Fall 2019</p>
-                <h2 class="h3">Summary</h2>
-                <p>Designing a new UI to create intuitive guided workflows so Customer Service Rep.'s can schedule work faster and techs
-                    can complete jobs faster.
-                </p>
-            </div>
-        </div>
-    </section>
+---
+title: Guided User Experiences
+subtitle: UI/UX Design 
+image: {"src":"mobileScreens.png",
+        "alt":"mobile device"}
+draft: false
+date:
+date_range: Fall 2019
+tags: ["UI Design", "UX Design"]
+weight: 91
+resources:
+---
+Designing a new UI to create intuitive guided workflows so Customer Service Rep's can schedule work faster and techs can complete jobs faster.
+
+
     <section id="project-process1"
              class="accent-bar">
         <div class="container clearfix">
@@ -53,38 +40,38 @@ include('../../header.php');
                          class="project-gallery  side-outdent"
                          data-sizes="4432">
                         <figure class="project-img">
-                            <a href="v01index-mobile.png"><img src="v01index-mobile.png"
-                                     alt="Task Index mobile view, v1"></a>
+                            <a href="v01index-mobile.png">"src":"v01index-mobile.png",
+                                     "alt":"Task Index mobile view, v1",</a>
                             <figcaption>Task Index mobile view, v1
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v01index-tablet.png"><img src="v01index-tablet.png"
-                                     alt="Task Index tablet view, v1"></a>
+                            <a href="v01index-tablet.png">"src":"v01index-tablet.png",
+                                     "alt":"Task Index tablet view, v1",</a>
                             <figcaption>Task Index tablet view, v1
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v01metro-desktop.png"><img src="v01metro-desktop.png"
-                                     alt="Metro style task groups, v1"></a>
+                            <a href="v01metro-desktop.png">"src":"v01metro-desktop.png",
+                                     "alt":"Metro style task groups, v1",</a>
                             <figcaption>Metro style task groups, desktop view, v1
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v01metro-mobile.png"><img src="v01metro-mobile.png"
-                                     alt="Metro style task groups, mobile view, v1"></a>
+                            <a href="v01metro-mobile.png">"src":"v01metro-mobile.png",
+                                     "alt":"Metro style task groups, mobile view, v1",</a>
                             <figcaption>Metro style task groups, mobile view, v1
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v01metro-tablet.png"><img src="v01metro-tablet.png"
-                                     alt="Metro style task groups, tablet view, v1"></a>
+                            <a href="v01metro-tablet.png">"src":"v01metro-tablet.png",
+                                     "alt":"Metro style task groups, tablet view, v1",</a>
                             <figcaption>Metro style task groups, tablet view, v1
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v01weighted-mobile.png"><img src="v01weighted-mobile.png"
-                                     alt="tasks weighted by usage, mobile view, v1"></a>
+                            <a href="v01weighted-mobile.png">"src":"v01weighted-mobile.png",
+                                     "alt":"tasks weighted by usage, mobile view, v1",</a>
                             <figcaption>tasks weighted by usage, mobile view, v1
                             </figcaption>
                         </figure>
@@ -104,8 +91,8 @@ include('../../header.php');
                         For our second round, I merged the best ideas of each option into one set of designs
                     </p>
                         <figure class="project-img top-margin2">
-                            <a href="v02metro-mobile.png"><img src="v02metro-mobile.png"
-                                     alt="Metro style 'Favorite Tasks' on mobile, v2"></a>
+                            <a href="v02metro-mobile.png">"src":"v02metro-mobile.png",
+                                     "alt":"Metro style 'Favorite Tasks' on mobile, v2",</a>
                             <figcaption>Metro style 'Favorite Tasks' on mobile, v2
                             </figcaption>
                         </figure>
@@ -115,14 +102,14 @@ include('../../header.php');
                          class="project-gallery  side-outdent"
                          data-sizes="2222">
                         <figure class="project-img">
-                            <a href="v02indexed-desktop.png"><img src="v02indexed-desktop.png"
-                                     alt="Task Index desktop view, v2"></a>
+                            <a href="v02indexed-desktop.png">"src":"v02indexed-desktop.png",
+                                     "alt":"Task Index desktop view, v2",</a>
                             <figcaption>Task Index desktop view, v2
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v02metro-desktop.png"><img src="v02metro-desktop.png"
-                                     alt="Metro style 'Favorite Tasks' on desktop, v2"></a>
+                            <a href="v02metro-desktop.png">"src":"v02metro-desktop.png",
+                                     "alt":"Metro style 'Favorite Tasks' on desktop, v2",</a>
                             <figcaption>Metro style 'Favorite Tasks' on desktop, v2
                             </figcaption>
                         </figure>
@@ -145,20 +132,20 @@ include('../../header.php');
                     </p>
                     <div class="top-margin2">
                         <figure class="project-img">
-                            <a href="desktopScreens.png"><img src="desktopScreens.png"
-                                     alt="Overview of desktop screens & workflow"></a>
+                            <a href="desktopScreens.png">"src":"desktopScreens.png",
+                                     "alt":"Overview of desktop screens & workflow",</a>
                             <figcaption>Overview of desktop screens & workflow
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="tabletScreens.png"><img src="tabletScreens.png"
-                                     alt="Overview of tablet screens & workflow"></a>
+                            <a href="tabletScreens.png">"src":"tabletScreens.png",
+                                     "alt":"Overview of tablet screens & workflow",</a>
                             <figcaption>Overview of tablet screens & workflow
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="mobileScreens.png"><img src="mobileScreens.png"
-                                     alt="Overview of mobile screens & workflow"></a>
+                            <a href="mobileScreens.png">"src":"mobileScreens.png",
+                                     "alt":"Overview of mobile screens & workflow",</a>
                             <figcaption>Overview of mobile screens & workflow
                             </figcaption>
                         </figure>
@@ -170,32 +157,32 @@ include('../../header.php');
                          class="project-gallery  side-outdent"
                          data-sizes="4322">
                         <figure class="project-img">
-                            <a href="v03schedule-desktop.png"><img src="v03schedule-desktop.png"
-                                     alt="Viewing Personal Schedule,desktop, v3"></a>
+                            <a href="v03schedule-desktop.png">"src":"v03schedule-desktop.png",
+                                     "alt":"Viewing Personal Schedule,desktop, v3",</a>
                             <figcaption>Viewing Personal Schedule,desktop, v3
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v03schedule-mobile.png"><img src="v03schedule-mobile.png"
-                                     alt="Viewing Personal Schedule,mobile, v3"></a>
+                            <a href="v03schedule-mobile.png">"src":"v03schedule-mobile.png",
+                                     "alt":"Viewing Personal Schedule,mobile, v3",</a>
                             <figcaption>Viewing Personal Schedule,mobile, v3
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v03workingjob-mobile.png"><img src="v03workingjob-mobile.png"
-                                     alt="Viewing Viewing Current Job Assignment,mobile, v3"></a>
+                            <a href="v03workingjob-mobile.png">"src":"v03workingjob-mobile.png",
+                                     "alt":"Viewing Viewing Current Job Assignment,mobile, v3",</a>
                             <figcaption>Viewing Current Job Assignment,mobile, v3
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v03workingjob-desktop.png"><img src="v03workingjob-desktop.png"
-                                     alt="Viewing Viewing Current Job Assignment,desktop, v3"></a>
+                            <a href="v03workingjob-desktop.png">"src":"v03workingjob-desktop.png",
+                                     "alt":"Viewing Viewing Current Job Assignment,desktop, v3",</a>
                             <figcaption>Viewing Current Job Assignment,desktop, v3
                             </figcaption>
                         </figure>
                         <figure class="project-img">
-                            <a href="v03jobinfo-mobile.png"><img src="v03jobinfo-mobile.png"
-                                     alt="Viewing Job Information,mobile, v3"></a>
+                            <a href="v03jobinfo-mobile.png">"src":"v03jobinfo-mobile.png",
+                                     "alt":"Viewing Job Information,mobile, v3",</a>
                             <figcaption>Viewing Job Information,mobile, v3
                             </figcaption>
                         </figure>
@@ -205,6 +192,3 @@ include('../../header.php');
             </div>
         </div>
     </section>
-
-</main>
-<?php include('../../footer.php');
