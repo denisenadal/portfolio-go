@@ -4,6 +4,51 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
+images: [{"src":"process/donna-lister-DIS.png",
+    "name":"process-image",
+    "title":"one of our 4 basic personas",
+    "params" : {"caption": true, "group":2, "order":0}
+    },
+    {"src":"process/cassie-booker-CSR.png",
+    "name":"process-image",
+    "title":"one of our 4 basic personas",
+    "params" : {"caption": true, "group":2, "order":0}
+    },
+     {"src":"process/owner-workflow.jpg",
+    "name":"process-image",
+    "title":"a loose estimate of an owner's day",
+    "params" : {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/csr-workflow.jpg",
+    "name":"process-image",
+    "title":"a map of a customer service rep's day",
+    "params" : {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/dispatcher-workflow.jpg",
+    "name":"process-image",
+    "title":"a map of a dispatcher's day",
+    "params" : {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/tech-workflow.jpg",
+    "name":"process-image",
+    "title":"a map of a technician's day",
+    "params" : {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/job-mental-map.jpg",
+    "name":"process-image",
+    "title":"breaking down a job into its basic parts",
+    "params" : {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/job-diagrams.jpg",
+    "name":"process-image",
+    "title":"diagramming the entry and exit points for different types of jobs",
+    "params": {"caption": true, "group":2, "order":0}
+    },{
+        "src":"process/newjob-workflow.jpg",
+    "name":"process-image",
+    "title":"the essential workflow",
+    "params" : {"caption": true, "group":2, "order":0}
+    }]
 ---
 I spearheaded this project after our new Product Director challenged the UX Team to test our assumptions about how our users really do their jobs. Up until this point, we accepted the longstanding assumptions that our organization has built up through the years about what a "job" should look like and what dispatchers and technicians "should" do.
 We started this process by interviewing a former HVAC technician and our business coach, who was a general manager for plumbing and HVAC companies. During the interview process we made several discoveries that changed our entire perception of what a "job" was. 

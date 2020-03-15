@@ -4,6 +4,47 @@ date: 2019-09-01:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
+images: [{
+    "src": "process/IQcover.png",
+   "name": "process-image",
+   "title": "overview of all screens",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 1
+   }
+},{
+    "src": "process/iq-cover.png",
+   "name": "process-image",
+   "title": "quote selection screen",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 1
+   }
+},{
+    "src": "process/editable invoice/color-palettesArtboard 2.jpg",
+   "name": "process-image",
+   "title": "invoice builder exploration, p1",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 1
+   }
+},{
+    "src": "process/editable invoice/color-palettesArtboard 4.jpg",
+   "name": "process-image",
+   "title": "invoice builder exploration, p2",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 1
+   }
+}]
 ---
 This project was one of first two major projects that the UX Team undertook after joining the   Engineering Team in 2018. We started this project in late summer but struggled to form consensus amongst the design team on the best solution; I knew there had to be a better way to make decisions than spending days in a room arguing about details. The difficulties we encountered  with our own design processes on these projects was what inspired me to learn more about modern  product design.
 

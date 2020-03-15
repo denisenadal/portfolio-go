@@ -4,6 +4,67 @@ date: 2019-11-01:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
+images: [{
+    "src": "process/summary-drafts.jpg",
+   "name": "process-image",
+   "title": "early paper prototypes & information architecture",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 1
+   }
+},{
+    "src": "process/v1contact.png",
+   "name": "process-image",
+   "title": "trying to apply the new contact page layout to existing design patterns",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 2
+   }
+},{
+    "src": "process/v1property2.png",
+   "name": "process-image",
+   "title": "trying to apply the new property page layout to existing design patterns",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 3
+   }
+},{
+    "src": "process/v2contact-alt.png",
+   "name": "process-image",
+   "title": "I was dissatisfied with the existing design patterns, and explored some alternatives",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 4
+   }
+},{
+    "src": "process/v3contact-wires.png",
+   "name": "process-image",
+   "title": "After being stalled, we re-approached the project and tried to simplify the design some more",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 5
+   }
+},{
+    "src": "process/v3workflow-wires.png",
+   "name": "process-image",
+   "title": "diagramming all the workflows",
+   "params": {
+       "caption": true,
+       "w": 1,
+         "h": 1,
+       "order": 6
+   }
+}]
 ---
 One of the most frequent complaints about the Pointman app was that it was difficult to view information about customers and jobs, because the information was spread out across several
 screen.

@@ -10,38 +10,7 @@ tags: ["Web App", "Development"]
 weight: 41
 resources: [
     {"src":"00-process.md"},
-    {"src":"00-final.md"},
-{
-    "src":"final/flickrfeed-desktop-default.png",
-    "title": "Desktop Latest Results",
-    "name": "final-image",
-    "params": {
-        "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 1
-    }
-},{
-    "src":"final/flickrfeed-desktop-searchresults.png",
-    "title": "Desktop Search Results",
-    "name": "final-image",
-    "params": {
-        "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 1
-    }
-},{
-    "src":"final/flickrfeed-mobile.png",
-    "title": "Mobile Version",
-    "name": "final-image",
-    "params": {
-        "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 1
-    }
-}]
+    {"src":"00-final.md"}]
 ---
 A simple Node/Express web app that allows users to search for images uploaded to flickr, and view those images either as a webpage or as raw json data.
 

@@ -10,33 +10,6 @@ tags: ["Branding"]
 weight: 24
 resources: [
     {"src":"00-process.md"},
-    {"src":"00-process.md"},
-    {
-        "src":"process/business-system_letterhead.jpg",
-    "name":"process-image",
-    "title":"Letterhead",
-    "params" : {"caption": true, "group":2, "order":0}
-    },
-    {
-        "src":"process/BusinessSystem_businessCardBack.jpg",
-    "name":"process-image",
-    "title":"Business Card Back",
-    "params" : {"caption": true, "group":2, "order":1}
-    },{
-        "src":"process/BusinessSystem_businessCardFront.jpg",
-    "name":"process-image",
-    "title":"Business Card Front",
-    "params" : {"caption": true, "group":2, "order":2}
-    },{
-        "src":"process/BusinessSystem_envelopBack.jpg",
-    "name":"process-image",
-    "title":"Envelope Back",
-    "params" : {"caption": true, "group":2, "order":3}
-    },{
-        "src":"process/BusinessSystem_envelopeFront.jpg",
-    "name":"process-image",
-    "title":"Envelope Front",
-    "params" : {"caption": true, "group":2, "order":4}
-    }]
+    {"src":"00-process.md"}]
 ---
 As a design exercise, I created a branded business system for one of my favorite cleaning products.

@@ -12,47 +12,7 @@ tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100
 resources: [
     {"src":"00-process.md"},
-    {"src":"00-final.md"},
-    {"src":"process/boards-03.jpg",
-    "name":"process-image",
-    "title":"design artifacts for subscription home maintenance service",
-    "params" : {"caption": true, "group":2, "order":5}
-    },{"src":"process/boards-04.jpg",
-    "name":"process-image",
-    "title":"design artifacts for subscription home maintenance service",
-    "params" : {"caption": true, "group":2, "order":6}
-    },{"src":"process/boards-01.jpg",
-    "name":"process-image",
-    "title":"design artifacts for subscription home maintenance service",
-    "params" : {"caption": true, "group":2, "order":1}
-    },{"src":"process/boards-02.jpg",
-    "name":"process-image",
-    "title":"design artifacts for subscription home maintenance service",
-    "params" : {"caption": true, "group":2, "order":2}
-    },{"src":"process/experiment1.png",
-    "name":"process-image",
-    "title":"experiment results",
-    "params" : {"caption": true, "group":2, "order":8}
-    },{"src":"process/experiment2.png",
-    "name":"process-image",
-    "title":"experiment results",
-    "params" : {"caption": true, "group":2, "order":9}
-    },
-    {"src":"amandaHaven-NewHomeowner.png",
-    "name":"final-image",
-    "title":"Our Primary Persona",
-    "params" : {"caption": true, "group":2, "order":1}
-    },
-    {"src":"ScottCarpenter-DIYHomeowner.png",
-    "name":"final-image",
-    "title":"Our Secondary Persona",
-    "params" : {"caption": true, "group":2, "order":2}
-    },
-    {"src":"valueprop.png",
-    "name":"final-image",
-    "title":"Exploring Value Props",
-    "params" : {"caption": true, "group":2, "order":3}
-    }]
+    {"src":"00-final.md"}]
 ---
 Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors. 
 

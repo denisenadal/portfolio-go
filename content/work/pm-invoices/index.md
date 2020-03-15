@@ -8,50 +8,8 @@ image: {"name":"process/v01design.png"," alt":"design for improved invoice layou
 type: "work"
 weight: 40
 tags: ["UI Design","Print Design"]
-resources: [ {"src": "process/v00invoice01.jpg",
-   "name": "process-image",
-   "title": "original invoice design",
-   "params": {
-       "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
-
-   }
-},
-{"src": "process/v01design.png",
-   "name": "process-image",
-   "title": "improved invoice design",
-   "params": {
-       "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 2
-
-   }
-},
-{"src": "process/v01grid.png",
-   "name": "process-image",
-   "title": "testing layout for windowed envelopes and converting from points to pixels ",
-   "params": {
-       "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 3
-
-   }
-},
-{"src": "v02final.png",
-   "name": "process-image",
-   "title": "the final implemented design",
-   "params": {
-       "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 4
-
-   }
-}]
+resources:
+    - src: "00-process.md"
 ---
 Improving the layout of system generated invoices to improve user satisfaction and reduce paper waste.
 

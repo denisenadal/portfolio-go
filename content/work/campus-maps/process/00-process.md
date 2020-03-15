@@ -4,6 +4,22 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
+images: [{
+    "src":"process/campusmap-large.png",
+    "name":"process-image",
+    "title":"map overview, desktop size",
+    "params" : {"caption": true, "group":3, "order":0}
+    },{
+        "src":"process/campusmaps-active.png",
+    "name":"process-image",
+    "title":"active point details, desktop size",
+    "params" : {"caption": true, "group":3, "order":0}
+    },{
+    "src":"process/campus-map-mobile01.png",
+    "name":"process-image",
+    "title":"map overview, mobile size",
+    "params" : {"caption": true, "group":3, "order":0}
+    }]
 ---
 For the design, I tried to integrate the university’s typography, color schemes and flat design approach with aspects of Google’s Material design in terms of spacing, economy of design and icon usage. 
 

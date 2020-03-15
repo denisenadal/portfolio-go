@@ -10,7 +10,7 @@ range first 6
 
 TODO
 - - clean up each gallery
-- - finish off summary, tech exp, others?
+- - finish off cust summary, tech exp, others?
 
 {{< figure src="/media/spf13.jpg" title="Steve Francia" >}}
 
@@ -26,3 +26,6 @@ height
 width
 attr
 attrlink
+=====
+resources:
+    - src: "00-process.md"

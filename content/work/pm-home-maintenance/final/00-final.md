@@ -2,6 +2,21 @@
 title: "The Final Design"
 date: 2020-01-31T20:46:03-05:00
 draft: false
+images: [{"src":"amandaHaven-NewHomeowner.png",
+    "name":"final-image",
+    "title":"Our Primary Persona",
+    "params" : {"caption": true, "group":2, "order":1}
+    },
+    {"src":"ScottCarpenter-DIYHomeowner.png",
+    "name":"final-image",
+    "title":"Our Secondary Persona",
+    "params" : {"caption": true, "group":2, "order":2}
+    },
+    {"src":"valueprop.png",
+    "name":"final-image",
+    "title":"Exploring Value Props",
+    "params" : {"caption": true, "group":2, "order":3}
+    }]
 ---
 The final result was a pitch deck that we presented to the CEO. The summary of our pitch is as follows:
 > Homeowners end up paying almost 10K a year in unexpected hidden costs most of which could have been avoided with regular, simple maintenance.
