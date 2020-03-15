@@ -7817,9 +7817,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
-.grid-item {
-  background: red; }
-
 a:hover {
   text-decoration: none; }
 

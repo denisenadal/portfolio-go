@@ -2,6 +2,5 @@
         {{$layout := string .subsection.Params.layout | default "one-row-one-col"}}
         {{$partial := (printf "single-work/%s.html" ($layout | default "one-row-one-col") )}}
         
-        {{partial $partial (dict "page" .page "subsection" .subsection "type" "final-image") }}
-
+        
 </section>

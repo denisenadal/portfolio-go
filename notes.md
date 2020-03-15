@@ -9,10 +9,11 @@ range first 6
 </pre>
 
 TODO
-add way to turn off Masonry when not needed
-make sections repeatable
-finish summary, tech exp
-clean up flickr
 review wieght on all
 get weight to work!!
 
+- make process-gallery a generic repeatable section
+- have background bg handled by nth selector css
+- test handing in classes for img width
+- - clean up each gallery
+- - finish off summary, tech exp, others?
