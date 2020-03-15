@@ -11,8 +11,8 @@ type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {"src":"process/boards-03.jpg",
     "name":"process-image",
     "title":"design artifacts for subscription home maintenance service",

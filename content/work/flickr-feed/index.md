@@ -9,8 +9,8 @@ type: "work"
 tags: ["Web App", "Development"]
 weight: 41
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
 {
     "src":"final/flickrfeed-desktop-default.png",
     "title": "Desktop Latest Results",

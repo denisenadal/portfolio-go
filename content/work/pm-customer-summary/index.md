@@ -9,8 +9,8 @@ type: "work"
 weight: 89
 tags: ["UI Design","Print Design"]
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {
     "src": "process/summary-drafts.jpg",
    "name": "process-image",

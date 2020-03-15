@@ -9,3 +9,13 @@ The final design combined the most successful aspects of different designs. The 
 This calendar has been easy for our client, the Academic Performance & Tutoring Center, to use. It has been in use since its launch in early 2017. 
 {{< button link="https://tutoring.dixie.edu/tutoring-schedule/" title="Visit the live version" class="btn-secondary" >}}
 
+
+
+
+
+for f in *.png; do
+    mv -- "$f" "${f#image}"
+done
+
+
+$ find . -iname "00-process.md" -execdir mv 00-process.md process/00-process.md  \;

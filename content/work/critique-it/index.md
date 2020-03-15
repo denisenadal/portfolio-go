@@ -9,7 +9,7 @@ type: "work"
 tags: ["UX Design","UI Design", "Web App", "Development"]
 weight: 25
 resources: [
-    {"src":"index-process.md"},
+    {"src":"00-process.md"},
     {
     "src":"process/wireframes.jpg",
     "name":"process-image",

@@ -8,8 +8,8 @@ image: {"name":"tutoring-cropped.png"," alt":"cropped view of the tutoring calen
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 43
-resources: [{"src": "index-process.md"},
-{"src": "index-final.md"},{
+resources: [{"src": "00-process.md"},
+{"src": "00-final.md"},{
     "src":"process/tutoring-01.png",
     "name":"process-image",
     "title":"Desktop Mockup version 1",

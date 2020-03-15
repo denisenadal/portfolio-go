@@ -9,8 +9,8 @@ type: "work"
 tags: ["UI Design","UX Design"]
 weight: 66
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {"src":"process/efficiency-00v1.png",
     "name":"process-image",
     "title":"Job Efficiency Report, version 1",

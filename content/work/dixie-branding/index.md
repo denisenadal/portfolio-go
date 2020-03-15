@@ -9,8 +9,8 @@ type: "work"
 tags: ["UI Design","Branding"]
 weight: 20
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {"src":"weefee-logo-design.png",
     "name":"final-image",
     "title":"the final logo design",

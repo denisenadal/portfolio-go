@@ -9,8 +9,8 @@ type: "work"
 tags: ["Web Design"]
 weight: 42
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {
     "title":"Desktop Thumbnail",
     "src":"process/thumbs-desktop.gif",

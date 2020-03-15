@@ -11,8 +11,8 @@ type: "work"
 tags: ["UX Design","UI Design","Web Development"]
 weight: 75
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-final.md"},
+    {"src":"00-process.md"},
+    {"src":"00-final.md"},
     {"src":"process/mockup-contact.jpg",
     "name":"process-image",
     "title":"Mockup of the Contact page ",

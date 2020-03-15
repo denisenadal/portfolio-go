@@ -9,7 +9,7 @@ type: "work"
 tags: ["Web Design","Branding", "SEO"]
 weight: 35
 resources: [
-{"src": "index-process.md"},
+{"src": "00-process.md"},
 {
 "src":"spilker-set.jpg",
 "title":"mockup of website on all screens",

@@ -9,8 +9,8 @@ type: "work"
 tags: ["Branding"]
 weight: 24
 resources: [
-    {"src":"index-process.md"},
-    {"src":"index-process.md"},
+    {"src":"00-process.md"},
+    {"src":"00-process.md"},
     {
         "src":"process/business-system_letterhead.jpg",
     "name":"process-image",

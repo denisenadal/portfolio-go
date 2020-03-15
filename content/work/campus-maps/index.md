@@ -9,7 +9,7 @@ type: "work"
 tags: ["Web Design","UI Design", "Web Development"]
 weight: 37
 resources: [
-    {"src":"index-process.md"},
+    {"src":"00-process.md"},
     {
     "src":"process/campusmap-large.png",
     "name":"process-image",

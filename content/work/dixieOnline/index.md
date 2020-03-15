@@ -9,7 +9,7 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 47
 resources: [
-    {"src":"index-process.md"},
+    {"src":"00-process.md"},
     {
         "src":"process/01--home-Desktop-HD.jpg",
         "name":"process-image",

@@ -9,7 +9,7 @@ type: "work"
 tags: ["UX Research","Customer Discovery"]
 weight: 80
 resources: [
-    {"src":"index-process.md"},
+    {"src":"00-process.md"},
     {"src":"process/donna-lister-DIS.png",
     "name":"process-image",
     "title":"one of our 4 basic personas",
