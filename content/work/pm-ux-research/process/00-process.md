@@ -6,39 +6,84 @@ order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{"src": "donna-lister-DIS.png",
     "title":"one of our 4 basic personas",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },
     {"src": "cassie-booker-CSR.png",
     "title":"one of our 4 basic personas",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },
      {"src": "owner-workflow.jpg",
     "title":"a loose estimate of an owner's day",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "csr-workflow.jpg",
     "title":"a map of a customer service rep's day",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "dispatcher-workflow.jpg",
     "title":"a map of a dispatcher's day",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "tech-workflow.jpg",
     "title":"a map of a technician's day",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "job-mental-map.jpg",
     "title":"breaking down a job into its basic parts",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "job-diagrams.jpg",
     "title":"diagramming the entry and exit points for different types of jobs",
-    "params": {"caption": true, "group":2, "order":0}
+    "params": {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     },{
         "src": "newjob-workflow.jpg",
     "title":"the essential workflow",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     }]
 ---
 I spearheaded this project after our new Product Director challenged the UX Team to test our assumptions about how our users really do their jobs. Up until this point, we accepted the longstanding assumptions that our organization has built up through the years about what a "job" should look like and what dispatchers and technicians "should" do.

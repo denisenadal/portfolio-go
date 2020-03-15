@@ -7855,6 +7855,9 @@ blockquote {
     left: -2rem;
     top: 1rem; }
 
+li {
+  margin-bottom: 1rem; }
+
 .body-offset {
   height: 4.5rem; }
 

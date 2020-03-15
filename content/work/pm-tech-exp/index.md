@@ -9,7 +9,10 @@ date_range: Fall 2019
 type: "work"
 tags: ["UI Design", "UX Design"]
 weight: 91
-sections: ["process", "final"]
+sections: ["process-1", "process-2", "process-3"]
 resources:
+    - src: 00-process-1.md
+    - src: 00-process-2.md
+    - src: 00-process-3.md
 ---
 Designing a new UI to create intuitive guided workflows so Customer Service Rep's can schedule work faster and techs can complete jobs faster.

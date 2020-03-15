@@ -14,7 +14,12 @@ resources: [
     {"src":"00-final.md"},
     {"src":"weefee-logo-design.png",
     "title":"the final logo design",
-    "params" : {"caption": true, "group":2, "order":0}
+    "params" : {
+        "caption": true,
+        "group":2,
+        "order": 0
+   
+     }
     }]
 ---
 Preliminary branding and UI Design for an Electron app of network scanning tools for network security professionals and enthusiasts.

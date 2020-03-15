@@ -3,21 +3,24 @@ $(document).ready(function(){
     var grids = [];
 
     $('.grid').each(function(i, el){
-        var $grid = $(el).masonry({
-            // options...
-            columnWidth: '.grid-sizer',
-            itemSelector: '.grid-item',
-            percentPosition: true,
-            gutter: 0,
-            initLayout: false,
-        });
+        if ( ($(el).find('.grid-item')).length > 1 ){
 
-        // layout Masonry after each image loads
-        $grid.imagesLoaded().progress(function () {
-            $grid.masonry('layout');
-        });
+            var $grid = $(el).masonry({
+                // options...
+                columnWidth: '.grid-sizer',
+                itemSelector: '.grid-item',
+                percentPosition: true,
+                gutter: 0,
+                initLayout: false,
+            });
 
-        grids.push($grid);
+            // layout Masonry after each image loads
+            $grid.imagesLoaded().progress(function () {
+                $grid.masonry('layout');
+            });
+
+            grids.push($grid);
+
+        }
     });
-
 });
