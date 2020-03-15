@@ -1,0 +1,7 @@
+<!-- don't even load without link and title-->
+{{ if or ( .Get "link") ( .Get "title")}}
+
+<a href='{{.Get "link"}}' class='btn {{with .Get "class"}}{{.}}{{end}}'>{{ .Get "title"}} </a>
+
+{{end}}
+

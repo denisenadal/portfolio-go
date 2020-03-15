@@ -20,15 +20,17 @@
 		</div>
 	</section>
 
-	{{if .Resources.GetMatch "index-process.md"}}
-		{{$processSection := .Resources.GetMatch "index-process.md"}}
-		{{partial "single-work/process-gallery.html" (dict "page" . "subsection" $processSection ) }}
+	<!-- for each section declared in the index.md, grab the associated resource file and add a section partial for it-->
+	{{if isset .Params "sections"}}
+		{{$page := .}}
+		{{range $index, $section := .Params.sections}}
+			{{ $resourceName := (printf "%s/00-%s.md" $section $section )}}
+			{{ with $page.Resources.GetMatch $resourceName}}
+				{{partial "single-work/page-section.html" (dict "page" $page "subsection" . "sectionName" $section ) }}
+			{{end}}
+		{{end}}
 	{{end}}
 
-	{{if .Resources.GetMatch "index-final.md"}}
-	{{$finalSection := .Resources.GetMatch "index-final.md"}}
-		{{partial "single-work/final.html" (dict "page" . "subsection" $finalSection)}}
-	{{end}}
 </main>
 {{ end }}
 

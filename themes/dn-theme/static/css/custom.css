@@ -7993,14 +7993,6 @@ main.home .meta-section,
 .section-break {
   border-top: 4px dotted #dee2e6; }
 
-body.work main section {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
-
-hr.content-divider {
-  margin: 2rem 1rem 3rem;
-  border-top: dotted #fefefe 4px; }
-
 #splash a.text-dark:hover {
   color: #dee2e6 !important; }
 #splash a.btn-dark:hover {
@@ -8064,5 +8056,15 @@ hr.content-divider {
   width: 100%;
   background-size: cover;
   background-position: center; }
+
+body.work main section {
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+  body.work main section:nth-child(even) {
+    background-color: #b0f8ff; }
+
+hr.content-divider {
+  margin: 2rem 1rem 3rem;
+  border-top: dotted #fefefe 4px; }
 
 /*# sourceMappingURL=custom.css.map */

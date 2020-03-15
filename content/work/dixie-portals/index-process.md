@@ -2,7 +2,7 @@
 title: "Research & Design"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-layout: "col-sm-6 col-lg-4"
+columns: "col-sm-6 col-lg-4"
 ---
 We began this process by conducting user research. We held focus groups and user interviews to assess user sentiment about the site and learn what they considered to be their pain points. We reviewed our analytics to understand what our users were looking for and how they were finding it. 
 
