@@ -16,8 +16,7 @@ resources: [{"src": "index-process.md"},
     "title":"All of the data collected",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -26,8 +25,7 @@ resources: [{"src": "index-process.md"},
     "title":"Summary of user feedback",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 2,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -36,8 +34,7 @@ resources: [{"src": "index-process.md"},
     "title":"Summarizing the results",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -46,8 +43,7 @@ resources: [{"src": "index-process.md"},
     "title":"Examining user goals",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -56,8 +52,7 @@ resources: [{"src": "index-process.md"},
     "title":"Evaluating user needs",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -66,8 +61,7 @@ resources: [{"src": "index-process.md"},
     "title":"Site strengths/weakness identified by users",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -76,8 +70,7 @@ resources: [{"src": "index-process.md"},
     "title":"Final goals for project",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -86,8 +79,7 @@ resources: [{"src": "index-process.md"},
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -96,8 +88,7 @@ resources: [{"src": "index-process.md"},
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -106,8 +97,7 @@ resources: [{"src": "index-process.md"},
     "title":"Organizing content",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -116,8 +106,7 @@ resources: [{"src": "index-process.md"},
     "title":"early wireframes",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -126,8 +115,7 @@ resources: [{"src": "index-process.md"},
     "title":"detailed wireframes",
     "params":{
         "caption":true,
-        "w": 4,
-         "h": 2,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 8
     }
 },{
@@ -136,8 +124,7 @@ resources: [{"src": "index-process.md"},
     "title":"Alumni Portal, high-res-mockup",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 4,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 9
     }
 },{
@@ -146,8 +133,7 @@ resources: [{"src": "index-process.md"},
     "title":"Community Portal, high-res-mockup",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 4,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 10
     }
 },{
@@ -156,8 +142,7 @@ resources: [{"src": "index-process.md"},
     "title":"Employee Portal, high-res-mockup",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 4,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 11
     }
 },{
@@ -166,8 +151,7 @@ resources: [{"src": "index-process.md"},
     "title":"Student Portal, high-res-mockup",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 4,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 12
     }
 },{
@@ -176,8 +160,7 @@ resources: [{"src": "index-process.md"},
     "title":"Alumni Portal, Desktop View",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -186,8 +169,7 @@ resources: [{"src": "index-process.md"},
     "title":"Student Portal, Desktop View",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order":0
     }
 },{
@@ -196,8 +178,7 @@ resources: [{"src": "index-process.md"},
     "title":"Employee Portal, Desktop View",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
+        "sizing": "col-sm-3 col-md-4 col-lg-2",
         "order": 12
     }
 }]

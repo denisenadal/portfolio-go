@@ -10,20 +10,19 @@ tags: ["Web Design","UI Design", "Web Development"]
 weight: 20,
 resources: [
     {"src":"index-process.md"},
-    {"src":"index-final.md"},
     {
-    "src":"final/campusmap-large.png",
-    "name":"final-image",
+    "src":"process/campusmap-large.png",
+    "name":"process-image",
     "title":"map overview, desktop size",
     "params" : {"caption": true, "group":3, "order":0}
     },{
-        "src":"final/campusmaps-active.png",
-    "name":"final-image",
+        "src":"process/campusmaps-active.png",
+    "name":"process-image",
     "title":"active point details, desktop size",
     "params" : {"caption": true, "group":3, "order":0}
     },{
-    "src":"final/campus-map-mobile01.png",
-    "name":"final-image",
+    "src":"process/campus-map-mobile01.png",
+    "name":"process-image",
     "title":"map overview, mobile size",
     "params" : {"caption": true, "group":3, "order":0}
     }]

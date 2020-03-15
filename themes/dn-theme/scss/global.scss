@@ -1,5 +1,16 @@
 //bootstrap overrides
-a:hover {
+.grid-item {
+    background: red;
+}
+
+// @include media-breakpoint-up(lg) {
+//     .col-lg-35 {
+//         flex: 0 0 21%;
+//         max-width: 21%;
+//     }
+// }
+
+    a:hover {
     text-decoration: none;
 }
 
@@ -41,6 +52,8 @@ blockquote {
     top: 1rem;
     }
 }
+
+
 
 //for top-level items such as header, footer, main wrapper
 .body-offset {
