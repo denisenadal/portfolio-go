@@ -2,7 +2,8 @@
 title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-columns: "col-sm-6 col-lg-4"
+order: 0
+columns: "col-sm-6 col-md-6 col-lg-4"
 ---
 This was project I did for fun & self-learning in my feel time, so I didn’t have any formal or structured design process for this. I focused on creating a fun and visually exciting interface that still puts the content at the center of attention.
 

@@ -2,7 +2,8 @@
 title: "The Design Process"
 date: 2019-09-01:46:03-05:00
 draft: false
-columns: "col-sm-6 col-lg-4"
+order: 0
+columns: "col-sm-6 col-md-6 col-lg-4"
 ---
 This project was one of first two major projects that the UX Team undertook after joining the   Engineering Team in 2018. We started this project in late summer but struggled to form consensus amongst the design team on the best solution; I knew there had to be a better way to make decisions than spending days in a room arguing about details. The difficulties we encountered  with our own design processes on these projects was what inspired me to learn more about modern  product design.
 
