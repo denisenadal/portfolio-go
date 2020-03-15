@@ -8,6 +8,7 @@ image: {"name":"spilker-set.jpg"," alt":"mockup of website on all screens"}
 type: "work"
 tags: ["Web Design","Branding", "SEO"]
 weight: 35
+sections: ["process", "final"]
 resources: [{"src": "00-process.md"},{"src": "00-final.md"}]
 ---
 With project partner, Drew Adams, designed and implemented a new clean and modern site targeted towards our client’s target demographic, utilizing user feedback to optimize UI/UX. 

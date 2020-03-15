@@ -8,6 +8,7 @@ image: {"name":"system-map.jpg"," alt":"early draft at mapping the lifecycle of 
 type: "work"
 tags: ["UX Research","Customer Discovery"]
 weight: 80
+sections: ["process"]
 resources: [
     {"src":"00-process.md"}]
 ---

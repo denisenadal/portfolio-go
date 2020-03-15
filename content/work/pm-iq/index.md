@@ -8,6 +8,7 @@ image: {"name":"process/iq-cover.png"," alt":"design for the quote presentation 
 type: "work"
 weight: 70
 tags: ["UI Design","Print Design"]
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

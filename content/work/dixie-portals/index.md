@@ -8,6 +8,7 @@ image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 65
+sections: ["process", "final"]
 resources: [{"src": "00-process.md"},
 {"src": "00-final.md"}]
 ---

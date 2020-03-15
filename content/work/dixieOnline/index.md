@@ -8,7 +8,7 @@ image: {"name":"MiniLapTop.jpg"," alt":"Dixie Online web presence"}
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 47
-resources: [
-    {"src":"00-process.md"}]
+sections: ["process"]
+resources: [ {"src":"00-process.md"}]
 ---
 Website design for Dixie State University's department of online education.

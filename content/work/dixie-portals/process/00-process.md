@@ -5,8 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"process/hpp03-data-collection.jpg",
-    "name":"process-image",
+    "src": "hpp03-data-collection.jpg",
     "title":"All of the data collected",
     "params":{
         "caption":true,
@@ -14,8 +13,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp04-summary-of-user-feedback.jpg",
-    "name":"process-image",
+    "src": "hpp04-summary-of-user-feedback.jpg",
     "title":"Summary of user feedback",
     "params":{
         "caption":true,
@@ -23,8 +21,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp05-datasummarization.jpg",
-    "name":"process-image",
+    "src": "hpp05-datasummarization.jpg",
     "title":"Summarizing the results",
     "params":{
         "caption":true,
@@ -32,8 +29,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp06-usergoals.jpg",
-    "name":"process-image",
+    "src": "hpp06-usergoals.jpg",
     "title":"Examining user goals",
     "params":{
         "caption":true,
@@ -41,8 +37,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp07-user-needs.jpg",
-    "name":"process-image",
+    "src": "hpp07-user-needs.jpg",
     "title":"Evaluating user needs",
     "params":{
         "caption":true,
@@ -50,8 +45,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp08-site-strengths-weakness.jpg",
-    "name":"process-image",
+    "src": "hpp08-site-strengths-weakness.jpg",
     "title":"Site strengths/weakness identified by users",
     "params":{
         "caption":true,
@@ -59,8 +53,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp09-finalgoals.jpg",
-    "name":"process-image",
+    "src": "hpp09-finalgoals.jpg",
     "title":"Final goals for project",
     "params":{
         "caption":true,
@@ -68,8 +61,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp10-thumbnail-sketches.jpg",
-    "name":"process-image",
+    "src": "hpp10-thumbnail-sketches.jpg",
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
@@ -77,8 +69,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/hpp10-thumbnail-sketches.jpg",
-    "name":"process-image",
+    "src": "hpp10-thumbnail-sketches.jpg",
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
@@ -86,8 +77,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/portal01-content.jpg",
-    "name":"process-image",
+    "src": "portal01-content.jpg",
     "title":"Organizing content",
     "params":{
         "caption":true,
@@ -95,8 +85,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/portal03-wireframe.jpg",
-    "name":"process-image",
+    "src": "portal03-wireframe.jpg",
     "title":"early wireframes",
     "params":{
         "caption":true,
@@ -104,8 +93,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/portals-v1-wireframes.png",
-    "name":"process-image",
+    "src": "portals-v1-wireframes.png",
     "title":"detailed wireframes",
     "params":{
         "caption":true,
@@ -113,8 +101,7 @@ images: [{
         "order": 8
     }
 },{
-    "src":"process/portals-v1-alumni.png",
-    "name":"process-image",
+    "src": "portals-v1-alumni.png",
     "title":"Alumni Portal, high-res-mockup",
     "params":{
         "caption":true,
@@ -122,8 +109,7 @@ images: [{
         "order": 9
     }
 },{
-    "src":"process/portals-v1-community.png",
-    "name":"process-image",
+    "src": "portals-v1-community.png",
     "title":"Community Portal, high-res-mockup",
     "params":{
         "caption":true,
@@ -131,8 +117,7 @@ images: [{
         "order": 10
     }
 },{
-    "src":"process/portals-v1-employees.png",
-    "name":"process-image",
+    "src": "portals-v1-employees.png",
     "title":"Employee Portal, high-res-mockup",
     "params":{
         "caption":true,
@@ -140,8 +125,7 @@ images: [{
         "order": 11
     }
 },{
-    "src":"process/portals-v1-students.png",
-    "name":"process-image",
+    "src": "portals-v1-students.png",
     "title":"Student Portal, high-res-mockup",
     "params":{
         "caption":true,

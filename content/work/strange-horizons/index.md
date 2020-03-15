@@ -8,6 +8,7 @@ image: {"name":"strange_horizons_preview.jpg"," alt":"cropped view of the strang
 type: "work"
 tags: ["Web Design"]
 weight: 42
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

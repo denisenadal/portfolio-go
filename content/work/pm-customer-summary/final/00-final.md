@@ -5,8 +5,7 @@ date: 2018-10-31T20:46:03-05:00
 order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src": "final/v4-contact-tablet.png",
-   "name": "final-image",
+    "src": "v4-contact-tablet.png",
    "title": "the contact page design, tablet size",
    "params": {
        "caption": true,
@@ -15,8 +14,7 @@ images: [{
        "order": 1
    }
 }, {
-    "src": "final/v4jobdone-tablet.png",
-   "name": "final-image",
+    "src": "v4jobdone-tablet.png",
    "title": "a closed out job screen, tablet sized",
    "params": {
        "caption": true,
@@ -25,8 +23,7 @@ images: [{
        "order": 2
    }
 }, {
-    "src": "final/v4jobprog-desktop.png",
-   "name": "final-image",
+    "src": "v4jobprog-desktop.png",
    "title": "an in progress job at desktop size",
    "params": {
        "caption": true,
@@ -35,8 +32,7 @@ images: [{
        "order": 3
    }
 }, {
-    "src": "final/v4job-mobile.png",
-   "name": "final-image",
+    "src": "v4job-mobile.png",
    "title": "the job screen on a mobile device",
    "params": {
        "caption": true,

@@ -4,28 +4,22 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
-images: [{"src":"process/boards-03.jpg",
-    "name":"process-image",
+images: [{"src": "boards-03.jpg",
     "title":"design artifacts for subscription home maintenance service",
     "params" : {"caption": true, "group":2, "order":5}
-    },{"src":"process/boards-04.jpg",
-    "name":"process-image",
+    },{"src": "boards-04.jpg",
     "title":"design artifacts for subscription home maintenance service",
     "params" : {"caption": true, "group":2, "order":6}
-    },{"src":"process/boards-01.jpg",
-    "name":"process-image",
+    },{"src": "boards-01.jpg",
     "title":"design artifacts for subscription home maintenance service",
     "params" : {"caption": true, "group":2, "order":1}
-    },{"src":"process/boards-02.jpg",
-    "name":"process-image",
+    },{"src": "boards-02.jpg",
     "title":"design artifacts for subscription home maintenance service",
     "params" : {"caption": true, "group":2, "order":2}
-    },{"src":"process/experiment1.png",
-    "name":"process-image",
+    },{"src": "experiment1.png",
     "title":"experiment results",
     "params" : {"caption": true, "group":2, "order":8}
-    },{"src":"process/experiment2.png",
-    "name":"process-image",
+    },{"src": "experiment2.png",
     "title":"experiment results",
     "params" : {"caption": true, "group":2, "order":9}
     }]

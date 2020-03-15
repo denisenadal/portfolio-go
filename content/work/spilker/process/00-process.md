@@ -5,7 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-"src": "process/gallery.png" ,
+"src": "gallery.png" ,
 "title": "gallery design",
 "name": "process-image",
 "params": {
@@ -15,7 +15,7 @@ images: [{
     "order": 1
     }
 },{
-"src": "process/spliker-about-small.png" ,
+"src": "spliker-about-small.png" ,
 "title": "about us design",
 "name": "process-image",
 "params": {
@@ -25,7 +25,7 @@ images: [{
     "order": 2
     }
 },{
-"src": "process/spilkermockup.jpg" ,
+"src": "spilkermockup.jpg" ,
 "title": "desktop design",
 "name": "process-image",
 "params": {
@@ -35,7 +35,7 @@ images: [{
     "order": 3
     }
 },{
-"src": "process/spilker-mobile.png" ,
+"src": "spilker-mobile.png" ,
 "title": "mobile design",
 "name": "process-image",
 "params": {
@@ -45,7 +45,7 @@ images: [{
     "order": 4
     }
 },{
-"src": "process/spliker-email.jpg" ,
+"src": "spliker-email.jpg" ,
 "title": "email campaign newsletter",
 "name": "process-image",
 "params": {

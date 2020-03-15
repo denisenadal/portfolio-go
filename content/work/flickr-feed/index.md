@@ -8,6 +8,7 @@ image: {"name":"final/flickrfeed-desktop-default.png"," alt":"Desktop Latest Res
 type: "work"
 tags: ["Web App", "Development"]
 weight: 41
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

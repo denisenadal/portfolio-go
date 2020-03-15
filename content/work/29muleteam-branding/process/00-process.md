@@ -5,29 +5,24 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-        "src":"process/business-system_letterhead.jpg",
-    "name":"process-image",
+        "src": "business-system_letterhead.jpg",
     "title":"Letterhead",
     "params" : {"caption": true, "group":2, "order":0}
     },
     {
-        "src":"process/BusinessSystem_businessCardBack.jpg",
-    "name":"process-image",
+        "src": "BusinessSystem_businessCardBack.jpg",
     "title":"Business Card Back",
     "params" : {"caption": true, "group":2, "order":1}
     },{
-        "src":"process/BusinessSystem_businessCardFront.jpg",
-    "name":"process-image",
+        "src": "BusinessSystem_businessCardFront.jpg",
     "title":"Business Card Front",
     "params" : {"caption": true, "group":2, "order":2}
     },{
-        "src":"process/BusinessSystem_envelopBack.jpg",
-    "name":"process-image",
+        "src": "BusinessSystem_envelopBack.jpg",
     "title":"Envelope Back",
     "params" : {"caption": true, "group":2, "order":3}
     },{
-        "src":"process/BusinessSystem_envelopeFront.jpg",
-    "name":"process-image",
+        "src": "BusinessSystem_envelopeFront.jpg",
     "title":"Envelope Front",
     "params" : {"caption": true, "group":2, "order":4}
     }]

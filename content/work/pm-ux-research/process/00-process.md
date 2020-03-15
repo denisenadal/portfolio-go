@@ -4,48 +4,39 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
-images: [{"src":"process/donna-lister-DIS.png",
-    "name":"process-image",
+images: [{"src": "donna-lister-DIS.png",
     "title":"one of our 4 basic personas",
     "params" : {"caption": true, "group":2, "order":0}
     },
-    {"src":"process/cassie-booker-CSR.png",
-    "name":"process-image",
+    {"src": "cassie-booker-CSR.png",
     "title":"one of our 4 basic personas",
     "params" : {"caption": true, "group":2, "order":0}
     },
-     {"src":"process/owner-workflow.jpg",
-    "name":"process-image",
+     {"src": "owner-workflow.jpg",
     "title":"a loose estimate of an owner's day",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/csr-workflow.jpg",
-    "name":"process-image",
+        "src": "csr-workflow.jpg",
     "title":"a map of a customer service rep's day",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/dispatcher-workflow.jpg",
-    "name":"process-image",
+        "src": "dispatcher-workflow.jpg",
     "title":"a map of a dispatcher's day",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/tech-workflow.jpg",
-    "name":"process-image",
+        "src": "tech-workflow.jpg",
     "title":"a map of a technician's day",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/job-mental-map.jpg",
-    "name":"process-image",
+        "src": "job-mental-map.jpg",
     "title":"breaking down a job into its basic parts",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/job-diagrams.jpg",
-    "name":"process-image",
+        "src": "job-diagrams.jpg",
     "title":"diagramming the entry and exit points for different types of jobs",
     "params": {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/newjob-workflow.jpg",
-    "name":"process-image",
+        "src": "newjob-workflow.jpg",
     "title":"the essential workflow",
     "params" : {"caption": true, "group":2, "order":0}
     }]

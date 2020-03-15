@@ -5,8 +5,7 @@ draft:
 order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"final/ac-desktop03.PNG",
-    "name":"final-image",
+    "src": "ac-desktop03.PNG",
     "title":"academic calendar home page",
     "params":{
         "caption":true,
@@ -14,8 +13,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"final/ac-desktop-filtered.png",
-    "name":"final-image",
+    "src": "ac-desktop-filtered.png",
     "title":"calendar's  filtered results page",
     "params":{
         "caption":true,
@@ -23,8 +21,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"final/ac-small01.PNG",
-    "name":"final-image",
+    "src": "ac-small01.PNG",
     "title":"smaller view",
     "params":{
         "caption":true,
@@ -32,8 +29,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"final/ac-mobile01.PNG",
-    "name":"final-image",
+    "src": "ac-mobile01.PNG",
     "title":"mobile view",
     "params":{
         "caption":true,

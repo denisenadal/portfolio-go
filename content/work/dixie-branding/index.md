@@ -8,11 +8,11 @@ image: {"name":"weefee-logo-design.png"," alt":"branding for WeeFee app"}
 type: "work"
 tags: ["UI Design","Branding"]
 weight: 20
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"},
     {"src":"weefee-logo-design.png",
-    "name":"final-image",
     "title":"the final logo design",
     "params" : {"caption": true, "group":2, "order":0}
     }]

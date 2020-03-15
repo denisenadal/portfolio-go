@@ -4,43 +4,35 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
-images: [{"src":"process/mockup-contact.jpg",
-    "name":"process-image",
+images: [{"src": "mockup-contact.jpg",
     "title":"Mockup of the Contact page ",
     "params" : {"caption": true, "group":3, "order":3}
     },
-    {"src":"process/mockup-about.jpg",
-    "name":"process-image",
+    {"src": "mockup-about.jpg",
     "title":"Mockup of the About page ",
     "params" : {"caption": true, "group":3, "order":2}
     },
-   {"src":"process/mockup-skills.jpg",
-    "name":"process-image",
+   {"src": "mockup-skills.jpg",
     "title":"Mockup of the Skill page ",
     "params" : {"caption": true, "group":3, "order":4}
     },
-    {"src":"process/mockup-gallery.jpg",
-    "name":"process-image",
+    {"src": "mockup-gallery.jpg",
     "title":"Mockup of the Gallery page ",
     "params" : {"caption": true, "group":3, "order":5}
     },
-    {"src":"process/mockup-exp01.jpg",
-    "name":"process-image",
+    {"src": "mockup-exp01.jpg",
     "title":"Sample work page",
     "params" : {"caption": true, "group":3, "order":6}
     },
-    {"src":"process/mockup-exp02.jpg",
-    "name":"process-image",
+    {"src": "mockup-exp02.jpg",
     "title":"Sample work page",
     "params" : {"caption": true, "group":3, "order":7}
     },
-    {"src":"process/mockup-exp03.jpg",
-    "name":"process-image",
+    {"src": "mockup-exp03.jpg",
     "title":"Sample work page",
     "params" : {"caption": true, "group":3, "order":8}
     },
-    {"src":"process/mockup-exp07.jpg",
-    "name":"process-image",
+    {"src": "mockup-exp07.jpg",
     "title":"Sample work page",
     "params" : {"caption": true, "group":3, "order":9}
     }]

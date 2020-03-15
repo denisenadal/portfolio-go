@@ -8,6 +8,7 @@ image: {"name":"process/v01design.png"," alt":"design for improved invoice layou
 type: "work"
 weight: 40
 tags: ["UI Design","Print Design"]
+sections: ["process", "final"]
 resources:
     - src: "00-process.md"
 ---

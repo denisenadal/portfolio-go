@@ -10,6 +10,7 @@ image: {
 type: "work"
 tags: ["UX Design","UI Design","Web Development"]
 weight: 75
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

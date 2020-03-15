@@ -10,9 +10,10 @@ image: {
 type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100
-resources: [
-    {"src":"00-process.md"},
-    {"src":"00-final.md"}]
+sections: ["process", "final"]
+resources:
+    - src: "00-process.md"
+    - src": "00-final.md"
 ---
 Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors. 
 

@@ -5,8 +5,7 @@ draft:
 order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 resources: [{
-    "src":"final/alumniPortalFinal.jpg",
-    "name":"final-image",
+    "src": "alumniPortalFinal.jpg",
     "title":"Alumni Portal, Desktop View",
     "params":{
         "caption":true,
@@ -14,8 +13,7 @@ resources: [{
         "order":0
     }
 },{
-    "src":"final/students-portalFINAL.jpg",
-    "name":"final-image",
+    "src": "students-portalFINAL.jpg",
     "title":"Student Portal, Desktop View",
     "params":{
         "caption":true,
@@ -23,8 +21,7 @@ resources: [{
         "order":0
     }
 },{
-    "src":"final/employees-final.jpg",
-    "name":"final-image",
+    "src": "employees-final.jpg",
     "title":"Employee Portal, Desktop View",
     "params":{
         "caption":true,

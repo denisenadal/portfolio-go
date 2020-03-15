@@ -8,6 +8,7 @@ image: {"name":"summary-cover.png"," alt":"Design exploration for job and custom
 type: "work"
 weight: 89
 tags: ["UI Design","Print Design"]
+sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

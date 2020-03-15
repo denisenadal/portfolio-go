@@ -6,8 +6,7 @@ order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
     "title":"Final, Desktop size",
-    "src":"final/strange_horizons_desktop.jpg",
-    "name": "final-image",
+    "src": "strange_horizons_desktop.jpg",
     "params": { 
         "caption": true,
         "w": 1,
@@ -16,8 +15,7 @@ images: [{
     }
 },{
     "title":"Final, Tablet size",
-    "src":"final/strange_horizons_tablet.jpg",
-    "name": "final-image",
+    "src": "strange_horizons_tablet.jpg",
     "params": { 
         "caption": true,
         "w": 1,
@@ -26,8 +24,7 @@ images: [{
     }
 },{
     "title":"Final, Mobile size",
-    "src":"final/strange_horizons_mobile.jpg",
-    "name": "final-image",
+    "src": "strange_horizons_mobile.jpg",
     "params": { 
         "caption": true,
         "w": 1,

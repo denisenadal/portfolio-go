@@ -5,18 +5,15 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"process/wireframes.jpg",
-    "name":"process-image",
+    "src": "wireframes.jpg",
     "title":"early design sketches",
     "params" : {"caption": true, "group":2, "order":0}
     },{
-        "src":"process/critiqueit01.PNG",
-    "name":"process-image",
+        "src": "critiqueit01.PNG",
     "title":"onboarding screen, desktop size",
     "params" : {"caption": true, "group":2, "order":2}
     },{
-    "src":"process/critiqueit02.jpg",
-    "name":"process-image",
+    "src": "critiqueit02.jpg",
     "title":"artist's profile, desktop size",
     "params" : {"caption": true, "group":2, "order":3}
     }]

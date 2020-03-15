@@ -5,7 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"process/tutoring-01.png",
+    "src": "tutoring-01.png",
     "title":"Desktop Mockup version 1",
     "params":{
         "caption":true,
@@ -14,7 +14,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/tutoring-02.png",
+    "src": "tutoring-02.png",
     "title":"Desktop Mockup version 2",
     "params":{
         "caption":true,
@@ -23,7 +23,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/tutoring-03.png",
+    "src": "tutoring-03.png",
     "title":"Mobile Mockup version 1",
     "params":{
         "caption":true,
@@ -32,7 +32,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"process/tutoring-04.png",
+    "src": "tutoring-04.png",
     "title":"Mobile Mockup version 2",
     "params":{
         "caption":true,

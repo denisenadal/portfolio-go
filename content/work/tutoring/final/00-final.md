@@ -5,8 +5,7 @@ draft:
 order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"final/tutoring-desktop.png",
-    "name":"final-image",
+    "src": "tutoring-desktop.png",
     "title":"desktop version",
     "params":{
         "caption":true,
@@ -15,8 +14,7 @@ images: [{
         "order":0
     }
 },{
-    "src":"final/tutoring-mobile.png",
-    "name":"final-image",
+    "src": "tutoring-mobile.png",
     "title":"mobile version",
     "params":{
         "caption":true,

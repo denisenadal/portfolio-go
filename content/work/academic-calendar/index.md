@@ -8,6 +8,7 @@ image: {"name":"ac-ipad.jpg"," alt":"Academic Calendar on an iPad"}
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 45
+sections: ["process", "final"]
 resources:
     - src: "00-process.md"
 ---

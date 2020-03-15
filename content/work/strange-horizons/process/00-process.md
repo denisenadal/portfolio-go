@@ -6,8 +6,7 @@ order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
     "title":"Desktop Thumbnail",
-    "src":"process/thumbs-desktop.gif",
-    "name": "process-image",
+    "src": "thumbs-desktop.gif",
     "params": {
         "caption": true,
         "w": 1,
@@ -16,8 +15,7 @@ images: [{
      }
 },{
     "title":"Tablet Thumbnail",
-    "src":"process/thumbs-tablet.gif",
-    "name": "process-image",
+    "src": "thumbs-tablet.gif",
     "params": {
         "caption": true,
         "w": 1,
@@ -26,8 +24,7 @@ images: [{
      }
 },{
     "title":"Mobile Thumbnail",
-    "src":"process/thumbs-mobile.gif",
-    "name": "process-image",
+    "src": "thumbs-mobile.gif",
     "params": {
         "caption": true,
         "w": 1,
@@ -36,8 +33,7 @@ images: [{
      }
 },{
     "title":"Desktop Comp",
-    "src":"process/comps-desktop.jpg",
-    "name": "process-image",
+    "src": "comps-desktop.jpg",
     "params": { 
         "caption": true,
         "w": 1,
@@ -46,8 +42,7 @@ images: [{
     }
 },{
     "title":"Tablet Thumbnail",
-    "src":"process/comps-tablet.jpg",
-    "name": "process-image",
+    "src": "comps-tablet.jpg",
     "params": {
         "caption": true,
         "w": 1,
@@ -56,8 +51,7 @@ images: [{
      }
 },{
     "title":"Mobile Comp",
-    "src":"process/comps-mobile.jpg",
-    "name": "process-image",
+    "src": "comps-mobile.jpg",
     "params": { 
         "caption": true,
         "w": 1,

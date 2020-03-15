@@ -5,9 +5,8 @@ draft: false
 order: 1
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"final/flickrfeed-desktop-default.png",
+    "src": "flickrfeed-desktop-default.png",
     "title": "Desktop Latest Results",
-    "name": "final-image",
     "params": {
         "caption": true,
         "w": 1,
@@ -15,9 +14,8 @@ images: [{
         "order": 1
     }
 },{
-    "src":"final/flickrfeed-desktop-searchresults.png",
+    "src": "flickrfeed-desktop-searchresults.png",
     "title": "Desktop Search Results",
-    "name": "final-image",
     "params": {
         "caption": true,
         "w": 1,
@@ -25,9 +23,8 @@ images: [{
         "order": 1
     }
 },{
-    "src":"final/flickrfeed-mobile.png",
+    "src": "flickrfeed-mobile.png",
     "title": "Mobile Version",
-    "name": "final-image",
     "params": {
         "caption": true,
         "w": 1,

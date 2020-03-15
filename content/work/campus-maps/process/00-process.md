@@ -5,18 +5,15 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src":"process/campusmap-large.png",
-    "name":"process-image",
+    "src": "campusmap-large.png",
     "title":"map overview, desktop size",
     "params" : {"caption": true, "group":3, "order":0}
     },{
-        "src":"process/campusmaps-active.png",
-    "name":"process-image",
+        "src": "campusmaps-active.png",
     "title":"active point details, desktop size",
     "params" : {"caption": true, "group":3, "order":0}
     },{
-    "src":"process/campus-map-mobile01.png",
-    "name":"process-image",
+    "src": "campus-map-mobile01.png",
     "title":"map overview, mobile size",
     "params" : {"caption": true, "group":3, "order":0}
     }]

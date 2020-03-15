@@ -5,8 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src": "process/summary-drafts.jpg",
-   "name": "process-image",
+    "src": "summary-drafts.jpg",
    "title": "early paper prototypes & information architecture",
    "params": {
        "caption": true,
@@ -15,8 +14,7 @@ images: [{
        "order": 1
    }
 },{
-    "src": "process/v1contact.png",
-   "name": "process-image",
+    "src": "v1contact.png",
    "title": "trying to apply the new contact page layout to existing design patterns",
    "params": {
        "caption": true,
@@ -25,8 +23,7 @@ images: [{
        "order": 2
    }
 },{
-    "src": "process/v1property2.png",
-   "name": "process-image",
+    "src": "v1property2.png",
    "title": "trying to apply the new property page layout to existing design patterns",
    "params": {
        "caption": true,
@@ -35,8 +32,7 @@ images: [{
        "order": 3
    }
 },{
-    "src": "process/v2contact-alt.png",
-   "name": "process-image",
+    "src": "v2contact-alt.png",
    "title": "I was dissatisfied with the existing design patterns, and explored some alternatives",
    "params": {
        "caption": true,
@@ -45,8 +41,7 @@ images: [{
        "order": 4
    }
 },{
-    "src": "process/v3contact-wires.png",
-   "name": "process-image",
+    "src": "v3contact-wires.png",
    "title": "After being stalled, we re-approached the project and tried to simplify the design some more",
    "params": {
        "caption": true,
@@ -55,8 +50,7 @@ images: [{
        "order": 5
    }
 },{
-    "src": "process/v3workflow-wires.png",
-   "name": "process-image",
+    "src": "v3workflow-wires.png",
    "title": "diagramming all the workflows",
    "params": {
        "caption": true,

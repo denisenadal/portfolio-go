@@ -4,8 +4,7 @@ date: 2019-09-01:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
-images: [ {"src": "process/v00invoice01.jpg",
-   "name": "process-image",
+images: [ {"src": "v00invoice01.jpg",
    "title": "original invoice design",
    "params": {
        "caption": true,
@@ -15,8 +14,7 @@ images: [ {"src": "process/v00invoice01.jpg",
 
    }
 },
-{"src": "process/v01design.png",
-   "name": "process-image",
+{"src": "v01design.png",
    "title": "improved invoice design",
    "params": {
        "caption": true,
@@ -26,8 +24,7 @@ images: [ {"src": "process/v00invoice01.jpg",
 
    }
 },
-{"src": "process/v01grid.png",
-   "name": "process-image",
+{"src": "v01grid.png",
    "title": "testing layout for windowed envelopes and converting from points to pixels ",
    "params": {
        "caption": true,
@@ -38,7 +35,6 @@ images: [ {"src": "process/v00invoice01.jpg",
    }
 },
 {"src": "v02final.png",
-   "name": "process-image",
    "title": "the final implemented design",
    "params": {
        "caption": true,

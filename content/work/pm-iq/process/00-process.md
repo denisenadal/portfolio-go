@@ -5,8 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
-    "src": "process/IQcover.png",
-   "name": "process-image",
+    "src": "IQcover.png",
    "title": "overview of all screens",
    "params": {
        "caption": true,
@@ -15,8 +14,7 @@ images: [{
        "order": 1
    }
 },{
-    "src": "process/iq-cover.png",
-   "name": "process-image",
+    "src": "iq-cover.png",
    "title": "quote selection screen",
    "params": {
        "caption": true,
@@ -25,8 +23,7 @@ images: [{
        "order": 1
    }
 },{
-    "src": "process/editable invoice/color-palettesArtboard 2.jpg",
-   "name": "process-image",
+    "src": "editable invoice/color-palettesArtboard 2.jpg",
    "title": "invoice builder exploration, p1",
    "params": {
        "caption": true,
@@ -35,8 +32,7 @@ images: [{
        "order": 1
    }
 },{
-    "src": "process/editable invoice/color-palettesArtboard 4.jpg",
-   "name": "process-image",
+    "src": "editable invoice/color-palettesArtboard 4.jpg",
    "title": "invoice builder exploration, p2",
    "params": {
        "caption": true,

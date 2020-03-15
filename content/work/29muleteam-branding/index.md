@@ -8,6 +8,7 @@ image: {"name":"29muleteam-mockup.jpg"," alt":"29 Mule Borax Branding System Moc
 type: "work"
 tags: ["Branding"]
 weight: 24
+sections: ["process"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-process.md"}]
