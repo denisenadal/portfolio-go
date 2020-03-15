@@ -4,6 +4,43 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-6 col-md-6 col-lg-4"
+images: [{
+    "src":"process/tutoring-01.png",
+    "title":"Desktop Mockup version 1",
+    "params":{
+        "caption":true,
+        "w": 1,
+         "h": 1,
+        "order":0
+    }
+},{
+    "src":"process/tutoring-02.png",
+    "title":"Desktop Mockup version 2",
+    "params":{
+        "caption":true,
+        "w": 1,
+         "h": 1,
+        "order":0
+    }
+},{
+    "src":"process/tutoring-03.png",
+    "title":"Mobile Mockup version 1",
+    "params":{
+        "caption":true,
+        "w": 1,
+         "h": 1,
+        "order":0
+    }
+},{
+    "src":"process/tutoring-04.png",
+    "title":"Mobile Mockup version 2",
+    "params":{
+        "caption":true,
+        "w": 1,
+         "h": 1,
+        "order":0
+    }
+}]
 ---
 I began this project by sketching several ideas and taking the best two to mockups. During the process of designing the mockups a clear front-runner emerged, but I verified my conclusion by requesting feedback from other members of the team. Once we agreed on a design, I built out a quick HTML/CSS wireframe for the frontend, build out the javascript-based event handling, and refined the CSS.
 

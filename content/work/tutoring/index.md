@@ -10,46 +10,6 @@ tags: ["Web Design", "Web Development"]
 weight: 43
 resources: [{"src": "00-process.md"},
 {"src": "00-final.md"},{
-    "src":"process/tutoring-01.png",
-    "name":"process-image",
-    "title":"Desktop Mockup version 1",
-    "params":{
-        "caption":true,
-        "w": 1,
-         "h": 1,
-        "order":0
-    }
-},{
-    "src":"process/tutoring-02.png",
-    "name":"process-image",
-    "title":"Desktop Mockup version 2",
-    "params":{
-        "caption":true,
-        "w": 1,
-         "h": 1,
-        "order":0
-    }
-},{
-    "src":"process/tutoring-03.png",
-    "name":"process-image",
-    "title":"Mobile Mockup version 1",
-    "params":{
-        "caption":true,
-        "w": 1,
-         "h": 1,
-        "order":0
-    }
-},{
-    "src":"process/tutoring-04.png",
-    "name":"process-image",
-    "title":"Mobile Mockup version 2",
-    "params":{
-        "caption":true,
-        "w": 1,
-         "h": 1,
-        "order":0
-    }
-},{
     "src":"final/tutoring-desktop.png",
     "name":"final-image",
     "title":"desktop version",
