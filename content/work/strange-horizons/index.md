@@ -7,7 +7,7 @@ draft: false
 image: {"name":"strange_horizons_preview.jpg"," alt":"cropped view of the strange horizons redesign"}
 type: "work"
 tags: ["Web Design"]
-weight: 40,
+weight: 42
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

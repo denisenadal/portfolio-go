@@ -9,7 +9,7 @@ image: {
     "alt":"design for subscription home maintenance service"}
 type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
-weight: 100,
+weight: 100
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

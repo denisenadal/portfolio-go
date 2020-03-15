@@ -7,7 +7,7 @@ draft: false
 image: {"name":"system-map.jpg"," alt":"early draft at mapping the lifecycle of an HVAC service job"}
 type: "work"
 tags: ["UX Research","Customer Discovery"]
-weight: 80,
+weight: 80
 resources: [
     {"src":"index-process.md"},
     {"src":"process/donna-lister-DIS.png",

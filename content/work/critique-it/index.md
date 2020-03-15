@@ -7,7 +7,7 @@ draft: false
 image: {"name":"critiqueit-mockup.jpg"," alt":"CritiqueIt App on iMac screen"}
 type: "work"
 tags: ["UX Design","UI Design", "Web App", "Development"]
-weight: 20,
+weight: 25
 resources: [
     {"src":"index-process.md"},
     {

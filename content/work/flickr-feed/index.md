@@ -7,7 +7,7 @@ draft: false
 image: {"name":"final/flickrfeed-desktop-default.png"," alt":"Desktop Latest Results"}
 type: "work"
 tags: ["Web App", "Development"]
-weight: 45,
+weight: 41
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

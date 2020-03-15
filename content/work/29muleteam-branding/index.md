@@ -7,7 +7,7 @@ draft: false
 image: {"name":"29muleteam-mockup.jpg"," alt":"29 Mule Borax Branding System Mockup"}
 type: "work"
 tags: ["Branding"]
-weight: 37,
+weight: 24
 resources: [
     {"src":"index-process.md"},
     {"src":"index-process.md"},

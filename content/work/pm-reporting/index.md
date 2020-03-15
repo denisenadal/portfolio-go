@@ -7,7 +7,7 @@ draft: false
 image: {"name":"report-cover2.png"," alt":"Various reporting screens within the Pointman App"}
 type: "work"
 tags: ["UI Design","UX Design"]
-weight: 30,
+weight: 66
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

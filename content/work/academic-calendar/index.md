@@ -7,7 +7,7 @@ draft: false
 image: {"name":"ac-ipad.jpg"," alt":"Academic Calendar on an iPad"}
 type: "work"
 tags: ["Web Design", "Web Development"]
-weight: 43
+weight: 45
 resources: [{
     "src":"final/ac-desktop03.PNG",
     "name":"final-image",

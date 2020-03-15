@@ -7,7 +7,7 @@ draft: true
 image: {"name":"weefee-logo-design.png"," alt":"branding for WeeFee app"}
 type: "work"
 tags: ["UI Design","Branding"]
-weight: 20,
+weight: 20
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

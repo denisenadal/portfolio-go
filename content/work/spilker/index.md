@@ -7,7 +7,7 @@ draft: false
 image: {"name":"spilker-set.jpg"," alt":"mockup of website on all screens"}
 type: "work"
 tags: ["Web Design","Branding", "SEO"]
-weight: 35,
+weight: 35
 resources: [
 {"src": "index-process.md"},
 {

@@ -7,7 +7,7 @@ draft: false
 image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
 type: "work"
 tags: ["Web Design", "Web Development"]
-weight: 43
+weight: 65
 resources: [{"src": "index-process.md"},
 {"src": "index-final.md"},
 {

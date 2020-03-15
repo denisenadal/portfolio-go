@@ -9,9 +9,6 @@ range first 6
 </pre>
 
 TODO
-review wieght on all
-get weight to work!!
-
 - make process-gallery a generic repeatable section
 - have background bg handled by nth selector css
 - test handing in classes for img width

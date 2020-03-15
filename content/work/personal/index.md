@@ -9,7 +9,7 @@ image: {
     "alt":"personal portfolio site on various screen sizes"}
 type: "work"
 tags: ["UX Design","UI Design","Web Development"]
-weight: 70
+weight: 75
 resources: [
     {"src":"index-process.md"},
     {"src":"index-final.md"},

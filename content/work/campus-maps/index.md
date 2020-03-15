@@ -7,7 +7,7 @@ draft: false
 image: {"name":"maps-mockups.jpg"," alt":"Campus Maps app on iMac screens"}
 type: "work"
 tags: ["Web Design","UI Design", "Web Development"]
-weight: 20,
+weight: 37
 resources: [
     {"src":"index-process.md"},
     {

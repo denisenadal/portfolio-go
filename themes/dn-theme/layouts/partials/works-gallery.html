@@ -4,7 +4,7 @@
         
         <div class="row">
             {{$works := where (where .Site.Pages "Type" "work") ".Title" "not in" (slice "Work" "Works")}}
-            {{ range sort $works "Params.weight"}}
+            {{ range first 9 (sort $works ".Params.weight" "desc") }}
             <div class="col-lg-4 col-md-4 col-12 mb-3">
                 <div class="bg-white p-4 shadow-sm">
                     <a class="mb-3"
@@ -29,9 +29,9 @@
             {{ end }}
         </div>
         
-        <!-- <div class="text-center mt-5">
+        <div class="text-center mt-5">
             <a href="{{ .Site.BaseURL }}work"
-               class="btn btn-lg btn-dark-faded ">Browse All</a>
-        </div> -->
+               class="btn btn-lg btn-secondary d-inline-block ">Browse All</a>
+        </div>
     </section>
 </div>
