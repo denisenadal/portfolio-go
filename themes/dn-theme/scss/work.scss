@@ -1,9 +1,24 @@
 body.work main section {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    min-height: 16rem;
 
     &:nth-child(even){
         background-color: $accent;
+    }
+
+    .spinner-border {
+        margin: 6rem auto;
+        display: block;
+        height: 6rem;
+        width: 6rem;
+        border-width: .5rem;
+        position: absolute;
+        left: calc( 50% - 3rem)
+    }
+
+    .grid {
+        opacity: 0;
     }
 }
 

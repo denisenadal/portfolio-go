@@ -1,6 +1,10 @@
 <section class="meta-section">
     <div class="wrapper container-fluid">
-        <div id="-gallery"
+        <div class="spinner-border text-info"
+             role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div id="{{.sectionName}}-gallery"
              class="grid">
             {{$default_txt_width := "col-sm-12 col-md-12 col-lg-6"}}
             <div class="grid-item {{.subsection.Params.columns | default $default_txt_width}}">

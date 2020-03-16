@@ -46,7 +46,7 @@ images: [{
    }
 }]
 ---
-{{<figure src="v04scenario-0.png" alt="cover image for scenario" class="col-sm-6 col-md-4 col-lg-3 float-left shadow-sm mr-4 p-0">}}
+{{<figure src="/work/pm-customer-summary/scenarios/v04scenario-0.png" alt="cover image for scenario" class="col-sm-6 col-md-4 col-lg-3 float-left shadow-sm mr-4 p-0">}}
 
 Part of validating this design and workflow was running it through several common and uncommon scenarios. For this example, we follow the workflow of a Customer Service Rep responding to a call from a Landlord asking for information about a recent job completed at a tenant's house.
 {{<hr >}}

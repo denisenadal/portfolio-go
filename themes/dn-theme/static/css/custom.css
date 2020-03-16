@@ -8068,9 +8068,20 @@ main.home .meta-section,
 
 body.work main section {
   padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem;
+  min-height: 16rem; }
   body.work main section:nth-child(even) {
     background-color: #b0f8ff; }
+  body.work main section .spinner-border {
+    margin: 6rem auto;
+    display: block;
+    height: 6rem;
+    width: 6rem;
+    border-width: .5rem;
+    position: absolute;
+    left: calc( 50% - 3rem); }
+  body.work main section .grid {
+    opacity: 0; }
 
 hr.content-divider {
   margin: 2rem 1rem 3rem;
