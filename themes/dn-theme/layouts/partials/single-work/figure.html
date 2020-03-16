@@ -1,8 +1,10 @@
-<figure class="figure">
-    <img src="{{.page.Permalink}}{{.sectionName}}{{.image.src | relURL}}"
-         alt="{{.image.title}}"
-         class="figure-img img-fluid">
-    {{if .image.params.caption }}
-    <figcaption class="figure-caption">{{.image.title}}</figcaption>
-    {{end }}
-</figure>
+<a href="{{.page.Permalink}}{{.sectionName}}{{.image.src | relURL}}" target="_blank">
+    <figure class="figure shadow-sm">
+        <img src="{{.page.Permalink}}{{.sectionName}}{{.image.src | relURL}}"
+             alt="{{.image.title}}"
+             class="figure-img img-fluid">
+        {{if .image.params.caption }}
+        <figcaption class="figure-caption">{{.image.title}}</figcaption>
+        {{end }}
+    </figure>
+</a>

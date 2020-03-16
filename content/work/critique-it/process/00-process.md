@@ -3,7 +3,6 @@ title: "Design & Development"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
     "src": "wireframes.jpg",
     "title":"early design sketches",
@@ -35,4 +34,4 @@ images: [{
 ---
 For the design, I started with some simple pencil sketches of screens and user flows. Once I felt I understood how user's should interact with the site and what information needed to be displayed, I started designing as I coded. 
 
-Visit the [live version](http://critique-it.herokuapp.com/#/)
+{{<button title="live version" link="http://critique-it.herokuapp.com/#/" class="btn-secondary">}}

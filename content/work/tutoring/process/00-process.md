@@ -3,14 +3,11 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
     "src": "tutoring-01.png",
     "title":"Desktop Mockup version 1",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
         "order":0
     }
 },{
@@ -18,8 +15,6 @@ images: [{
     "title":"Desktop Mockup version 2",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
         "order":0
     }
 },{
@@ -27,8 +22,6 @@ images: [{
     "title":"Mobile Mockup version 1",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
         "order":0
     }
 },{
@@ -36,8 +29,6 @@ images: [{
     "title":"Mobile Mockup version 2",
     "params":{
         "caption":true,
-        "w": 1,
-         "h": 1,
         "order":0
     }
 }]

@@ -3,60 +3,54 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12"
 images: [{
     "title":"Desktop Thumbnail",
     "src": "thumbs-desktop.gif",
     "params": {
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 1
+        "order": 1,
+        "columns": "col-sm-3 col-lg-2"
      }
 },{
     "title":"Tablet Thumbnail",
     "src": "thumbs-tablet.gif",
     "params": {
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 2
+        "order": 2,
+        "columns": "col-sm-3 col-lg-2"
      }
 },{
     "title":"Mobile Thumbnail",
     "src": "thumbs-mobile.gif",
     "params": {
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 3
+        "order": 3,
+        "columns": "col-sm-3 col-lg-2"
      }
 },{
     "title":"Desktop Comp",
     "src": "comps-desktop.jpg",
     "params": { 
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 4
+        "order": 6,
+        "columns": "col-sm-6 col-lg-4"
     }
 },{
-    "title":"Tablet Thumbnail",
+    "title":"Tablet Comp",
     "src": "comps-tablet.jpg",
     "params": {
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 5
+        "order": 5,
+        "columns": "col-sm-6 col-lg-4"
      }
 },{
     "title":"Mobile Comp",
     "src": "comps-mobile.jpg",
     "params": { 
         "caption": true,
-        "w": 1,
-         "h": 1,
-        "order": 6
+        "order": 4,
+        "columns": "col-sm-3 col-lg-2"
     }
 }]
 ---

@@ -3,7 +3,7 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12 col-lg-8 offset-lg-4"
 ---
 The Academic Calendar has been a pain point for our university since we migrated our site into a new CMS. The previous version had calendaring logic built into the same code as rendered the calendar - the dates did not exist outside of the page and was a security risk.
 

@@ -7825,16 +7825,13 @@ img {
   height: auto;
   object-fit: contain; }
 
-figure,
 .figure {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: block; }
-  figure .figure-img,
   .figure .figure-img {
     margin: 0; }
-  figure figcaption,
-  figure .fig-caption,
   .figure figcaption,
   .figure .fig-caption {
     font-size: 0.75rem;
@@ -7857,6 +7854,15 @@ blockquote {
 
 li {
   margin-bottom: 1rem; }
+
+.clear-both {
+  clear: both; }
+
+.clear-left {
+  clear: left; }
+
+.clear-right {
+  clear: right; }
 
 .body-offset {
   height: 4.5rem; }

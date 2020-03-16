@@ -2,54 +2,55 @@
 title: Design Round 1
 draft: false
 order: 0
+columns: "col-sm-12 col-md-12 col-lg-6"
 images: [{
        "src":"v01index-mobile.png",
-       "alt":"Task Index mobile view, v1",
+       "title": "Task Index mobile view, v1",
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01index-tablet.png",
-       "alt":"Task Index tablet view, v1",
+       "title": "Task Index tablet view, v1",
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-desktop.png",
-       "alt":"Metro style task groups, v1",
+       "title": "Metro style task groups, v1",
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-mobile.png",
-       "alt":"Metro style task groups, mobile view, v1",   
+       "title": "Metro style task groups, mobile view, v1",   
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-tablet.png",
-       "alt":"Metro style task groups, tablet view, v1",
+       "title": "Metro style task groups, tablet view, v1",
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01weighted-mobile.png",
-       "alt":"tasks weighted by usage, mobile view, v1",
+       "title": "tasks weighted by usage, mobile view, v1",
        "params" : {
               "caption": true,
               "group": 2,
               "order": 0,
-              "columns": "col-sm-6 col-md-6 col-lg-2"}
+              "columns": "col-sm-6 col-md-4 col-lg-2"}
  }]
 ---
 Our Product Director challenged the UX Team to explore new ways of allowing users to quickly discover common tasks without having to dig through onerous and dated navigation systems.

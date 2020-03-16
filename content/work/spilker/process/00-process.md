@@ -3,15 +3,12 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
 images: [{
 "src": "gallery.png" ,
 "title": "gallery design",
 "name": "process-image",
 "params": {
     "caption": true,
-    "w": 1,
-         "h": 1,
     "order": 1
     }
 },{
@@ -20,8 +17,6 @@ images: [{
 "name": "process-image",
 "params": {
     "caption": true,
-    "w": 1,
-         "h": 1,
     "order": 2
     }
 },{
@@ -30,8 +25,6 @@ images: [{
 "name": "process-image",
 "params": {
     "caption": true,
-    "w": 1,
-         "h": 1,
     "order": 3
     }
 },{
@@ -40,9 +33,7 @@ images: [{
 "name": "process-image",
 "params": {
     "caption": true,
-    "w": 1,
-         "h": 1,
-    "order": 4
+    "order": 0
     }
 },{
 "src": "spliker-email.jpg" ,
@@ -50,8 +41,6 @@ images: [{
 "name": "process-image",
 "params": {
     "caption": true,
-    "w": 1,
-         "h": 1,
     "order": 5
     }
 }]

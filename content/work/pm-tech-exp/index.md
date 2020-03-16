@@ -1,8 +1,8 @@
 ---
 title: Guided User Experiences
 subtitle: UI/UX Design 
-image: {"name":"mobileScreens.png",
-        "alt":"mobile device"}
+image: {"name":"mobile-group.jpg",
+        "alt":"mobile devices"}
 draft: false
 date: 2020-01-31T20:46:03-05:00
 date_range: Fall 2019

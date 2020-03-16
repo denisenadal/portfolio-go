@@ -3,7 +3,7 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12 col-lg-6 "
 images: [{"src": "efficiency-00v1.png",
     "title":"Job Efficiency Report, version 1",
     "params" : {

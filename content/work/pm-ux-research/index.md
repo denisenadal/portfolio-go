@@ -4,7 +4,7 @@ subtitle: "UX Research"
 date: 2019-12-31T20:46:03-05:00
 date_range: "Fall 2019"
 draft: false
-image: {"name":"system-map.jpg"," alt":"early draft at mapping the lifecycle of an HVAC service job"}
+image: {"name":"research-cover.jpg"," alt":"artistic photo of stickies on wall"}
 type: "work"
 tags: ["UX Research","Customer Discovery"]
 weight: 80

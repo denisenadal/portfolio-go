@@ -1,9 +1,9 @@
 ---
-title: "The Design Process"
+title: "Designs"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12"
 images: [{
         "src": "01--home-Desktop-HD.jpg",
         "title":"homepage design, desktop size",
@@ -32,7 +32,7 @@ images: [{
    
      }
     },{
-        "src": "02---Courses--d-Mobile.png",
+        "src": "02---Courses---d-Mobile.png",
         "title":"online course schedule, mobile size",
         "params" : {
         "caption": true,
@@ -68,7 +68,7 @@ images: [{
    
      }
     },{
-        "src": "04---RESOURCES---d-Mobile.jpg",
+        "src": "04---RESOURCES---d--Mobile.png",
         "title":"online student resources, mobile size",
         "params" : {
         "caption": true,
@@ -87,4 +87,3 @@ images: [{
      }
     }]
 ---
-some notes need to go here.

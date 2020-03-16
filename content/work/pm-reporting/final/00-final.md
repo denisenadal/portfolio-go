@@ -3,8 +3,8 @@ title: "The Final Designs"
 date: 2020-01-31T20:46:03-05:00
 draft: false
 order: 1
-columns: "col-sm-6 col-lg-4"
-images: [{"src":"finals/efficiency01.jpg",
+columns: "col-sm-12 col-lg-6 offset-lg-6"
+images: [{"src":"efficiency01.jpg",
     "title":"Job Efficiency Report",
     "params" : {
         "caption": true,
@@ -13,7 +13,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/efficiency02.png",
+    {"src":"efficiency02.png",
     "title":"Billable Hour Efficiency Report",
     "params" : {
         "caption": true,
@@ -22,7 +22,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/invoicing01.png",
+    {"src":"invoicing01.png",
     "title":"Invoicing Report",
     "params" : {
         "caption": true,
@@ -31,7 +31,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/leadsource-01.png",
+    {"src":"leadsource-01.png",
     "title":"Lead Source Report",
     "params" : {
         "caption": true,
@@ -40,7 +40,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/sales01.png",
+    {"src":"sales01.png",
     "title":"Sales Report",
     "params" : {
         "caption": true,
@@ -49,7 +49,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/scorecard01.png",
+    {"src":"scorecard01.png",
     "title":"Job Scorecard Report, p1",
     "params" : {
         "caption": true,
@@ -58,7 +58,7 @@ images: [{"src":"finals/efficiency01.jpg",
    
      }
     },
-    {"src":"finals/scorecard02.png",
+    {"src":"scorecard02.png",
     "title":"Job Scorecard Report, p2",
     "params" : {
         "caption": true,

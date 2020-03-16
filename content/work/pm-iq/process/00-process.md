@@ -3,42 +3,38 @@ title: "The Design Process"
 date: 2019-09-01:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12 col-md-12 col-lg-6"
 images: [{
     "src": "IQcover.png",
    "title": "overview of all screens",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
+       "order": 0,
+       "columns": "col-sm-12 col-lg-6"
    }
 },{
     "src": "iq-cover.png",
    "title": "quote selection screen",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
+       "order": 3,
+       "columns": "col-sm-4 col-lg-3"
    }
 },{
     "src": "editable invoice/color-palettesArtboard 2.jpg",
    "title": "invoice builder exploration, p1",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
+       "order": 1,
+       "columns": "col-sm-4 col-lg-3"
    }
 },{
     "src": "editable invoice/color-palettesArtboard 4.jpg",
    "title": "invoice builder exploration, p2",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
+       "order": 2,
+       "columns": "col-sm-4 col-lg-3"
    }
 }]
 ---

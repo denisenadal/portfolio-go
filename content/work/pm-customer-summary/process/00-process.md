@@ -2,61 +2,54 @@
 title: "The Design Process"
 date: 2019-11-01:46:03-05:00
 draft: false
-order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+order: 1
 images: [{
     "src": "summary-drafts.jpg",
    "title": "early paper prototypes & information architecture",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
+       "order": 1,
+       "columns": "col-sm-12 col-md-6 col-lg-6"
    }
 },{
     "src": "v1contact.png",
    "title": "trying to apply the new contact page layout to existing design patterns",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 2
+       "order": 2,
+       "columns": "col-sm-12 col-md-6 col-lg-3"
    }
 },{
     "src": "v1property2.png",
    "title": "trying to apply the new property page layout to existing design patterns",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 3
+       "order": 3,
+       "columns": "col-sm-12 col-md-6 col-lg-3"
    }
 },{
     "src": "v2contact-alt.png",
    "title": "I was dissatisfied with the existing design patterns, and explored some alternatives",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 4
+       "order": 4,
+       "columns": "col-sm-12 col-md-6 col-lg-3"
    }
 },{
     "src": "v3contact-wires.png",
    "title": "After being stalled, we re-approached the project and tried to simplify the design some more",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 5
+       "order": 5,
+       "columns": "col-sm-12 col-md-6 col-lg-3"
    }
 },{
     "src": "v3workflow-wires.png",
    "title": "diagramming all the workflows",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 6
+       "order": 6,
+       "columns": "col-sm-12 col-lg-6"
    }
 }]
 ---

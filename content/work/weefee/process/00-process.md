@@ -3,7 +3,6 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
 images:  [
     {"src":"logo-thumbnails.jpg",
     "title":"ideating on logo design",
@@ -11,7 +10,7 @@ images:  [
         "caption": true,
         "group": 2,
         "order": 0,
-        "columns": "col-sm-6 col-md-6 col-lg-2"}
+        "columns": "col-sm-6 col-md-4 col-lg-2"}
     },{
     "src":"screens-wireframes-beaconflood.gif",
     "title":"the beacon flood screen",

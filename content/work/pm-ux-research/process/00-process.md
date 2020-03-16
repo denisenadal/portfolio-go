@@ -3,14 +3,14 @@ title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12 col-md-8 col-lg-6"
 images: [{"src": "donna-lister-DIS.png",
     "title":"one of our 4 basic personas",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 1,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },
     {"src": "cassie-booker-CSR.png",
@@ -18,8 +18,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 2,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },
      {"src": "owner-workflow.jpg",
@@ -27,8 +27,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 3,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },{
         "src": "csr-workflow.jpg",
@@ -36,17 +36,17 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 4,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },{
-        "src": "dispatcher-workflow.jpg",
+        "src": "dispatch-workflow.jpg",
     "title":"a map of a dispatcher's day",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 5,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },{
         "src": "tech-workflow.jpg",
@@ -54,8 +54,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 6,
+        "columns": "col-sm-12 col-md-4 col-lg-6 col-xl-3 "
      }
     },{
         "src": "job-mental-map.jpg",
@@ -63,8 +63,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 8,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },{
         "src": "job-diagrams.jpg",
@@ -72,8 +72,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params": {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 9,
+        "columns": "col-sm-12 col-md-4 col-lg-6 col-xl-3"
      }
     },{
         "src": "newjob-workflow.jpg",
@@ -81,8 +81,8 @@ images: [{"src": "donna-lister-DIS.png",
     "params" : {
         "caption": true,
         "group":2,
-        "order": 0
-   
+        "order": 7,
+        "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     }]
 ---

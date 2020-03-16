@@ -3,7 +3,7 @@ title: The Final Design
 draft: false
 date: 2018-10-31T20:46:03-05:00
 order: 1
-columns: "col-sm-6 col-md-6 col-lg-4"
+columns: "col-sm-12 col-md-12 col-lg-6 offset-lg-6"
 images: [{
     "src": "quote/01-Blank.png",
    "title": "A tech starts a new quote",

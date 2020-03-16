@@ -1,47 +1,38 @@
 ---
-title: "The Design Process"
+title: "The Design "
 date: 2019-09-01:46:03-05:00
 draft: false
 order: 0
-columns: "col-sm-6 col-md-6 col-lg-4"
 images: [ {"src": "v00invoice01.jpg",
    "title": "original invoice design",
    "params": {
-       "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 1
-
+      "caption": true,
+      "order": 1,
+      "columns": "col-sm-6 col-md-6 col-lg-3"
    }
 },
 {"src": "v01design.png",
    "title": "improved invoice design",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 2
-
+       "order": 2,
+      "columns": "col-sm-6 col-md-6 col-lg-3"
    }
 },
 {"src": "v01grid.png",
    "title": "testing layout for windowed envelopes and converting from points to pixels ",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 3
-
+       "order": 3,
+      "columns": "col-sm-6 col-md-6 col-lg-3 offset-lg-6"
    }
 },
 {"src": "v02final.png",
    "title": "the final implemented design",
    "params": {
        "caption": true,
-       "w": 1,
-         "h": 1,
-       "order": 4
-
+       "order": 4,
+      "columns": "col-sm-6 col-md-6 col-lg-3"
    }
 }]
 ---

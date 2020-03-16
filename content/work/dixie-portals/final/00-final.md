@@ -1,15 +1,15 @@
 ---
-title: "The Final Project"
+title: "The Results"
 date: 2020-01-31T20:46:03-05:00
 draft: 
-order: 1
-columns: "col-sm-6 col-md-6 col-lg-4"
-resources: [{
+order: 2
+columns: "col-sm-12 "
+images: [{
     "src": "alumniPortalFinal.jpg",
     "title":"Alumni Portal, Desktop View",
     "params":{
         "caption":true,
-        "columns":  "col-sm-3 col-md-4 col-lg-2",
+        "columns":  "col-sm-4 ",
         "order":0
     }
 },{
@@ -17,7 +17,7 @@ resources: [{
     "title":"Student Portal, Desktop View",
     "params":{
         "caption":true,
-        "columns":  "col-sm-3 col-md-4 col-lg-2",
+        "columns":  "col-sm-4 ",
         "order":0
     }
 },{
@@ -25,15 +25,16 @@ resources: [{
     "title":"Employee Portal, Desktop View",
     "params":{
         "caption":true,
-        "columns":  "col-sm-3 col-md-4 col-lg-2",
+        "columns":  "col-sm-4 ",
         "order": 12
     }
 }]
 ---
 The final result was a easily modified WordPress template that our Web Team could update regularly.
 
-[Live Student Portal](http://students.dixie.edu)
+{{<button title="Live Student Portal" link="http://students.dixie.edu" class=" btn-secondary m-1" >}}
 
-[Live Employee Portal](http://employees.dixie.edu)
+{{<button title="Live Employee Portal" link="http://employees.dixie.edu" class=" btn-secondary m-1" >}}
 
-[Live Alumni Portal](http://alumni.dixie.edu)
+
+{{<button title="Live Alumni Portal" link="http://alumni.dixie.edu" class=" btn-secondary m-1" >}}
