@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+notes.md 
 
 # Runtime data
 pids
@@ -33,6 +34,7 @@ node_modules
 
 # dotenv environment variables file
 .env
+deploy
 
 #image resources
 *.psd
@@ -44,6 +46,7 @@ mockups/
 #site archives
 archive/
 .sass-cache
+public/
 
 
 

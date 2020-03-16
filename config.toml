@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://dnd.denisenadal.com"
 languageCode = "en-us"
 title = "Denise Nadal"
 theme = 'dn-theme'

@@ -23,3 +23,5 @@ width
 attr
 attrlink
 =====
+
+alias sshvm='ssh nisie@209.124.64.166 -p 7822'
