@@ -5,8 +5,8 @@
         <div class="row">
             {{$works := where (where .Site.Pages "Type" "work") ".Title" "not in" (slice "Work" "Works")}}
             {{ range first 9 (sort $works ".Params.weight" "desc") }}
-            <div class="col-lg-4 col-md-4 col-12 mb-3">
-                <div class="bg-white p-4 shadow-sm">
+            <div class="col-lg-4 col-md-4 col-12 mb-3 d-flex">
+                <div class="bg-white p-4 shadow-sm d-flex flex-column flex-fill">
                     <a class="mb-3"
                        href="{{ .Permalink }}">
                         <div class="featuredImage border"
@@ -14,7 +14,7 @@
                         </div>
                     </a>
                     <!-- <small class="text-muted">{{ .Date.Format "Jan 2, 2006"}}</small> -->
-                    <a href="{{ .Permalink }}">
+                    <a href="{{ .Permalink }}" class="flex-fill">
                         <h3 class="h4 font-weight-bold text-dark">{{ .Title }}</h3>
                     </a>
         

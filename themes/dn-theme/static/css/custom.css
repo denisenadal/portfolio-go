@@ -7836,11 +7836,15 @@ img {
   .figure .fig-caption {
     font-size: 0.75rem;
     line-height: 1rem;
-    padding: .25rem .5rem; }
+    padding: 0.25rem 0.5rem; }
+
+b,
+strong {
+  font-weight: 700; }
 
 blockquote {
   line-height: 2rem;
-  margin-left: 1rem;
+  margin: 1rem;
   padding-left: 1rem;
   display: block;
   font-style: italic;
@@ -8002,6 +8006,11 @@ main.home .meta-section,
 .section-break {
   border-top: 4px dotted #dee2e6; }
 
+main.error {
+  padding-top: 4rem; }
+  main.error .error-emoji {
+    font-size: 12rem; }
+
 #splash a.text-dark:hover {
   color: #dee2e6 !important; }
 #splash a.btn-dark:hover {
@@ -8072,14 +8081,16 @@ body.work main section {
   min-height: 16rem; }
   body.work main section:nth-child(even) {
     background-color: #b0f8ff; }
+  body.work main section h1.text-pink {
+    margin: -0.75rem 0 1.25rem; }
   body.work main section .spinner-border {
     margin: 6rem auto;
     display: block;
     height: 6rem;
     width: 6rem;
-    border-width: .5rem;
+    border-width: 0.5rem;
     position: absolute;
-    left: calc( 50% - 3rem); }
+    left: calc(50% - 3rem); }
   body.work main section .grid {
     opacity: 0; }
 

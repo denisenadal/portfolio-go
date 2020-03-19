@@ -3,8 +3,12 @@ body.work main section {
     padding-bottom: 4rem;
     min-height: 16rem;
 
-    &:nth-child(even){
+    &:nth-child(even) {
         background-color: $accent;
+    }
+
+    h1.text-pink {
+        margin: -0.75rem 0 1.25rem;
     }
 
     .spinner-border {
@@ -12,9 +16,9 @@ body.work main section {
         display: block;
         height: 6rem;
         width: 6rem;
-        border-width: .5rem;
+        border-width: 0.5rem;
         position: absolute;
-        left: calc( 50% - 3rem)
+        left: calc(50% - 3rem);
     }
 
     .grid {
@@ -26,4 +30,3 @@ hr.content-divider {
     margin: 2rem 1rem 3rem;
     border-top: dotted $white 4px;
 }
-

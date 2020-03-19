@@ -12,33 +12,40 @@ img {
 .figure {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 2px;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
 
-    .figure-img{margin:0;}
+    .figure-img {
+        margin: 0;
+    }
 
     figcaption,
     .fig-caption {
         font-size: 0.75rem;
         line-height: 1rem;
-        padding: .25rem .5rem;
+        padding: 0.25rem 0.5rem;
     }
+}
+
+b,
+strong {
+    font-weight: $font-weight-bold;
 }
 
 blockquote {
     line-height: 2rem;
-    margin-left: 1rem;
-    padding-left: 1rem; 
+    margin: 1rem;
+    padding-left: 1rem;
     display: block;
     font-style: italic;
     position: relative;
 
-    &:before{
-        content:"“";
+    &:before {
+        content: "“";
         font-size: 5rem;
-    position: absolute;
-    left: -2rem;
-    top: 1rem;
+        position: absolute;
+        left: -2rem;
+        top: 1rem;
     }
 }
 
@@ -233,4 +240,12 @@ main.home .meta-section,
 
 .section-break {
     border-top: 4px dotted $gray-300;
+}
+
+//=== error page ===//
+main.error {
+    padding-top: 4rem;
+    .error-emoji {
+        font-size: 12rem;
+    }
 }
