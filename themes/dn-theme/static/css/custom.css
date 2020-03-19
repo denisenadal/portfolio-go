@@ -42,6 +42,12 @@
 .text-gray-dark {
   color: #343a40 !important; }
 
+.overlay-dark {
+  background: rgba(0, 0, 0, 0.87); }
+
+.overlay-light {
+  background: rgba(255, 255, 255, 0.87); }
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7825,19 +7831,6 @@ img {
   height: auto;
   object-fit: contain; }
 
-.figure {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 2px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  display: block; }
-  .figure .figure-img {
-    margin: 0; }
-  .figure figcaption,
-  .figure .fig-caption {
-    font-size: 0.75rem;
-    line-height: 1rem;
-    padding: 0.25rem 0.5rem; }
-
 b,
 strong {
   font-weight: 700; }
@@ -7867,6 +7860,15 @@ li {
 
 .clear-right {
   clear: right; }
+
+.modal-dialog {
+  max-width: 90vw; }
+  @media (min-width: 992px) {
+    .modal-dialog {
+      max-width: 800px; } }
+  .modal-dialog .modal-header,
+  .modal-dialog .modal-content {
+    border: none; }
 
 .body-offset {
   height: 4.5rem; }
@@ -8093,9 +8095,27 @@ body.work main section {
     left: calc(50% - 3rem); }
   body.work main section .grid {
     opacity: 0; }
+  body.work main section .figure {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block; }
+    body.work main section .figure .figure-img {
+      margin: 0; }
+    body.work main section .figure figcaption,
+    body.work main section .figure .fig-caption {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      padding: 0.25rem 0.5rem; }
 
 hr.content-divider {
   margin: 2rem 1rem 3rem;
   border-top: dotted #fefefe 4px; }
+
+.modal .figure {
+  display: flex;
+  flex-flow: column-reverse; }
+  .modal .figure .figure-caption {
+    margin-bottom: 1rem; }
 
 /*# sourceMappingURL=custom.css.map */

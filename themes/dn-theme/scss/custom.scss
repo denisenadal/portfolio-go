@@ -71,6 +71,13 @@ $adjusted-vh: calc(100vh - 8rem);
 .text-gray{color: $gray!important;}
 .text-gray-dark{color: $gray-dark!important;}
 
+.overlay-dark {
+    background: $overlay-dark;
+}
+.overlay-light {
+    background: $overlay-light;
+}
+
 @mixin rainbow-border {
     content: "";
     background: $rainbow-gradient;

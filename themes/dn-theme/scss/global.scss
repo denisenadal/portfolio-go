@@ -9,24 +9,6 @@ img {
     object-fit: contain;
 }
 
-.figure {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    display: block;
-
-    .figure-img {
-        margin: 0;
-    }
-
-    figcaption,
-    .fig-caption {
-        font-size: 0.75rem;
-        line-height: 1rem;
-        padding: 0.25rem 0.5rem;
-    }
-}
-
 b,
 strong {
     font-weight: $font-weight-bold;
@@ -61,6 +43,19 @@ li {
 }
 .clear-right {
     clear: right;
+}
+
+.modal-dialog {
+    max-width: 90vw;
+
+    @include media-breakpoint-up(lg) {
+        max-width: 800px;
+    }
+
+    .modal-header,
+    .modal-content {
+        border: none;
+    }
 }
 //for top-level items such as header, footer, main wrapper
 .body-offset {

@@ -25,6 +25,24 @@ $(document).ready(function(){
             grids.push($grid);
         }
     });
+
+
+    $('.image-modal-link').click(function(event){
+        event.preventDefault();
+        modalHandler(event.currentTarget);
+    });
+
+    $('.image-modal.overlay-light, .modal .close').click(function(event){
+        $('.image-modal').fadeOut(350, 'linear');
+    });
+
+    $(document).keyup(function (e) {
+        if (e.keyCode === 27) $('.image-modal').fadeOut(350, 'linear');   // esc
+    });
+
+    $('.modal-dialog').click(function(event){
+        event.stopPropagation();
+    });
 });
 
 function imagesLoadedHandler($grid ){
@@ -32,4 +50,14 @@ function imagesLoadedHandler($grid ){
     $grid.prev().animate({ opacity: 0 }, 350, "swing", function () {
         $grid.animate({ opacity: 1 }, 200, "swing");
     });
+}
+
+function modalHandler(link){
+    var img = $(link).find('figure').clone();
+    var title = $(img).attr('data-title')
+    var imgModal = $('.image-modal');
+    imgModal.find('.modal-body > *').remove();
+    imgModal.find('.modal-body').append(img)
+    imgModal.find('.modal-title').text(title);
+    imgModal.fadeIn(350,'linear');
 }

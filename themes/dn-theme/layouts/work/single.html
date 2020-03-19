@@ -12,7 +12,7 @@
 			<div class="col-md-7">
 				<h2 class="h1 m-0">{{.Title}}</h2>
 				<p class="h2 mt-0">{{.Params.subtitle}}</p>
-				<p class="h5 mb-0 mt-3 text-gray"> {{.Params.date_range}}</p>
+				<p class="h5 mb-2 mt-3 text-gray"> {{.Params.date_range}}</p>
 				<p class="m-0 text-muted">
 					{{.Content}}
 				</p>
@@ -31,6 +31,8 @@
 		{{end}}
 	{{end}}
 
+
+	{{partial "image-modal.html"}}
 </main>
 {{ end }}
 
