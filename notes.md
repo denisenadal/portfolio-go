@@ -20,3 +20,17 @@ attrlink
 
 update github
 update project descriptions
+
+
+## step one
+- add dotenv to hide secrets 
+
+## step two 
+- push existing up to github
+
+## step three:
+- remove theme folder
+- create submodule
+- add stuff back
+- commit & push to github 
+

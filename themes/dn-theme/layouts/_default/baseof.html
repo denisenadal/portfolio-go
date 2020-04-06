@@ -18,9 +18,11 @@
 	  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 	  crossorigin="anonymous">
 	
+	{{ if not (in (printf "%#v" $.Site.BaseURL) "localhost") }}
 	<link rel="icon"
 		  href="{{ .Site.BaseURL }}/images/favicon.ico"
 		  type="image/x-icon">
+	{{end}}
 	<link rel="stylesheet"
 	 	 href='{{ "css/custom.css" | relURL }}'>
 	{{ with .OutputFormats.Get "RSS" -}}

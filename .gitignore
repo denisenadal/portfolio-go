@@ -5,6 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 notes.md 
+notes/*
 
 # Runtime data
 pids
@@ -35,6 +36,9 @@ node_modules
 # dotenv environment variables file
 .env
 deploy
+
+#site specific config file
+config.toml
 
 #image resources
 *.psd
