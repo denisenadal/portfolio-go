@@ -8,6 +8,8 @@ image: {"name":"tutoring-cropped.png"," alt":"cropped view of the tutoring calen
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 43
+org: Dixie State University
+role: Web Design, Web Development
 sections: ["process", "final"]
 resources: [{"src": "00-process.md"},
 {"src": "00-final.md"}]

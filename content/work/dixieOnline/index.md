@@ -9,6 +9,7 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 47
 sections: ["process"]
+org: Dixie State University
 resources: [ {"src":"00-process.md"}]
 ---
 Website design for Dixie State University's department of online education.

@@ -9,6 +9,9 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 65
 sections: ["process","mockups", "final"]
+org: Dixie State University
+role: User Testing, User Interviews, Contextual Inquiry, Competitive Analysis, Visual Design, Web Design, Web Development
+team: Denise Nadal, David Hulet, Brad Snow, Rex Frisbey
 resources: [
     {"src": "00-process.md"},
     {"src": "00-mockups.md"},
