@@ -35,7 +35,10 @@ node_modules
 
 # dotenv environment variables file
 .env
+
+#scripts
 deploy
+run-sass
 
 #site specific config file
 config.toml
