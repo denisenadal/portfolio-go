@@ -9,4 +9,4 @@
 	url = https://github.com/vimux/blank
 [submodule "themes/dn-hugo-theme"]
 	path = themes/dn-hugo-theme
-	url = https://github.com/denisenadal/dn-hugo-theme.git
+	url = git@github.com:denisenadal/dn-hugo-theme.git
