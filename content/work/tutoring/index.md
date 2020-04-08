@@ -11,6 +11,6 @@ tags: ["Web Design", "Web Development"]
 weight: 43
 sections: ["process", "final"]
 resources: [{"src": "00-process.md"},
-{"src": "00-final.md"}]
+{"src": "01-final.md"}]
 ---
 Create a single page app to make it easy for students to find tutoring sessions for their classes. The interface needed to clean, simple and mobile-friendly, and the calendar needed to be easy to update by someone of basic computer skills. The final product was built using WordPress,  javascript, jQuery and Google’s Calendar API.

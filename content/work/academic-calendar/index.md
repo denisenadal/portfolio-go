@@ -12,5 +12,6 @@ weight: 45
 sections: ["process", "final"]
 resources:
     - src: "00-process.md"
+    - src: "01-final.md"
 ---
 A single page app used to display information about important dates at Dixie State University. It's been designed to be easily to search and sort through events. Interaction design and development by myself, and visual design by myself and fellow designer, David Hulet.

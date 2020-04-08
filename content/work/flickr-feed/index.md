@@ -12,7 +12,7 @@ weight: 41
 sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
-    {"src":"00-final.md"}]
+    {"src":"01-final.md"}]
 ---
 A simple Node/Express web app that allows users to search for images uploaded to flickr, and view those images either as a webpage or as raw json data.
 

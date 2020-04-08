@@ -10,7 +10,6 @@ layout: "project"
 type: "work"
 tags: ["UI Design", "UX Design"]
 weight: 91
-sections: ["process-1", "process-2", "process-3"]
 resources:
     - src: 00-process-1.md
     - src: 00-process-2.md

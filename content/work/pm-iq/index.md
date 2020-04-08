@@ -12,6 +12,6 @@ tags: ["UI Design","Print Design"]
 sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
-    {"src":"00-final.md"}]
+    {"src":"0q-final.md"}]
 ---
 Designing a new way for technicians to build customizable invoices & quotes in the field.
