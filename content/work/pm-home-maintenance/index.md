@@ -11,6 +11,9 @@ type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100
 sections: ["process", "final"]
+org: Pointman
+team: David Thiemecke, Kurt Stangl, Tim McGuire, Denise Nadal, David Cloyd, Chris Schobert, Seth Zielinski, Jay Pawlowski, Nick Kaszmarek
+role: Experiments, market research, user testing, analysis, workshop facilitating, customer journeys, user flows, personas
 resources:
     - src: "00-process.md"
     - src": "00-final.md"

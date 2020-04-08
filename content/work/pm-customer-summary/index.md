@@ -9,6 +9,9 @@ type: "work"
 weight: 89
 tags: ["UI Design","Print Design"]
 sections: ["overview","process","scenarios", "components","final"]
+org: Pointman
+team: Kurt Stangl, Mike Spencer, Denise Nadal, David Cloyd
+role: User research, user testing, customer journeys, user flows, personas, information architecture, task analysis
 resources: [
     {"src":"00-overview.md"},
      {"src":"00-process.md"},

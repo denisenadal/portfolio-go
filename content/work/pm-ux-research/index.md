@@ -9,6 +9,9 @@ type: "work"
 tags: ["UX Research","Customer Discovery"]
 weight: 80
 sections: ["process"]
+org: Pointman
+team:  Denise Nadal
+role: User research, user testing, customer journeys, user flows, personas
 resources: [
     {"src":"00-process.md"}]
 ---

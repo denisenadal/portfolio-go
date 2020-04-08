@@ -9,6 +9,9 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 45
 sections: ["process", "final"]
+org: Dixie State University
+role: Web Design, Web Development
+team: Denise Nadal, David Hulet
 resources:
     - src: "00-process.md"
 ---
