@@ -5,6 +5,7 @@ date: 2016-009-31T20:46:03-05:00
 date_range: "Fall 2016"
 draft: false
 image: {"name":"strange_horizons_preview.jpg"," alt":"cropped view of the strange horizons redesign"}
+layout: "project"
 type: "work"
 tags: ["Web Design"]
 weight: 42

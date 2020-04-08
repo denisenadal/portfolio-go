@@ -5,6 +5,7 @@ date: 2017-10-31T20:46:03-05:00
 date_range: "Fall 2017"
 draft: true
 image: {"name":"weefee-logo-design.png"," alt":"branding for WeeFee app"}
+layout: "project"
 type: "work"
 tags: ["UI Design","Branding"]
 weight: 20

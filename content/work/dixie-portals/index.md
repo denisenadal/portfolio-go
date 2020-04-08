@@ -5,6 +5,7 @@ date: 2017-10-31T20:46:03-05:00
 date_range: "Fall 2017"
 draft: false
 image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
+layout: "project"
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 65

@@ -5,6 +5,7 @@ date: 2019-03-31T20:46:03-05:00
 date_range: "Fall 2018 - Spring 2019"
 draft: false
 image: {"name":"reports-group.jpg"," alt":"Various reporting screens within the Pointman App"}
+layout: "project"
 type: "work"
 tags: ["UI Design","UX Design"]
 weight: 66

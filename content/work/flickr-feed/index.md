@@ -5,6 +5,7 @@ date: 2018-03-31T20:46:03-05:00
 date_range: "March 2018"
 draft: false
 image: {"name":"final/flickrfeed-desktop-default.png"," alt":"Desktop Latest Results"}
+layout: "project"
 type: "work"
 tags: ["Web App", "Development"]
 weight: 41

@@ -7,6 +7,7 @@ draft: false
 image: {
     "name":"pitchDeck-Title.png", 
     "alt":"design for subscription home maintenance service"}
+layout: "case-study"
 type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100

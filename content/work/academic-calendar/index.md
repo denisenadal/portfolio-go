@@ -5,6 +5,7 @@ date: 2018-02-31T20:46:03-05:00
 date_range: "Fall 2017 -Spring 2018"
 draft: false
 image: {"name":"ac-ipad.jpg"," alt":"Academic Calendar on an iPad"}
+layout: "project"
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 45

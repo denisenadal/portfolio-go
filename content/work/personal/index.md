@@ -7,6 +7,7 @@ draft: false
 image: {
    "name":"personal-group.jpg",
     "alt":"personal portfolio site on various screen sizes"}
+layout: "project"
 type: "work"
 tags: ["UX Design","UI Design","Web Development"]
 weight: 75

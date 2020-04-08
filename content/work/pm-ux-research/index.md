@@ -5,6 +5,7 @@ date: 2019-12-31T20:46:03-05:00
 date_range: "Fall 2019"
 draft: false
 image: {"name":"research-cover.jpg"," alt":"artistic photo of stickies on wall"}
+layout: "project"
 type: "work"
 tags: ["UX Research","Customer Discovery"]
 weight: 80

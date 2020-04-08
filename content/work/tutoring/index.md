@@ -5,6 +5,7 @@ date: 2017-01-31T20:46:03-05:00
 date_range: "January 2017"
 draft: false
 image: {"name":"tutoring-cropped.png"," alt":"cropped view of the tutoring calendar/schedule page"}
+layout: "project"
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 43
