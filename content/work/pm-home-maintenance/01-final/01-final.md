@@ -2,6 +2,7 @@
 title: "Project Outcome"
 date: 2020-01-31T20:46:03-05:00
 draft: false
+name: "final"
 columns: "col-sm-12 col-md-12 col-lg-6"
 images: [{"src":"amandaHaven-NewHomeowner.png",
     "title":"Our Primary Persona",

@@ -2,7 +2,7 @@
 title: "The Design Process"
 date: 2017-10-31T20:46:03-05:00
 draft: false
-order: 0
+name: "process"
 columns: "col-sm-12 col-md-12 col-lg-6"
 images: [{"src": "boards-03.jpg",
     "title":"design artifacts for subscription home maintenance service",
