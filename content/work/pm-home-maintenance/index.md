@@ -21,10 +21,16 @@ page_nav: {
 },{
             "label":"Ideate",
 },{
+            "label":"Validate",
+},{
             "image": "nav-icon-analysis.svg",
             "label":"Prototype",
             "anchor": "final"
-}]
+},{
+            "label":"Build it!",
+},{
+            "label":"Launch!",
+},]
 }
 resources: [{
     "src": "00-process/00-process.md"
