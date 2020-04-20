@@ -12,30 +12,12 @@ type: "work"
 tags: [Product Strategy,Product Design,Innovation,Start Up]
 weight: 100
 page_nav: {
-    "title": "Process Overview",
-    "items" :  [{
-            "image": "nav-icon-analysis.svg",
-            "label":"Test Assumptions",
-            "desc": "cool one-liner!",
-            "anchor": "process"
-},{
-            "label":"Ideate",
-},{
-            "label":"Validate",
-},{
-            "image": "nav-icon-analysis.svg",
-            "label":"Prototype",
-            "anchor": "final"
-},{
-            "label":"Build it!",
-},{
-            "label":"Launch!",
-},]
-}
 resources: [{
-    "src": "00-process/00-process.md"
+    "src": "00-nav.html"
+    },{
+    "src": "01-process/01-process.md"
 },{
-        "src": "01-final/01-final.md",
+        "src": "02-final/02-final.md",
 }]
 ---
 Product Exploration, Market & UX Research Project to identify new product opportunities to help homeowners avoid problems with home service contractors. 
