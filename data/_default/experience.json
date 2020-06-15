@@ -1,13 +1,20 @@
 {
-	"title" : "Experience",
-	"experience" : [
+	"title": "Experience",
+	"experience": [
 		{
-			"timeperiod" : "Sept 2019 - current",
-			"company" : "Pointman",
-			"title":"UX Design & <br>Product Management",
+			"timeperiod": "Sept 2019 - current",
+			"company": "Pointman",
+			"title": "UX Design & <br>Product Management",
 			"website": "https://www.pointman.com",
-			"description" : "Responsible for managing the entire design process, from research, ideation, designing and testing prototypes for multiple desktop and mobile apps for HVAC contractors.  Assisted with managing product backlog and writing feature requirements. Joined an innovation team focused on discovering new product opportunities..",
-			"highlights": ["Use product analytics to track user engagement and feature performance","Design new features and define product requirements","Build wireframes & prototypes in Sketch & InVision","Facilitate customer discovery sessions, design workshops, & lean experiments","Create user personas, customer journey maps, workflow diagrams","Design new mobile-first UI and user workflows for existing Pointman app","User research, competitive analysis and opportunity mapping for new products"
+			"description": "Managed the entire design process, from research, ideation, designing and testing prototypes for multiple desktop and mobile apps for HVAC contractors.  Assisted with managing product backlog and writing feature requirements. Joined an innovation team focused on discovering new product opportunities. ",
+			"highlights": [
+				"Use product analytics to track user engagement and feature performance",
+				"Design new features and define product requirements",
+				"Build wireframes & prototypes in Sketch & InVision",
+				"Facilitate customer discovery sessions, design workshops, & lean experiments ",
+				"Create user personas, customer journey maps, workflow diagrams",
+				"Design new mobile-first UI and user workflows for existing Pointman app",
+				"User research, competitive analysis and opportunity mapping for new products"
 			]
 		},
 		{
@@ -16,7 +23,14 @@
 			"title": "UX Design & <br>Front-End Engineering",
 			"website": "https://www.pointman.com",
 			"description": "Front End Engineering and UI/UX Design for the Pointman app, a suite of field management software and mobile app for HVAC contractors.",
-			"highlights": ["Built wireframes & prototypes in Sketch & InVision","Performed user testing of future designs and existing features","Facilitated cross-functional, collaborative design & research processes","Facilitated story mapping workshops for engineering team","Developed a Sketch UI library to accelerate the speed of creating prototypes. ","Created design delivery process to ensure each project has a single source of truth."]
+			"highlights": [
+				"Built wireframes & prototypes in Sketch & InVision",
+				"Performed user testing of future designs and existing features",
+				"Facilitated cross-functional, collaborative design & research processes",
+				"Facilitated story mapping workshops for engineering ",
+				"Developed a Sketch UI library to accelerate the speed of creating prototypes. ",
+				"Created design delivery process to ensure each project has a single source of truth."
+			]
 		},
 		{
 			"timeperiod": "Dec 2016 - April 2018",
@@ -37,7 +51,8 @@
 			"title": "Head Intern,<br>Web Content Design",
 			"website": "https://dixie.edu",
 			"description": "Lead & mentor team of interns in designing, developing and maintaining 100+ University departmental and promotional websites and related content.",
-			"highlights": ["Migrated over 10,000 pages into WordPress within 6 months",
+			"highlights": [
+				"Migrated over 10,000 pages into WordPress within 6 months",
 				"Facilitated cross-functional, collaborative design & research processes",
 				"Updated code to HTML5/CSS3 web standards.",
 				"Acted as project manager: coordinating projects and communicating with clients."

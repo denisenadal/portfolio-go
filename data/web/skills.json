@@ -1,0 +1,66 @@
+{
+    "title": "Strengths & Skills",
+    "chart": {
+        "UI Design": "80",
+        "UX Design": "90",
+        "Design Thinking": "95",
+        "Product Management": "66",
+        "Front-End Engineering": "66",
+        "Full-Stack Engineering": "33",
+        "Agile/SCRUM": "75"
+    },
+    "list": [
+        {
+            "Programming Strengths": [
+                "JavaScript",
+                "AngularJS",
+                "jQuery",
+                "HTML5",
+                "CSS3",
+                "PHP",
+                "SASS",
+                "Bootstrap CSS",
+                "Hugo Static Site Gen.",
+                "Linux"
+            ]
+        },
+        {
+            "Programming Basics": [
+                "Node.js",
+                "Vue.js",
+                "React",
+                "Webpack",
+                "Git",
+                "Python",
+                "C#",
+                "MySQL",
+                "MongoDB",
+                "LAMP Servers"
+            ]
+        },
+        {
+            "Skills & Techniques": [
+                "Agile & Lean Methodologies",
+                "Web Development",
+                "Front-End Development",
+                "Content Management",
+                "SEO & Optimization",
+                "User-Centered Design",
+                "Usability Testing",
+                "Rapid Prototyping",
+                "Product Analytics"
+            ]
+        },
+        {
+            "Tools & Technology": [
+                "Adobe Creative Suite",
+                "Sketch",
+                "InVision",
+                "Balsamiq ",
+                "Google Analytics/GTM",
+                "WordPress",
+                "Material Design"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+	"title": "Experience",
+	"experience": [
+		{
+			"timeperiod": "Sept 2019 - current",
+			"company": "Pointman",
+			"title": "UX Design & <br>Product Management",
+			"website": "https://www.pointman.com",
+			"description": "Responsible for managing the entire design process, from research, ideation, designing and testing prototypes for multiple desktop and mobile apps for HVAC contractors.  Work closely with internal stakeholders and end users to develop, design and test features and products. Assist with managing product backlog, writing feature requirements and validating product ideas. Led user research and design during a pivot to build a new UI for the Pointman app.",
+			"highlights": [
+				"Collaborate on a cross-functional team across the entire product development lifecycle in an agile environment.",
+				"Design new features and define product requirements",
+				"Build wireframes & prototypes in Sketch & InVision",
+				"Facilitate customer discovery sessions, design workshops, & lean experiments",
+				"Design new mobile-first UI and user workflows for existing Pointman app"
+			]
+		},
+		{
+			"timeperiod": "May 2018 - Sept 2019 ",
+			"company": "Pointman",
+			"title": "UX Design & <br>Front-End Engineering",
+			"website": "https://www.pointman.com",
+			"description": "Front End Engineering and UI/UX Design for the Pointman app, a suite of field management software and mobile app for HVAC contractors. Build features and components for web and mobile apps in HTML/CSS and JavaScript (AngularJS) on a cross-functional agile team in a startup environment.",
+			"highlights": [
+				"Performed user testing of future designs and existing features",
+				"Facilitated cross-functional, collaborative design & research processes",
+				"Facilitated story mapping workshops for engineering team",
+				"Developed a Sketch UI library to accelerate the speed of creating prototypes.",
+				"Created design delivery process to ensure each project has a single source of truth."
+			]
+		},
+		{
+			"timeperiod": "Dec 2016 - April 2018",
+			"company": "Dixie State University",
+			"title": "Web Developer",
+			"website": "https://dixie.edu",
+			"description": "Primary developer for University websites. Responsible for designing and developing new themes and templates in WordPress. Began a design system & pattern library.",
+			"highlights": [
+				"Created web apps and services for various news feeds, calendars & course schedules.",
+				"Conducted user testing and analytics to inform team priorities and focus.",
+				"Used UX research to develop a new students page that increased traffic by 50%.",
+				"Acted as project manager: coordinating projects, managing deadlines, resources, resolving bugs, collecting user feedback, etc."
+			]
+		},
+		{
+			"timeperiod": "Sept 2015 - Dec 2016 ",
+			"company": "Dixie State University",
+			"title": "Head Intern,<br>Web Content Design",
+			"website": "https://dixie.edu",
+			"description": "Lead & mentor team of interns in designing, developing and maintaining 100+ University departmental and promotional websites and related content.",
+			"highlights": [
+				"Migrated over 10,000 pages into WordPress within 6 months",
+				"Facilitated cross-functional, collaborative design & research processes",
+				"Updated code to HTML5/CSS3 web standards.",
+				"Acted as project manager: coordinating projects and communicating with clients."
+			]
+		}
+	]
+}

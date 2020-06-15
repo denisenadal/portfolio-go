@@ -1,0 +1,17 @@
+[
+    {
+        "title": "About",
+        "href": "about",
+        "fullPage": false
+    },   
+    {
+        "title": "Work",
+        "href": "work",
+        "fullPage": false
+    },
+    {
+        "title": "Contact",
+        "href": "contact",
+        "fullPage": false
+    }
+]
