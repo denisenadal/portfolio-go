@@ -1,5 +1,5 @@
 ---
-title: Designing User Experiences
+title: Navigation Systems in Pointman
 subtitle: UI/UX Design 
 image: {"name":"mobile-group.jpg",
         "alt":"mobile devices"}
