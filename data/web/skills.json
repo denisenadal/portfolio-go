@@ -20,7 +20,8 @@
                 "PHP",
                 "SASS",
                 "Bootstrap CSS",
-                "Hugo Static Site Gen.",
+                "Hugo",
+                "Eleventy",
                 "Linux"
             ]
         },

@@ -1,8 +1,20 @@
 {
 	"title": "Experience",
-	"experience": [
+	"experience": [{
+			"timeperiod": "Aug 2020 - current",
+			"company": "FIFCO USA (Genesee Beer, Labatt USA & Seagram's Escapes)",
+			"title": "Web Designer & Developer",
+			"website": "https://www.fifcousa.com",
+			"description": "Rapidly build and update brand sites for nearly a dozen different beer brands as well as develop in house web apps, web sites and tools.",
+			"highlights": [
+				"Design and develop a company intranet site, as well design intranet policies and training materials",
+				"Design and front end development of an online conference and video hosting portal for use by our sales team",
+				"Design and develop a UI for a kiosk system used by brewery and warehouse employees",
+				"Design and full-stack development of the Seagram's Escapes Holiday Marketplace featuring black-owned businesses."
+			]
+		},
 		{
-			"timeperiod": "Sept 2019 - current",
+			"timeperiod": "Sept 2019 - March 2020",
 			"company": "Pointman",
 			"title": "UX Design & <br>Product Management",
 			"website": "https://www.pointman.com",

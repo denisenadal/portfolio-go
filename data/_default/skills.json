@@ -38,8 +38,9 @@
                 "HTML5",
                 "CSS3",
                  "PHP",                
-                "Material",
-                "SASS"
+                "SASS",
+                "Eleventy",
+                "Wordpress"
             ]
         },
         {
