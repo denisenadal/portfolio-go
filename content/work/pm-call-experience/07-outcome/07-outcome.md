@@ -5,13 +5,13 @@ draft: false
 order: 7
 columns: "col-sm-12 col-md-8 col-lg-7"
 ---
-## Results
+### Results
 
 We tried four different solutions, two of them we successfully implemented and two that we not. We did make things easier for users, but we never finished creating a user focused app, and because we out app never overcame the usability issues, it never became successful. 
 
 We wasted so much time on trying "small fixes" and "working with what we have" that we didn't have enough time left to do the most important work. 
 
-## Learnings
+### Learnings
 
 In hindsight, we learned how much harder it is to add a "good experience" retroactively rather than building right from the start, or even just rebuilding from scratch.
 

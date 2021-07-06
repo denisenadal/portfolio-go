@@ -1,0 +1,3 @@
+{{/*  If you want to filter the works that appear in the "work gallery" customize the tag list here   */}}
+{{ $filter :=  (keyVals "tags" "UX Design" "Product Design" "UI Design" "User Research" "Web Design")}}
+{{ .Scratch.Set "filter" $filter }}

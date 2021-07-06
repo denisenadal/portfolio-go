@@ -31,7 +31,7 @@ images: [{
 }]
 ---
 ### callTaking + summaries,
- (Summer 2019)
+(Summer 2019)
 
 Several months after I had created the "summary view" feature, our organization was ready to focus on improving the user experience in our app. We began to explore ways to integrate the new "summary view" into the "call taking" feature. 
 

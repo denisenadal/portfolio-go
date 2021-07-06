@@ -6,7 +6,7 @@ date_range: "Fall 2017"
 draft: false
 image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
 type: "work"
-tags: ["Web Design", "Web Development"]
+tags: ["User Research","UX Design","Web Design", "Web Development"]
 weight: 65
 sections: ["process","mockups", "final"]
 org: Dixie State University

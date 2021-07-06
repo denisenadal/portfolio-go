@@ -6,7 +6,7 @@ date_range: "Summer 2018 - Fall 2019"
 draft: false
 image: {"name":"cover3.jpg"," alt":"Design exploration for job and customer screens in the Pointman App"}
 type: "work"
-weight: 89
+weight: 88
 tags: ["UI Design","UX Design"]
 sections: ["overview","process","scenarios", "components","final"]
 org: Pointman

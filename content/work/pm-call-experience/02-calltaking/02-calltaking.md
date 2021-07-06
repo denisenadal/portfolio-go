@@ -22,8 +22,8 @@ images: [{
    }
 }]
 ---
-## Call Taking Feature  
-**(June 2018 - April 2019)**
+### Call Taking Feature  
+(June 2018 - April 2019)
 
 Our first attempt at solving this problem was building a "Call Taking" feature. The idea was to create a search tool that would look up homeowners by either the owner, or the home.  After finding the person or house, you would pull up information about them, and then be able to schedule a job at their house.
 

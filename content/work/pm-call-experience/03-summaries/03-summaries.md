@@ -5,7 +5,8 @@ draft: false
 order: 3
 columns: "col-sm-12"
 ---
-### Summary View (Feb 2019 -?)
+### Summary View 
+(Feb 2019 -?)
 {{<row>}}
 {{< column class="col-sm-12 col-md-8 col-lg-7 col-xl-6 mb-4" >}}
 {{%markdown%}}

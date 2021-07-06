@@ -6,7 +6,8 @@ order: 4
 columns: "col-sm-12 col-md-8 col-lg-7"
 
 ---
-### Quick Add Jobs Feature,  (August 2019)
+### Quick Add Jobs Feature 
+(August 2019)
 
 While we trying to get the previous solution ("Summary" view feature) going, we ran an experiment to test a different strategy. We created a simple modal to contain the existing search tool, and a basic form for creating jobs. It made it simple and quick to schedule a job.
 
