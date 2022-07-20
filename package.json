@@ -9,7 +9,8 @@
     "hugo:serve": "hugo server --environment _default",
     "start": "npm run clean && concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
     "build": "npm run sass:build & hugo --environment _default",
-    "clean": "rm -rf public",    "changelog": "auto-changelog && git add CHANGELOG.md",
+    "clean": "rm -rf public",
+    "changelog": "auto-changelog && git add CHANGELOG.md",
     "version": "auto-changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"
   },
@@ -32,6 +33,7 @@
   "homepage": "https://github.com/denisenadal/portfolio-go#readme",
   "devDependencies": {
     "auto-changelog": "^2.4.0",
-    "concurrently": "^7.3.0"
+    "concurrently": "^7.3.0",
+    "sass": "^1.53.0"
   }
 }
