@@ -9,7 +9,7 @@ type: "work"
 tags: ["Web Design","UI Design", "Web Development"]
 weight: 37
 sections: ["process"]
-org: Dixie State University
+org: Utah Tech University
 role: Web Design, Web Development
 resources: [{"src":"00-process.md"}]
 ---

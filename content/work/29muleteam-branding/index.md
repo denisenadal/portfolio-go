@@ -12,5 +12,7 @@ sections: ["process"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-process.md"}]
+description: "As a design exercise, I created a branded business system for one of my favorite cleaning products."
+keywords: "Branding, Graphic Design, 29 Mule Team"
 ---
 As a design exercise, I created a branded business system for one of my favorite cleaning products.

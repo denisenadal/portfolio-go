@@ -9,7 +9,7 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 47
 sections: ["process"]
-org: Dixie State University
+org: Utah Tech University
 resources: [ {"src":"00-process.md"}]
 ---
-Website design for Dixie State University's department of online education.
+Website design for Utah Tech University(Dixie State)'s department of online education.

@@ -9,10 +9,10 @@ type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 45
 sections: ["process", "final"]
-org: Dixie State University
+org: Utah Tech University
 role: Web Design, Web Development
 team: Denise Nadal, David Hulet
 resources:
     - src: "00-process.md"
 ---
-A single page app used to display information about important dates at Dixie State University. It's been designed to be easily to search and sort through events. Interaction design and development by myself, and visual design by myself and fellow designer, David Hulet.
+A single page app used to display information about important dates at Utah Tech University (formerly Dixie State). It's been designed to be easily to search and sort through events. Interaction design and development by myself, and visual design by myself and fellow designer, David Hulet.
