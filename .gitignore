@@ -54,3 +54,4 @@ mockups/
 archive/
 .sass-cache
 public/
+.hugo_build.lock
