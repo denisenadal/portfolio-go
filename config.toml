@@ -1,0 +1,13 @@
+baseURL = "https://denisenadal.netlify.app"
+languageCode = "en-us"
+title = "Denise Nadal"
+author = "Denise Nadal"
+theme = "dn-hugo-theme"
+dataDir = "data/_default"
+[params]
+    description="Denise Nadal's UI/UX + FE/Web Design Portfolio"
+    keywords="UI/UX Design, Web Design, Front-End Development, Front-End Engineering,Design Portfolio, Development Portfolio, Engineering Portfolio, Design Wizard, Design Unicorn"
+    image="images/unicorn-06.jpg"
+    displayPicture = "images/denise.jpg"
+    subtitle = "UI/UX + FE/Web Dev"
+    colors = ["pink","red","orange","yellow","green","blue","purple"]

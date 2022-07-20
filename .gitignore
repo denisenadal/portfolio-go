@@ -40,8 +40,8 @@ node_modules
 deploy
 run-sass
 
-#site specific config file
-config.toml
+#themes
+themes/
 
 #image resources
 *.psd
