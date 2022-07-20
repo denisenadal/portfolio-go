@@ -6,9 +6,9 @@
   "scripts": {
     "sass:build": "sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map",
     "sass:serve": "sass themes/dn-hugo-theme/css/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
-    "hugo:serve": "hugo server",
+    "hugo:serve": "hugo server --environment _default",
     "start": "npm run clean && concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
-    "build": "npm run sass:build & hugo",
+    "build": "npm run sass:build & hugo --environment _default",
     "clean": "rm -rf public",    "changelog": "auto-changelog && git add CHANGELOG.md",
     "version": "auto-changelog && git add CHANGELOG.md",
     "postversion": "git push && git push --tags"

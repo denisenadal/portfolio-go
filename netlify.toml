@@ -1,9 +1,9 @@
 [build]
 publish = "public"
-command = "hugo --environment _default"
+command = "npm run build"
 
 [context.production.environment]
-HUGO_VERSION = "0.85.0"
+HUGO_VERSION = "0.101.0+extended"
 
 
 
