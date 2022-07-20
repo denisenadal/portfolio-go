@@ -8,7 +8,7 @@ image: {
     "name":"pitchDeck-Title.png", 
     "alt":"design for subscription home maintenance service"}
 type: "work"
-tags: [Product Strategy,Product Design,Innovation,Start Up]
+tags: [Product Strategy,Product Design,Innovation]
 weight: 100
 sections: ["process", "final"]
 org: Pointman
