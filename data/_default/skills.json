@@ -33,27 +33,29 @@
         },{
             "Programming Strengths": [
                 "JavaScript",
-                "AngularJS",
                 "jQuery",
                 "HTML5",
-                "CSS3",
-                 "PHP",                
+                "CSS3",         
                 "SASS",
+                "Bootstrap", 
                 "Eleventy",
-                "Wordpress"
+                "Liquid",
+                "Wordpress",
+                "PHP"
             ]
         },
         {
-            "Programming Basics": [
-                "Node.js", 
-                "Vue.js", 
-                "Git",
+            "Programming Competencies": [
+                "Node.js",
+                "AngularJS",
+                "Vue.js",
+                "Git", 
                 "Python",
                 "MySQL",
                 "MongoDB",
                 "React",
-                "Bootstrap",
-                "Hugo"
+                "Hugo",
+                "Linux"
             ]
         }
     ]
