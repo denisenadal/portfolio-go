@@ -7,7 +7,7 @@
     "sass:build": "rsync -aq node_modules/bootstrap themes/dn-hugo-theme/scss/vendor/bootstrap && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map --quiet ",
     "sass:serve": "rsync -aq node_modules/bootstrap themes/dn-hugo-theme/scss/vendor/bootstrap && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
     "hugo:serve": "hugo server ",
-    "start": "npm run clean && concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
+    "start": "npm run clean && source .env && concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
     "build": "npm run sass:build & hugo",
     "clean": "rm -rf public",
     "changelog": "auto-changelog && git add CHANGELOG.md",

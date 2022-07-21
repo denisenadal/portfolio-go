@@ -24,11 +24,11 @@
         },{
             "Tools & Technology": [
                 "Adobe Creative Suite",
-                "Sketch"," InVision","Balsamiq ",
+                "Sketch"," InVision","Balsamiq ","Figma",
                 "Mixpanel",
                 "Amplitude",
                 "Google Analytics/GTM",
-                "FullStory"
+                "Netlify"
             ]
         },{
             "Programming Strengths": [
@@ -39,7 +39,6 @@
                 "SASS",
                 "Bootstrap", 
                 "Eleventy",
-                "Liquid",
                 "Wordpress",
                 "PHP"
             ]
@@ -53,7 +52,6 @@
                 "Python",
                 "MySQL",
                 "MongoDB",
-                "React",
                 "Hugo",
                 "Linux"
             ]
