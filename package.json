@@ -4,8 +4,8 @@
   "description": "* On Mac OS `brew install hugo` * On Linux `snap install hugo --channel=extended` or `sudo apt-get install hugo`",
   "main": "index.js",
   "scripts": {
-    "sass:build": "sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map --quiet ",
-    "sass:serve": "sass themes/dn-hugo-theme/css/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
+    "sass:build": "rsync -aq node_modules/bootstrap themes/dn-hugo-theme/scss/vendor/bootstrap && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map --quiet ",
+    "sass:serve": "rsync -aq node_modules/bootstrap themes/dn-hugo-theme/scss/vendor/bootstrap && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
     "hugo:serve": "hugo server ",
     "start": "npm run clean && concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
     "build": "npm run sass:build & hugo",
@@ -33,6 +33,7 @@
   "homepage": "https://github.com/denisenadal/portfolio-go#readme",
   "dependencies": {
     "auto-changelog": "^2.4.0",
+    "bootstrap": "^4.6.2",
     "concurrently": "^7.3.0",
     "sass": "^1.53.0",
     "sass-loader": "^13.0.2"
