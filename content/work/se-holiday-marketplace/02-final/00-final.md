@@ -38,7 +38,12 @@ images: [{"src": "categorie-375.png",
      }
     }]
 ---
-description of the process goes here
+{{<row>}}
+{{% column class="col-12 col-sm-12 col-md-10 col-lg-8  mb-4" %}}
+The project was huge success! We had over 1600+ businesses featured in our marketplace, and several tv shows and news sites covered our project. Our partners from the "Real Housewives of Altanta" also helped with promoting the project and driving engagement. 
+
+Through this project we helped generate thousands of dollars of additional revenue for small Black business owners, helped them reach new audiences, and strengthen brand loyalty with our consumers. Throughout the time period in which the marketplace ran, our main Seagram's Escapes site saw 20% more traffic than normal!
+{{%/column %}}
 
 {{<hr>}}
 ## Desktop Screens
