@@ -63,7 +63,7 @@ After several failed attempts to inject user-focused experiences into the existi
 
 We never implemented this redesign as we ran out of runway.
 
-You can read the **[full case study]("/works/pm-redesign")**.
+You can read the **[full case study]({{< ref "work/pm-redesign/index.md" >}})**.
 {{%/column%}}
 {{<column>}}
     {{<workImage class="figure text-muted mb-4" src="/work/pm-call-experience/06-redesign/all-workflows.jpg" alt="photo documenting task analysis of various target user's work flows" caption="documenting task analysis of various target user's work flows">}}
