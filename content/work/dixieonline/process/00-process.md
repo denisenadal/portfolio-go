@@ -50,7 +50,7 @@ images: [{
     
         }
     },{
-        "src": "03---COSTS---d-Mobile.jpg",
+        "src": "03---COSTS---d-Mobile.png",
         "title":"costs of attendance for online courses, mobile size",
         "params" : {
             "caption": true,
