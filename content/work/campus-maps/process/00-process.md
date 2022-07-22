@@ -8,26 +8,24 @@ images: [{
     "title":"map overview, desktop size",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 0,
-        "columns": "col-sm-6 col-md-6 col-lg-3"
+                "order": 0,
+        "columns": "col-6 col-sm-6 col-md-6 col-lg-3"
      }
     },{
         "src": "campusmaps-active.png",
     "title":"active point details, desktop size",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 0,
-        "columns": "col-sm-6 col-md-6 col-lg-3"
+                "order": 0,
+        "columns": "col-6 col-sm-6 col-md-6 col-lg-3"
      }
     },{
     "src": "campus-map-mobile01.png",
     "title":"map overview, mobile size",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 0
+        "columns": "col-6 col-sm-6 col-md-6 col-lg-3",
+                "order": 0
      }
     }]
 ---

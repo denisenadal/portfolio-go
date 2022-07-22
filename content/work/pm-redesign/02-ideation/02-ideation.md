@@ -5,7 +5,7 @@ columns: "col-sm-12"
 
 ---
 {{<row>}}
-{{<column class="col-sm-12 col-md-6 mb-4" >}}
+{{<column class="col-12 col-sm-12 col-md-6 mb-4" >}}
 {{%markdown%}}
 After establishing a deep understanding of who we were designing for and understanding the tasks involved, I did a lot of loose sketching on paper to work out my initial ideas. From there I worked up several wireframes, some of which are detailed in the next section
 

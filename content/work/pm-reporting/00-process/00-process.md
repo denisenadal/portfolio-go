@@ -8,24 +8,24 @@ images: [{"src": "efficiency-00v1.png",
     "title":"Job Efficiency Report, version 1",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 1
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 1
    
      }
     },{"src": "efficiency-00v2.png",
     "title":"Job Efficiency Report, version 2",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 2
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 2
    
      }
     },{"src": "efficiency-00v3.png",
     "title":"Job Efficiency Report, version 3",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 3
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 3
    
      }
     },
@@ -33,8 +33,8 @@ images: [{"src": "efficiency-00v1.png",
     "title":"Lead Source Report",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 4
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 4
    
      }
     },
@@ -42,8 +42,8 @@ images: [{"src": "efficiency-00v1.png",
     "title":"Job Scorecard Report",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 5
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 5
    
      }
     }]

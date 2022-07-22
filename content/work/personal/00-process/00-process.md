@@ -8,8 +8,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Mockup of the Contact page ",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 3,
+                "order": 3,
         "columns": "col-sm-6  col-md-4 col-lg-3"
      }
     },
@@ -17,8 +16,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Mockup of the About page ",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 2,
+                "order": 2,
         "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },
@@ -26,8 +24,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Mockup of the Skill page ",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 4,
+                "order": 4,
         "columns": "col-sm-6 col-md-4 col-lg-3"
      }
     },
@@ -35,8 +32,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Mockup of the Gallery page ",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 6,
+                "order": 6,
         "columns": "col-sm-6  col-md-4  col-lg-3"
      }
     },
@@ -44,8 +40,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Sample experience page",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 5,
+                "order": 5,
         "columns": "col-sm-6 col-md-4 col-xl-3"
      }
     },
@@ -53,8 +48,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Sample work page",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 7,
+                "order": 7,
         "columns": "col-sm-6 col-md-4 col-xl-3"
      }
     },
@@ -62,8 +56,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Sample work page",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 8,
+                "order": 8,
         "columns": "col-sm-6 col-md-4  col-xl-3"
      }
     },
@@ -71,8 +64,7 @@ images: [{"src": "mockup-contact.jpg",
     "title":"Sample work page",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 9,
+                "order": 9,
         "columns": "col-sm-6 col-md-4  col-xl-3"
      }
     }]

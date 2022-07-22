@@ -8,8 +8,7 @@ images: [{
     "title":"early design sketches",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 0
+                "order": 0
    
      }
     },{
@@ -17,8 +16,7 @@ images: [{
     "title":"onboarding screen, desktop size",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 2
+                "order": 2
    
      }
     },{
@@ -26,8 +24,7 @@ images: [{
     "title":"artist's profile, desktop size",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 3
+                "order": 3
    
      }
     }]

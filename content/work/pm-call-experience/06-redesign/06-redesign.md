@@ -55,7 +55,7 @@ images: [{
 }]
 ---
 {{<row>}}
-{{%column class="col-sm-12 col-md-8 col-lg-7 mb-4" %}}
+{{%column class="col-12 col-sm-12 col-md-8 col-lg-7 mb-4" %}}
 ### Full Redesign 
 (Nov, Dec 2019)
 

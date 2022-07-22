@@ -8,8 +8,7 @@ images:  [
     "title":"ideating on logo design",
     "params" : {
         "caption": true,
-        "group": 2,
-        "order": 0,
+                "order": 0,
         "columns": "col-sm-6 col-md-4 col-lg-2"}
     },{
     "src":"screens-wireframes-beaconflood.gif",

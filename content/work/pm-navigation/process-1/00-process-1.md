@@ -8,49 +8,43 @@ images: [{
        "title": "Task Index mobile view, v1",
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6 col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01index-tablet.png",
        "title": "Task Index tablet view, v1",
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6 col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-desktop.png",
        "title": "Metro style task groups, v1",
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6 col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-mobile.png",
        "title": "Metro style task groups, mobile view, v1",   
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6 col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01metro-tablet.png",
        "title": "Metro style task groups, tablet view, v1",
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6 col-sm-6 col-md-4 col-lg-2"}
        },{
        "src":"v01weighted-mobile.png",
        "title": "tasks weighted by usage, mobile view, v1",
        "params" : {
               "caption": true,
-              "group": 2,
-              "order": 0,
-              "columns": "col-sm-6 col-md-4 col-lg-2"}
+                            "order": 0,
+              "columns": "col-6  col-sm-6 col-md-4 col-lg-2"}
  }]
 ---
 Our Product Director challenged the UX Team to explore new ways of allowing users to quickly discover common tasks without having to dig through onerous and dated navigation systems.

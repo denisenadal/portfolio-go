@@ -8,7 +8,7 @@ columns: "col-sm-12"
 ### Summary View 
 (Feb 2019 -?)
 {{<row>}}
-{{< column class="col-sm-12 col-md-8 col-lg-7 col-xl-6 mb-4" >}}
+{{< column class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6 mb-4" >}}
 {{%markdown%}}
 Our previous release made it easier to look up a person or their home, and schedule work, but it didn't make it much easier to look at information about them. I began exploring options whenever I had a spare moment, beginning to do **user research** by **interviewing our target audience, writing stories and scenarios to test designs,** and **organizing the information architecture** on the page. 
 
@@ -16,10 +16,10 @@ Through this process, I managed to condense ten screens of information into one.
 {{%/markdown%}}
 
 <div class="row mt-4">
-<div class="col-sm-6">
+<div class="col-6 col-sm-6">
  {{<workImage class="figure text-muted mb-4" src="/work/pm-call-experience/03-summaries/v1contact.png" alt="redesigning the contact screen within our existing UI" caption="redesigning the contact screen within our existing UI">}}
  </div>
- <div class="col-sm-6">
+ <div class="col-6 col-sm-6">
   {{<workImage class="figure text-muted mb-4" src="/work/pm-call-experience/03-summaries/v1property.png" alt="redesigning the property screen within our existing UI" caption="redesigning the property screen within our existing UI">}}
 </div>
 </div>

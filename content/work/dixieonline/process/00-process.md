@@ -9,8 +9,7 @@ images: [{
         "title":"homepage design, desktop size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -18,8 +17,7 @@ images: [{
         "title":"homepage design, mobile size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -27,8 +25,7 @@ images: [{
         "title":"online course schedule, desktop size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -36,8 +33,7 @@ images: [{
         "title":"online course schedule, mobile size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -45,8 +41,7 @@ images: [{
         "title":"costs of attendance for online courses, desktop size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -54,8 +49,7 @@ images: [{
         "title":"costs of attendance for online courses, mobile size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -63,8 +57,7 @@ images: [{
         "title":"online student resources, desktop size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -72,8 +65,7 @@ images: [{
         "title":"online student resources, mobile size",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0
+                        "order": 0
     
         }
     },{
@@ -81,7 +73,6 @@ images: [{
         "title":"informative about page",
         "params" : {
             "caption": true,
-            "group":2,
-            "order": 0}
+                        "order": 0}
     }]
 ---

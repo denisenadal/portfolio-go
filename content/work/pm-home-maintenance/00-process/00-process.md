@@ -6,16 +6,16 @@ draft: false
 order: 0
 columns: "col-sm-12"
 ---
-The process for this project was fast and experimental.
+The process for this project was fast and experimental.
 {{<hr>}}
 {{<row>}}
 {{% column class="col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" %}}
 
 ### Understand the Problem Space
 
-We conducted several rounds of **lean experiments** to test hypotheses about the market, as well as using several methods to collect first-hand personal experiences to inform our thinking.
+We conducted several rounds of **lean experiments** to test hypotheses about the market, as well as using several methods to collect first-hand personal experiences to inform our thinking.
 
-Some of the methods we used were **in-depth interviews, guerilla surveys, paid surveys**, informally interviewing everyone we know and looking at general market data. Some of the most common sentiments we heard from homeowners are listed to the right.
+Some of the methods we used were **in-depth interviews, guerilla surveys, paid surveys**, informally interviewing everyone we know and looking at general market data. Some of the most common sentiments we heard from homeowners are listed to the right.
 
 Below are some examples of the experiments we ran.
 {{%/column%}}
@@ -58,7 +58,7 @@ Below are some examples of the experiments we ran.
 {{%markdown%}}
 ### Define The Problem
 
-Using our research we were able to define our **personas,** their experiences, and clarify **the biggest impact problem** we could solve for them. 
+Using our research we were able to define our **personas,** their experiences, and clarify **the biggest impact problem** we could solve for them. 
 
 We build a **customer journey map** of their experience hiring a contractor for home repairs. We were able to distill all of the complexities around planning and conducting home repair to two problem statements.
 {{%/markdown%}}
@@ -78,7 +78,7 @@ We build a **customer journey map** of their experience hiring a contractor for 
 {{% column class="col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" %}}
 ### Ideate
 
-We also conducted **collaborative design sessions** and **workshops** to ideate product opportunities and define and test a **value proposition**. 
+We also conducted **collaborative design sessions** and **workshops** to ideate product opportunities and define and test a **value proposition**. 
 
 {{%/column %}}
 {{</row>}}

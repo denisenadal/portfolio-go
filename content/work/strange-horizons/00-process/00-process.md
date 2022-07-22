@@ -10,7 +10,7 @@ images: [{
     "params": {
         "caption": true,
         "order": 1,
-        "columns": "col-sm-3 col-lg-2"
+        "columns": "col-6 col-sm-3 col-lg-2"
      }
 },{
     "title":"Tablet Thumbnail",
@@ -18,7 +18,7 @@ images: [{
     "params": {
         "caption": true,
         "order": 2,
-        "columns": "col-sm-3 col-lg-2"
+        "columns": "col-4 col-sm-3 col-lg-2"
      }
 },{
     "title":"Mobile Thumbnail",
@@ -26,7 +26,7 @@ images: [{
     "params": {
         "caption": true,
         "order": 3,
-        "columns": "col-sm-3 col-lg-2"
+        "columns": "col-4 col-sm-3 col-lg-2"
      }
 },{
     "title":"Desktop Comp",
@@ -34,7 +34,7 @@ images: [{
     "params": { 
         "caption": true,
         "order": 6,
-        "columns": "col-sm-6 col-lg-4"
+        "columns": "col-6 col-sm-6 col-lg-4"
     }
 },{
     "title":"Tablet Comp",
@@ -42,7 +42,7 @@ images: [{
     "params": {
         "caption": true,
         "order": 5,
-        "columns": "col-sm-6 col-lg-4"
+        "columns": "col-6 col-sm-6 col-lg-4"
      }
 },{
     "title":"Mobile Comp",
@@ -50,7 +50,7 @@ images: [{
     "params": { 
         "caption": true,
         "order": 4,
-        "columns": "col-sm-3 col-lg-2"
+        "columns": "col-6 col-sm-3 col-lg-2"
     }
 }]
 ---

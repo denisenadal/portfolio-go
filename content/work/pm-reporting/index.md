@@ -1,6 +1,6 @@
 ---
 title:  "Reporting Dashboards"
-subtitle: "UX/UX Design"
+subtitle: "UI/UX Design"
 date: 2019-03-31T20:46:03-05:00
 date_range: "Fall 2018 - Spring 2019"
 draft: false

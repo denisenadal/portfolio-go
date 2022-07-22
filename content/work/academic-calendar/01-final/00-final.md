@@ -9,7 +9,7 @@ images: [{
     "title":"academic calendar home page",
     "params":{
         "caption":true,
-        "columns":  "col-sm-6 col-lg-3",
+        "columns":  "col-6 col-sm-6 col-lg-3",
         "order":0
     }
 },{
@@ -17,7 +17,7 @@ images: [{
     "title":"calendar's  filtered results page",
     "params":{
         "caption":true,
-        "columns":  "col-sm-6 col-lg-3",
+        "columns":  "col-6 col-sm-6 col-lg-3",
         "order":0
     }
 },{
@@ -25,7 +25,7 @@ images: [{
     "title":"smaller view",
     "params":{
         "caption":true,
-        "columns":  "col-sm-6 col-lg-3",
+        "columns":  "col-6 col-sm-6 col-lg-3",
         "order":0
     }
 },{
@@ -33,7 +33,7 @@ images: [{
     "title":"mobile view",
     "params":{
         "caption":true,
-        "columns":  "col-sm-6 col-lg-3",
+        "columns":  "col-6 col-sm-6 col-lg-3",
         "order":0
     }
 }]

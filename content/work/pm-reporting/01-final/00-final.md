@@ -8,8 +8,8 @@ images: [{"src":"efficiency01.jpg",
     "title":"Job Efficiency Report",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 1
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 1
    
      }
     },
@@ -17,8 +17,8 @@ images: [{"src":"efficiency01.jpg",
     "title":"Billable Hour Efficiency Report",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 2
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 2
    
      }
     },
@@ -26,8 +26,8 @@ images: [{"src":"efficiency01.jpg",
     "title":"Invoicing Report",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 3
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 3
    
      }
     },
@@ -35,8 +35,7 @@ images: [{"src":"efficiency01.jpg",
     "title":"Lead Source Report",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 4
+                "order": 5
    
      }
     },
@@ -44,8 +43,8 @@ images: [{"src":"efficiency01.jpg",
     "title":"Sales Report",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 5
+        "columns": "col-6 col-sm-6 col-md-4 ",
+                "order": 4
    
      }
     },
@@ -53,8 +52,7 @@ images: [{"src":"efficiency01.jpg",
     "title":"Job Scorecard Report, p1",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 6
+                "order": 6
    
      }
     },
@@ -62,8 +60,7 @@ images: [{"src":"efficiency01.jpg",
     "title":"Job Scorecard Report, p2",
     "params" : {
         "caption": true,
-        "group":3,
-        "order": 7
+                "order": 7
    
      }
     }]

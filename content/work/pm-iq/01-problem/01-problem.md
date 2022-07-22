@@ -7,7 +7,7 @@ order: 0
 columns: "col-sm-12"
 ---
 {{<row>}}
-{{<column class="col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" >}}
+{{<column class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" >}}
 {{%markdown%}}
 The existing invoicing and quotes system in our app wasn't flexible enough to meet the needs of technicians out in the field. Here are some of the common issues our users experienced:
 {{%/markdown%}}

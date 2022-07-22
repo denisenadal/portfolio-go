@@ -7,7 +7,7 @@ order: 1
 columns: "col-sm-12"
 ---
 {{<row>}}
-{{% column class="col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" %}}
+{{% column class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 mb-4" %}}
 I followed a modified version of the **Design Thinking** process. I started with trying to find out as much as I could about the site, who used it and for what reasons, as well as what they did and didn't like about the system. Next I sketched out the logical **content structure** and **information architecture** with our support team. Then I created **wireframes** which I **tested** with users, and revised several times before working up some high-res mockups. These mockups where turned into **prototypes** and also went through several round of testing. From there I developed detailed screens to use as product specs to hand off to the engineers.
 {{<hr>}}
 
@@ -53,7 +53,7 @@ This was somewhat challenging as the data structure was as shown, right:
 
 {{<hr>}}
 {{<row>}}
-{{%column class="col-sm-12 col-md-5  mb-4"%}}
+{{%column class="col-12 col-sm-12 col-md-5  mb-4"%}}
 ## Wireframes
 
 After the Information Architecture was confirmed, I started designing out the content and layout of the pages through wireframes.I then took these designs to our team and tested them with users to make sure we were on track. 
@@ -79,7 +79,7 @@ Highlighted on the images are discussion points:
         <span class="h2 d-block">&nbsp;</span>
         {{<workImage src="/work/swr-srs/01-process/theme-variants.jpg" alt="Testing out variants of the material theme">}}
     {{</column>}}
-{{% column class="col-sm-12 col-md-6" %}}
+{{% column class="col-12 col-sm-12 col-md-6" %}}
 
 ## Visual Design
 
@@ -117,7 +117,7 @@ Prototyping went through three distinct phases, during the first round, I solidi
 {{<hr>}}
 
 {{<row>}}
-{{% column class="col-sm-12 col-md-6 col-lg-7   mb-3" %}}
+{{% column class="col-12 col-sm-12 col-md-6 col-lg-7   mb-3" %}}
 
 ## Testing
 

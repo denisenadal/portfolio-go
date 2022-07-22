@@ -7,8 +7,7 @@ images: [{"src":"marketneed.png",
     "title":"Stats about the market",
     "params" : {
         "caption": false,
-        "group":2,
-        "order": 1,
+                "order": 1,
         "columns": "col-sm-6 col-md-6 col-lg-3"
      }
     },
@@ -16,8 +15,7 @@ images: [{"src":"marketneed.png",
     "title":"Stats about the market size",
     "params" : {
         "caption": false,
-        "group":2,
-        "order": 2,
+                "order": 2,
         "columns": "col-sm-6 col-md-6 col-lg-3"
      }
     },
@@ -25,8 +23,7 @@ images: [{"src":"marketneed.png",
     "title":"our initial product offering idea",
     "params" : {
         "caption": false,
-        "group":2,
-        "order": 3,
+                "order": 3,
         "columns": "col-sm-12 col-md-12 col-lg-6"
      }
     }]

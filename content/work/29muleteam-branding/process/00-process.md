@@ -8,8 +8,7 @@ images: [{
     "title":"Letterhead",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 0
+                "order": 0
    
      }
     },
@@ -18,8 +17,7 @@ images: [{
     "title":"Business Card Back",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 1
+                "order": 1
    
      }
     },{
@@ -27,8 +25,7 @@ images: [{
     "title":"Business Card Front",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 2
+                "order": 2
    
      }
     },{
@@ -36,8 +33,7 @@ images: [{
     "title":"Envelope Back",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 3
+                "order": 3
    
      }
     },{
@@ -45,8 +41,7 @@ images: [{
     "title":"Envelope Front",
     "params" : {
         "caption": true,
-        "group":2,
-        "order": 4
+                "order": 4
    
      }
     }]

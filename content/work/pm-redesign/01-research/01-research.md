@@ -4,7 +4,7 @@ draft: false
 columns: "col-sm-12"
 ---
 {{<row>}}
-{{%column class="col-sm-12 col-md-8 col-lg-7 mb-4" %}}
+{{%column class="col-12 col-sm-12 col-md-8 col-lg-7 mb-4" %}}
 I spearheaded this project after our new Product Director challenged the UX Team to **test our assumption**s about how our users really do their jobs. Up until this point, we accepted the longstanding assumptions that our organization has built up through the years about what a "job" should look like and what dispatchers and technicians "should" do.
 
 We started this process by **interviewing a former HVAC technician and  a general manage**r for plumbing and HVAC companies. During the interview process we made several discoveries that changed our entire perception of what a "job" was.
