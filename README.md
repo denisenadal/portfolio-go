@@ -18,6 +18,8 @@ The `start` script also sources a .env file to load any private environment vari
 `hugo` builds a static site, use  `npm run build` to compile the sass before generating the site. 
 
 ## TODO
+* use this: https://stackoverflow.com/questions/58982072/recaptcha-v3-assets-cause-pagespeed-issues-how-to-defer to reduce page load
+* convert all images to webp
 * document package scripts
 * remove targeted portfolios
 * update works gallery
