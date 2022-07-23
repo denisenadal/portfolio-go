@@ -3,7 +3,7 @@ title: "Design Process"
 date: 2020-11-01T20:46:03-05:00
 draft: false
 order: 0
-"columns": "col-sm-12 "
+columns: "col-sm-12 "
 images: [{"src": "wireframes.png",
     "title":"Initial wireframes",
     "params" : {

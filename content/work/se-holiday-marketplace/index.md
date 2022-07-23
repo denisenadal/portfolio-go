@@ -7,7 +7,7 @@ draft: false
 image: {"name":"cover-2.jpg"," alt":"Header Image for the Seagram's Escapes Holiday Marketplace"}
 type: "work"
 tags: ["UI Design","UX Design","Web Development","Web Design" ]
-weight: 101
+weight: 150
 sections: ["design", "final"]
 resources: [
     {"src":"00-design.md"},

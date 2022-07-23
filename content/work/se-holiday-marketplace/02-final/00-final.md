@@ -3,14 +3,13 @@ title: "The Live Marketplace"
 date: 2020-11-01T20:46:03-05:00
 draft: false
 order: 0
-"columns": "col-sm-12 "
+columns: "col-sm-12 "
 images: [{"src": "categorie-375.png",
     "title":"Category page - Mobile size",
     "params" : {
         "caption": false,
         "columns": "col-5 col-sm-4 col-md-3 ",
         "order": 1
-   
      }
     },{"src": "categorie-800.png",
     "title":"Category page - Tablet size",
@@ -18,15 +17,13 @@ images: [{"src": "categorie-375.png",
         "caption": false,
         "columns": "col-6 col-sm-4 col-md-3 ",
         "order": 2
-   
      }
     },{"src": "home-375.png",
     "title":"Landing - Mobile size",
     "params" : {
         "caption": false,
         "columns": "col-6 col-sm-4 col-md-2 ",
-        "order": 1
-   
+        "order": 1  
      }
     },{"src": "home-800.png",
     "title":"Landing page - Tablet size",
@@ -34,7 +31,6 @@ images: [{"src": "categorie-375.png",
         "caption": false,
         "columns": "col-6 col-sm-4 col-md-2 ",
         "order": 2
-   
      }
     }]
 ---
