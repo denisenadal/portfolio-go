@@ -8,7 +8,6 @@ image: {"name":"cover3.jpg"," alt":"Design exploration for job and customer scre
 type: "work"
 weight: 88
 tags: ["UI Design","UX Design"]
-sections: ["overview","process","scenarios", "components","final"]
 org: Pointman
 team: Steve Raines, Kurt Stangl, Mike Spencer, Michael Drewitt, Denise Nadal, David Cloyd. 
 role:  Front End Engineering, User Research, UX Design, UI Design

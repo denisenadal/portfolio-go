@@ -3,12 +3,11 @@ title:  "Campus Map App"
 subtitle: "UI/UX Design & Development"
 date: 2017-07-31T20:46:03-05:00
 date_range: "Summer 2017"
-draft: false
+draft: true
 image: {"name":"maps-mockups.jpg"," alt":"Campus Maps app on iMac screens"}
 type: "work"
 tags: ["Web Design","UI Design", "Web Development"]
 weight: 37
-sections: ["process"]
 org: Utah Tech University
 role: Web Design, Web Development
 resources: [{"src":"00-process.md"}]

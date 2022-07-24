@@ -8,7 +8,6 @@ image: {"name":"spilker-set.jpg"," alt":"mockup of website on all screens"}
 type: "work"
 tags: ["Web Design","Branding", "SEO"]
 weight: 35
-sections: ["process", "final"]
 team: Denise Nadal,  Drew Adams
 role: Web Design, Web Development, Branding, SEO, Social Media Marketing
 resources: [{"src": "00-process.md"},{"src": "00-final.md"}]

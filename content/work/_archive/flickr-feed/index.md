@@ -3,12 +3,11 @@ title:  "flickr feed"
 subtitle: "Coding Project"
 date: 2018-03-31T20:46:03-05:00
 date_range: "March 2018"
-draft: false
+draft: true
 image: {"name":"01-final/flickrfeed-desktop-default.png"," alt":"Desktop Latest Results"}
 type: "work"
-tags: ["Web App", "Web Development"]
+tags: ["Web App", "Web Development", "Rest APIs"]
 weight: 43
-sections: ["process", "final"]
 resources: [
     {"src":"00-process.md"},
     {"src":"00-final.md"}]

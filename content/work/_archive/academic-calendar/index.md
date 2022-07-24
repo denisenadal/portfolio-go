@@ -3,12 +3,11 @@ title: Academic Calendar App
 subtitle: Design & Development
 date: 2018-02-31T20:46:03-05:00
 date_range: "Fall 2017 -Spring 2018"
-draft: false
+draft: true
 image: {"name":"ac-ipad.jpg"," alt":"Academic Calendar on an iPad"}
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 45
-sections: ["process", "final"]
 org: Utah Tech University
 role: Web Design, Web Development
 team: Denise Nadal, David Hulet

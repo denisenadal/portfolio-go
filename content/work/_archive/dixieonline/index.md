@@ -8,7 +8,6 @@ image: {"name":"MiniLapTop1.jpg"," alt":"Dixie Online web presence"}
 type: "work"
 tags: ["Web Design", "Web Development"]
 weight: 47
-sections: ["process"]
 org: Utah Tech University
 resources: [ {"src":"00-process.md"}]
 ---
