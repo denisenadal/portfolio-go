@@ -6,9 +6,8 @@ date_range: "Fall 2017"
 draft: false
 image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
 type: "work"
-tags: ["User Research","UX Design","Web Design", "Web Development"]
+tags: ["User Research","UX Design","Web Design", "Web Development","WordPress"]
 weight: 65
-sections: ["process","mockups", "final"]
 org: Utah Tech University
 role: User Testing, User Interviews, Contextual Inquiry, Competitive Analysis, Visual Design, Web Design, Web Development
 team: Denise Nadal, David Hulet, Brad Snow, Rex Frisbey

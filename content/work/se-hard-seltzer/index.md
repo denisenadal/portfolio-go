@@ -6,9 +6,8 @@ date_range: "Spring 2021"
 draft: false
 image: {"name":"Seltzer-Key-Visual.png"," alt":"Key Visual for Seagram's Escapes Hard Seltzer"}
 type: "work"
-tags: ["Web Development","Web Design" ]
+tags: ["Web Development","Web Design","11ty" ]
 weight: 120
-sections: ["design", "final"]
 resources: [
     {"src":"00-design.md"},
     {"src":"00-final.md"}]

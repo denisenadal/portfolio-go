@@ -8,7 +8,6 @@ image: {"name":"summary-cover.jpg"," alt":"Design exploration for job and custom
 type: "work"
 weight: 90
 tags: ["UI Design","UX Design", "User Research", "Product Design"]
-sections: ["overview","process","scenarios", "components","final"]
 org: Pointman
 team: Kurt Stangl, Mike Spencer, Denise Nadal, David Cloyd
 role: User research, user testing, customer journeys, user flows, personas, information architecture, task analysis

@@ -23,16 +23,42 @@ The `start` script also sources a .env file to load any private environment vari
 * document package scripts
 * remove targeted portfolios
 * update works gallery
-    * national meeting
-    * kiosk app?
-    * Labatt Snapchat ?
-    * Hard Seltzer Site
-    * Good Neighbor?
-    * Safety Data Sheets
-    * Intranet
-    * SE Flavor Pages
-    * SE Cocktails
-    * GeneseeNY ?
-    * Labatt CYOA
+    - intranet
+    - genesee ny
+    - national meeting
     
 pink accessible -#E0008A
+## What Projects?
+### You can do fancy JS (above plus)
+ * SE Holiday Marketplace
+
+### You can do WP/ PHP
+- intranet
+
+### You can do product design
+* Redesigning the Core Pointman Experience
+* Home Maintenance
+
+### You can UX Research & Design
+* dixie.edu User Portals
+* Job Quote & Invoicing System
+
+### You can do Charts
+* Reporting Dashboards
+
+### You can work with APIs 
+* Labatt CYOA
+
+### You can work with Map Data
+* GeneseeNY  
+
+### You can do UI Design
+* SRS - SuccessWare Remote Admin Site
+
+### You can do Web Development
+* SE Cocktails
+
+### You can do Web Design
+* national meeting
+
+
