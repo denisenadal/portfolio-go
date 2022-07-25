@@ -16,7 +16,7 @@
 #     cwebp -q 100 "$jpg_path" -o "$webp_path"
 # done
 #!/bin/bash
-# find . -type d -exec ~/script.sh "{}" \;
+# find . -type d -exec ~/script.sh "{}" /;
 
 PATH=/usr/local/bin:/usr/bin:/bin
 
@@ -29,7 +29,7 @@ do
     cwebp -q 90 "$file" -o "${file%%.*}.webp"
 done
 
-    # cwebp -q 90 "reports-group.jpg" -o "reports-group.webp"
+    # cwebp -q 90 "static/images/denise.jpg" -o "static/images/denise.webp"
 # DataList="proto-company.png"
 # IFS=,
 # for file in $DataList;

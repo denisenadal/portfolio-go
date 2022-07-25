@@ -1,4 +1,4 @@
-baseURL = "https://denisenadal.netlify.app/"
+baseURL = "https://denisenadal.com/"
 languageCode = "en-us"
 title = "Denise Nadal"
 author = "Denise Nadal"
@@ -8,7 +8,7 @@ dataDir = "data/_default"
     description="Denise Nadal's UI/UX + FE/Web Design Portfolio"
     keywords="UI/UX Design, Web Design, Front-End Development, Front-End Engineering,Design Portfolio, Development Portfolio, Engineering Portfolio, Design Wizard, Design Unicorn"
     image="images/unicorn-06.jpg"
-    displayPicture = "images/denise.jpg"
+    displayPicture = "images/denise.webp"
     subtitle = "UI/UX + FE/Web Dev"
     colors = ["pink","red","orange","yellow","green","blue","purple"]
 [security.funcs]
