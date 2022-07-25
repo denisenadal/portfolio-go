@@ -4,9 +4,8 @@
     "description": "* On Mac OS `brew install hugo` * On Linux `snap install hugo --channel=extended` or `sudo apt-get install hugo`",
     "main": "index.js",
     "scripts": {
-        "sass:bs":"rsync -aqu node_modules/bootstrap themes/dn-hugo-theme/scss/vendor/",
-        "sass:build": "npm run sass:bs && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map --quiet ",
-        "sass:serve": "npm run sass:bs && sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
+        "sass:build": "sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --style=compressed --no-source-map --quiet ",
+        "sass:serve": "sass themes/dn-hugo-theme/scss/custom.scss:themes/dn-hugo-theme/static/css/custom.css --color --embed-sources --watch",
         "hugo:serve": "hugo server ",
         "start": "npm config set script-shell \"/bin/bash\"; source .env; concurrently \"npm run hugo:serve\" \"npm run sass:serve\"",
         "build": "npm run sass:build & hugo",
