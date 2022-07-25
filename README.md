@@ -29,7 +29,9 @@ The `start` script also sources a .env file to load any private environment vari
     
 pink accessible -#E0008A
 ## What Projects?
-### You can do fancy JS (above plus)
+Change descriptions to better showcase each skill
+
+### You can do fancy JS
  * SE Holiday Marketplace
 
 ### You can do WP/ PHP
