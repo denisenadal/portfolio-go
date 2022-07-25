@@ -77,7 +77,7 @@ Highlighted on the images are discussion points:
 {{<row>}}
     {{<column  class="col-sm-12 col-md-6">}}
         <span class="h2 d-block">&nbsp;</span>
-        {{<workImage src="/work/swr-srs/01-process/theme-variants.jpg" alt="Testing out variants of the material theme">}}
+        {{<workImage src="/work/swr-srs/01-process/theme-variants.webp" alt="Testing out variants of the material theme">}}
     {{</column>}}
 {{% column class="col-12 col-sm-12 col-md-6" %}}
 

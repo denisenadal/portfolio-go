@@ -5,7 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-12 "
 images: [{
-	"src": "2021-01-SE-SHS-mobile.png",
+	"src": "2021-01-SE-SHS-mobile.webp",
     "title":"Landing page - Mobile size",
     "params" : {
         "caption": false,
@@ -13,7 +13,7 @@ images: [{
         "order": 2
      }
     },{
-	"src": "2021-01-SE-SHS-tablet.png",
+	"src": "2021-01-SE-SHS-tablet.webp",
     "title":"Landing page - Tablet size",
     "params" : {
         "caption": false,
@@ -22,7 +22,7 @@ images: [{
      }
     },
 	{
-	"src": "2021-01-SE-SHS-desktop.png",
+	"src": "2021-01-SE-SHS-desktop.webp",
     "title":"Landing page - Desktop size",
     "params" : {
         "caption": false,

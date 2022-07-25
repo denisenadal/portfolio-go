@@ -4,7 +4,7 @@ date: 2020-11-01T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-12 "
-images: [{"src": "wireframes.png",
+images: [{"src": "wireframes.webp",
     "title":"Initial wireframes",
     "params" : {
         "caption": false,
@@ -12,7 +12,7 @@ images: [{"src": "wireframes.png",
         "order": 1
    
      }
-    },{"src": "componentdesign.jpg",
+    },{"src": "componentdesign.webp",
     "title":"Designs for various components",
     "params" : {
         "caption": false,
@@ -20,7 +20,7 @@ images: [{"src": "wireframes.png",
         "order": 2
    
      }
-    },{"src": "mockups.jpg",
+    },{"src": "mockups.webp",
     "title":"Mockups used for collecting feedback",
     "params" : {
         "caption": false,

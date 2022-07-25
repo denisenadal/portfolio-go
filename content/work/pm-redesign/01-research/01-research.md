@@ -14,28 +14,28 @@ Through those interviews, and **discussions with technicians** at HVAC conferenc
 By building out these **detailed personas based on real data** rather that anecdotal evidence, it became easier to focus in on the right workflows and solutions. All the insights we gained as a Product &  UX Team through this process later informed the best design work we had done as a team.
 {{</column>}}
 {{<column class="mt-1">}}
-  {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/cassie-booker-CSR.png" alt="CSR Persona" caption="CSR Persona">}}
+  {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/cassie-booker-CSR.webp" alt="CSR Persona" caption="CSR Persona">}}
 {{</column>}}
 {{<column class="mt-1">}}
-  {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/donna-lister-DIS.png" alt="Dispatcher Persona" caption="Dispatcher Persona">}}
+  {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/donna-lister-DIS.webp" alt="Dispatcher Persona" caption="Dispatcher Persona">}}
 {{</column>}}
 {{</row>}}
 
 {{<row>}}
     {{<column class="col-sm-6 col-md-3">}}
-         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/job-mental-map.jpg" alt="Job mental map" caption="Job mental map">}}
-         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/newjob-workflow.jpg" alt="workflow for creating a job" caption="Workflow for creating a job">}}
+         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/job-mental-map.webp" alt="Job mental map" caption="Job mental map">}}
+         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/newjob-workflow.webp" alt="workflow for creating a job" caption="Workflow for creating a job">}}
     {{</column>}}
     {{<column class="col-sm-6 col-md-3">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/dispatch-workflow.jpg" alt="Dispatcher workflow" caption="Dispatcher workflow">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/tech-workflow.jpg" alt="Tech workflow" caption="Tech workflow">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/dispatch-workflow.webp" alt="Dispatcher workflow" caption="Dispatcher workflow">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/tech-workflow.webp" alt="Tech workflow" caption="Tech workflow">}}
     {{</column>}}
     {{<column class="col-sm-6 col-md-3">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/owner-workflow.jpg" alt="Owner workflow" caption="Owner workflow">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/job-diagrams.jpg" alt="diagramming various types of jobs" caption="Diagramming various types of jobs">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/owner-workflow.webp" alt="Owner workflow" caption="Owner workflow">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/job-diagrams.webp" alt="diagramming various types of jobs" caption="Diagramming various types of jobs">}}
     {{</column>}}
     {{<column class="col-sm-6 col-md-3">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/csr-workflow.jpg" alt="CSR workflow" caption="CSR workflow">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/01-research/csr-workflow.webp" alt="CSR workflow" caption="CSR workflow">}}
     {{</column>}}
 {{</row>}}
 

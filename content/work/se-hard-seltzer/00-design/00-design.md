@@ -16,12 +16,12 @@ Afterwords I quickly worked up some low fidelity mockups to make sure we were on
 ## Design Iterations
 {{< row >}}
 {{<column class="col-6 col-sm-6 col-md-4 col-lg-4  mb-4" >}}
-{{<workImage src="/work/se-hard-seltzer/00-design/00-wireframe.jpg" alt="Initial wireframes" caption="Initial wireframes">}}
-{{<workImage src="/work/se-hard-seltzer/00-design/01-lofi-design.jpg" alt="Low Fidelity Designs" caption="Low Fidelity Designs">}}
+{{<workImage src="/work/se-hard-seltzer/00-design/00-wireframe.webp" alt="Initial wireframes" caption="Initial wireframes">}}
+{{<workImage src="/work/se-hard-seltzer/00-design/01-lofi-design.webp" alt="Low Fidelity Designs" caption="Low Fidelity Designs">}}
 {{</column >}}
 {{<column class="col-6 col-sm-6 col-md-8 col-lg-8  mb-4" >}}
-{{<workImage src="/work/se-hard-seltzer/00-design/03-component-design.jpg" alt="Designs for various components" caption="Designs for various components">}}
-{{<workImage src="/work/se-hard-seltzer/00-design/02-style-variants.jpg" alt="Exploring difference style treaments" caption="Exploring difference style treaments">}}
+{{<workImage src="/work/se-hard-seltzer/00-design/03-component-design.webp" alt="Designs for various components" caption="Designs for various components">}}
+{{<workImage src="/work/se-hard-seltzer/00-design/02-style-variants.webp" alt="Exploring difference style treaments" caption="Exploring difference style treaments">}}
 {{</column >}}
 
 {{< /row >}}
@@ -30,13 +30,13 @@ Afterwords I quickly worked up some low fidelity mockups to make sure we were on
 ## Prototype Screens
 {{< row >}}
 {{<column class="col-6 col-sm-6 col-md-3 col-lg-2  mb-4" >}}
-{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-mobile-320px@1x.jpg" alt="Landing page - Desktop size" caption="Landing page - Desktop size">}}
+{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-mobile-320px@1x.webp" alt="Landing page - Desktop size" caption="Landing page - Desktop size">}}
 {{</column >}}
 {{<column class="col-6 col-sm-6 col-md-4 col-lg-4  mb-4" >}}
-{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-tablet-768px@1x.jpg" alt="Landing page - Tablet size" caption="Landing page - Tablet size">}}
+{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-tablet-768px@1x.webp" alt="Landing page - Tablet size" caption="Landing page - Tablet size">}}
 {{</column >}}
 {{<column class="col-6 col-sm-6 col-md-5 col-lg-6  mb-4" >}}
-{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-laptop-1280px@1x.jpg" alt="Landing page - Laptop size" caption="Landing page - Laptop size">}}
+{{<workImage src="/work/se-hard-seltzer/01-testing/hifi-laptop-1280px@1x.webp" alt="Landing page - Laptop size" caption="Landing page - Laptop size">}}
 {{</column >}}
 
 {{< /row >}}

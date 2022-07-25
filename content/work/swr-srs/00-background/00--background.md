@@ -6,7 +6,7 @@ draft: false
 order: 0
 columns: "col-sm-6 col-lg-7"
 images: [{
-    "src": "IA-OLD.png",
+    "src": "IA-OLD.PNG",
    "title": "original UI",
    "params": {
        "caption": true,

@@ -20,12 +20,12 @@ We turned the designs into Frigma prototypes and tested them against several sta
 
 {{<row>}}
 {{<column class="col-6 col-sm-4">}}
-{{<workImage src="/work/fifco-intranet/01-design/Desktop-home-fold.jpg" alt="Homepage above the fold design on desktop" caption="Homepage above the fold design on desktop">}}
+{{<workImage src="/work/fifco-intranet/01-design/Desktop-home-fold.webp" alt="Homepage above the fold design on desktop" caption="Homepage above the fold design on desktop">}}
 {{</column>}}
 {{<column class="col-6 col-sm-4">}}
-{{<workImage src="/work/fifco-intranet/01-design/intranet-desktop.jpg" alt="Various Screens on Desktop" caption="Various Screens on Desktop">}}
+{{<workImage src="/work/fifco-intranet/01-design/intranet-desktop.webp" alt="Various Screens on Desktop" caption="Various Screens on Desktop">}}
 {{</column>}}
 {{<column class="col-6 col-sm-4">}}
-{{<workImage src="/work/fifco-intranet/01-design/intranet-mobile.jpg" alt="Various Screens on Mobile" caption="Various Screens on Mobile">}}
+{{<workImage src="/work/fifco-intranet/01-design/intranet-mobile.webp" alt="Various Screens on Mobile" caption="Various Screens on Mobile">}}
 {{</column>}}
 {{</row>}}

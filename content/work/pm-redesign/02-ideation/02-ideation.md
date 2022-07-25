@@ -15,16 +15,16 @@ Part of validating this design and workflow was running it through several commo
 {{%/markdown%}}
 {{</column>}}
     {{<column class="col-sm-6 col-md-2">}}
-         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-0.png" alt="Scenario Step 1">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-03.png" alt="Scenario Step 4">}}
+         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-0.webp" alt="Scenario Step 1">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-03.webp" alt="Scenario Step 4">}}
     {{</column>}}
     {{<column class="col-sm-6 col-md-2">}}
-         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-01.png" alt="Scenario Step 2">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-04.png" alt="Scenario Step 5">}}
+         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-01.webp" alt="Scenario Step 2">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-04.webp" alt="Scenario Step 5">}}
     {{</column>}}
     {{<column class="col-sm-6 col-md-2">}}
-         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-02.png" alt="Scenario Step 3">}}
-        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-05.png" alt="Scenario Step 6">}}
+         {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-02.webp" alt="Scenario Step 3">}}
+        {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v04scenario-05.webp" alt="Scenario Step 6">}}
     {{</column>}}
 {{</row>}}
 {{<workImage class="figure text-muted mb-4" src="/work/pm-redesign/02-ideation/v3workflow-wires.png" alt="Scenario: landlord calls to schedule work at a tenant's home">}}

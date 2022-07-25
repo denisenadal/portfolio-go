@@ -3,7 +3,7 @@ title: "Component Design & Planning"
 draft: false
 columns: "col-sm-12 col-md-12 col-lg-6"
 images: [{
-    "src": "v04-bits01.png",
+    "src": "v04-bits01.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,
@@ -11,7 +11,7 @@ images: [{
        "columns": "col-sm-6 col-lg-3"
    }
 },{
-    "src": "v04-bits02.png",
+    "src": "v04-bits02.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,
@@ -19,7 +19,7 @@ images: [{
        "columns": "col-sm-6 col-lg-3"
    }
 },{
-    "src": "v04-bits03.png",
+    "src": "v04-bits03.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,
@@ -27,7 +27,7 @@ images: [{
        "columns": "col-sm-6 col-lg-6"
    }
 },{
-    "src": "v04-bits04.png",
+    "src": "v04-bits04.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,
@@ -35,7 +35,7 @@ images: [{
        "columns": "col-sm-6 col-lg-3"
    }
 },{
-    "src": "v04-bits05.png",
+    "src": "v04-bits05.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,
@@ -43,7 +43,7 @@ images: [{
        "columns": "col-sm-6 col-lg-3"
    }
 },{
-    "src": "v04-bits06.png",
+    "src": "v04-bits06.webp",
    "title": "component designs for engineering",
    "params": {
        "caption": false,

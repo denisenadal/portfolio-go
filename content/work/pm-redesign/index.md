@@ -4,7 +4,7 @@ subtitle: "UI/UX Design"
 date: 2019-11-30T20:46:03-05:00
 date_range: "Fall 2018 - Fall 2019"
 draft: false
-image: {"name":"summary-cover.jpg"," alt":"Design exploration for job and customer screens in the Pointman App"}
+image: {"name":"summary-cover.webp"," alt":"Design exploration for job and customer screens in the Pointman App"}
 type: "work"
 weight: 90
 tags: ["UI Design","UX Design", "User Research", "Product Design"]

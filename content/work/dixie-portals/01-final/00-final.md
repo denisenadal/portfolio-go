@@ -5,7 +5,7 @@ draft:
 order: 2
 columns: "col-sm-12 "
 images: [{
-    "src": "alumniPortalFinal.jpg",
+    "src": "alumniPortalFinal.webp",
     "title":"Alumni Portal, Desktop View",
     "params":{
         "caption":true,
@@ -13,7 +13,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "students-portalFINAL.jpg",
+    "src": "students-portalFINAL.webp",
     "title":"Student Portal, Desktop View",
     "params":{
         "caption":true,
@@ -21,7 +21,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "employees-final.jpg",
+    "src": "employees-final.webp",
     "title":"Employee Portal, Desktop View",
     "params":{
         "caption":true,
@@ -32,9 +32,3 @@ images: [{
 ---
 The final result was a easily modified WordPress template that our Web Team could update regularly.
 
-{{<button title="Live Student Portal" link="http://students.dixie.edu" class=" btn-secondary m-1" >}}
-
-{{<button title="Live Employee Portal" link="http://employees.dixie.edu" class=" btn-secondary m-1" >}}
-
-
-{{<button title="Live Alumni Portal" link="http://alumni.dixie.edu" class=" btn-secondary m-1" >}}

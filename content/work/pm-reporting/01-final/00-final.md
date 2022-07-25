@@ -4,7 +4,7 @@ date: 2020-01-31T20:46:03-05:00
 draft: false
 order: 1
 columns: "col-sm-12 col-lg-6 offset-lg-6"
-images: [{"src":"efficiency01.jpg",
+images: [{"src":"efficiency01.webp",
     "title":"Job Efficiency Report",
     "params" : {
         "caption": true,
@@ -13,7 +13,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"efficiency02.png",
+    {"src":"efficiency02.webp",
     "title":"Billable Hour Efficiency Report",
     "params" : {
         "caption": true,
@@ -22,7 +22,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"invoicing01.png",
+    {"src":"invoicing01.webp",
     "title":"Invoicing Report",
     "params" : {
         "caption": true,
@@ -31,7 +31,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"leadsource-01.png",
+    {"src":"leadsource-01.webp",
     "title":"Lead Source Report",
     "params" : {
         "caption": true,
@@ -39,7 +39,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"sales01.png",
+    {"src":"sales01.webp",
     "title":"Sales Report",
     "params" : {
         "caption": true,
@@ -48,7 +48,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"scorecard01.png",
+    {"src":"scorecard01.webp",
     "title":"Job Scorecard Report, p1",
     "params" : {
         "caption": true,
@@ -56,7 +56,7 @@ images: [{"src":"efficiency01.jpg",
    
      }
     },
-    {"src":"scorecard02.png",
+    {"src":"scorecard02.webp",
     "title":"Job Scorecard Report, p2",
     "params" : {
         "caption": true,

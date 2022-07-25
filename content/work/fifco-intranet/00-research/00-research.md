@@ -46,7 +46,7 @@ Build a content management system for a company-wide intranet system. It should 
 ## User Research
 We used a combination of interviews and surveys to uncover the common needs of employees at FIFCO USA. Based on the responses we received we were able to determine what content needed to be added to the site and what links needed highest visibility and ease of access. We were able to use these insights to design our site navigation and information architecture.
 {{%/markdown%}}
-{{<workImage src="/work/fifco-intranet/00-research/site-map.jpg" alt="Information Architecture Site Map" caption="Information Architecture Site Map">}}
+{{<workImage src="/work/fifco-intranet/00-research/site-map.webp" alt="Information Architecture Site Map" caption="Information Architecture Site Map">}}
 {{</column>}}
 {{<column class="col-12  col-md-4 col-lg-6">}}
 <div class="p-4 bg-purple text-white mb-4">

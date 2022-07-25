@@ -5,7 +5,7 @@ draft: false
 order: 0
 columns: "col-sm-12 col-md-8 col-lg-6"
 images: [{
-    "src": "hpp03-data-collection.jpg",
+    "src": "hpp03-data-collection.webp",
     "title":"All of the data collected",
     "params":{
         "caption":true,
@@ -13,7 +13,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp04-summary-of-user-feedback.jpg",
+    "src": "hpp04-summary-of-user-feedback.webp",
     "title":"Summary of user feedback",
     "params":{
         "caption":true,
@@ -21,7 +21,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp05-datasummarization.jpg",
+    "src": "hpp05-datasummarization.webp",
     "title":"Summarizing the results",
     "params":{
         "caption":true,
@@ -29,7 +29,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp06-usergoals.jpg",
+    "src": "hpp06-usergoals.webp",
     "title":"Examining user goals",
     "params":{
         "caption":true,
@@ -37,7 +37,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp07-user-needs.jpg",
+    "src": "hpp07-user-needs.webp",
     "title":"Evaluating user needs",
     "params":{
         "caption":true,
@@ -45,7 +45,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp08-site-strengths-weakness.jpg",
+    "src": "hpp08-site-strengths-weakness.webp",
     "title":"Site strengths/weakness identified by users",
     "params":{
         "caption":true,
@@ -53,7 +53,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp09-finalgoals.jpg",
+    "src": "hpp09-finalgoals.webp",
     "title":"Final goals for project",
     "params":{
         "caption":true,
@@ -61,7 +61,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp10-thumbnail-sketches.jpg",
+    "src": "hpp10-thumbnail-sketches.webp",
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
@@ -69,7 +69,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "hpp10-thumbnail-sketches.jpg",
+    "src": "hpp10-thumbnail-sketches.webp",
     "title":"Thumbnail sketches",
     "params":{
         "caption":true,
@@ -77,7 +77,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "portal01-content.jpg",
+    "src": "portal01-content.webp",
     "title":"Organizing content",
     "params":{
         "caption":true,
@@ -85,7 +85,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "portal03-wireframe.jpg",
+    "src": "portal03-wireframe.webp",
     "title":"early wireframes",
     "params":{
         "caption":true,
@@ -93,7 +93,7 @@ images: [{
         "order":0
     }
 },{
-    "src": "portals-v1-wireframes.png",
+    "src": "portals-v1-wireframes.webp",
     "title":"detailed wireframes",
     "params":{
         "caption":true,

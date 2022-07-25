@@ -4,7 +4,7 @@ subtitle: "Design & Development"
 date: 2020-11-01T20:46:03-05:00
 date_range: "Fall/Winter 2020"
 draft: false
-image: {"name":"cover-2.jpg"," alt":"Header Image for the Seagram's Escapes Holiday Marketplace"}
+image: {"name":"cover-2.webp"," alt":"Header Image for the Seagram's Escapes Holiday Marketplace"}
 type: "work"
 tags: ["UX Design","Web Development","11ty","Algolia.js" ]
 weight: 150

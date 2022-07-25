@@ -4,7 +4,7 @@ date: 2017-10-31T20:46:03-05:00
 draft: false
 order: 0
 columns: "col-sm-12 col-lg-6 "
-images: [{"src": "efficiency-00v1.png",
+images: [{"src": "efficiency-00v1.webp",
     "title":"Job Efficiency Report, version 1",
     "params" : {
         "caption": true,
@@ -12,7 +12,7 @@ images: [{"src": "efficiency-00v1.png",
                 "order": 1
    
      }
-    },{"src": "efficiency-00v2.png",
+    },{"src": "efficiency-00v2.webp",
     "title":"Job Efficiency Report, version 2",
     "params" : {
         "caption": true,
@@ -20,7 +20,7 @@ images: [{"src": "efficiency-00v1.png",
                 "order": 2
    
      }
-    },{"src": "efficiency-00v3.png",
+    },{"src": "efficiency-00v3.webp",
     "title":"Job Efficiency Report, version 3",
     "params" : {
         "caption": true,
@@ -29,7 +29,7 @@ images: [{"src": "efficiency-00v1.png",
    
      }
     },
-    {"src": "leadsource-00.png",
+    {"src": "leadsource-00.webp",
     "title":"Lead Source Report",
     "params" : {
         "caption": true,
@@ -38,7 +38,7 @@ images: [{"src": "efficiency-00v1.png",
    
      }
     },
-    {"src": "scorecard-00.png",
+    {"src": "scorecard-00.webp",
     "title":"Job Scorecard Report",
     "params" : {
         "caption": true,

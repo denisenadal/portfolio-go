@@ -4,7 +4,7 @@ subtitle: "Design & Development"
 date: 2021-01-01T20:46:03-05:00
 date_range: "Spring 2021"
 draft: false
-image: {"name":"Seltzer-Key-Visual.png"," alt":"Key Visual for Seagram's Escapes Hard Seltzer"}
+image: {"name":"Seltzer-Key-Visual.jpg"," alt":"Key Visual for Seagram's Escapes Hard Seltzer"}
 type: "work"
 tags: ["Web Development","Web Design","11ty" ]
 weight: 120

@@ -4,7 +4,7 @@ subtitle: Design & Development
 date: 2017-10-31T20:46:03-05:00
 date_range: "Fall 2017"
 draft: false
-image: {"name":"dsu-set2.jpg"," alt":"DSU homepage on variations screens"}
+image: {"name":"dsu-set2.webp"," alt":"DSU homepage on variations screens"}
 type: "work"
 tags: ["User Research","UX Design","Web Design", "Web Development","WordPress"]
 weight: 65

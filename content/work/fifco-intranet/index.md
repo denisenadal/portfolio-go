@@ -4,7 +4,7 @@ subtitle: "Design & Development"
 date: 2021-09-01T20:46:03-05:00
 date_range: "Fall 2020 -Fall 2021"
 draft: false
-image: {"name":"2022-03-screens.jpg"," alt":"Image of the FIFCO USA Intranet on a mobile phone and a laptop computer"}
+image: {"name":"2022-03-screens.webp"," alt":"Image of the FIFCO USA Intranet on a mobile phone and a laptop computer"}
 type: "work"
 tags: ["UX Design","Web Development","WordPress","Web Design","PHP","User Research", ]
 weight: 140
