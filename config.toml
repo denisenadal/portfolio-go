@@ -12,4 +12,4 @@ dataDir = "data/_default"
     subtitle = "UI/UX + FE/Web Dev"
     colors = ["pink","red","orange","yellow","green","blue","purple"]
 [security.funcs]
-    getenv = [ "^HUGO_", "^WC_", "^FORMSPREE" ]
+    getenv = [ "^HUGO_", "^WC_", "^FORMSPREE","^GTMID" ]
