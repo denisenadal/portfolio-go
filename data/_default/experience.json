@@ -1,6 +1,30 @@
 {
 	"title": "Experience",
 	"experience": [{
+		"timeperiod": "Feb 2025 - current",
+		"company": "Freelance",
+		"title": "Web Designer & Developer",
+		"website": "https://denisenadal.com",
+		"description": "Design and development of websites and SaaS platforms for clients of all sizes. I specialize in building small, lightweight and responsive websites, online shops and blogs, and complex and flexible WordPress installations, including theme, widget and plugin development. ",
+		"highlights": [
+		]
+	},{
+		"timeperiod": "Mar 2024 - Feb 2025",
+		"company": "EcoMap Technologies",
+		"title": "Director of Product Design",
+		"website": "https://ecomap.tech",
+		"description": "I coached and mentored a team of designers, collaborated with engineers, product managers, sales and support, and acted as voice of the customer. As a detail-oriented leader, I enjoyed building cross-functional relationships with stakeholders and finding innovative solutions to challenging problems.",
+		"highlights": ["Led customer discovery, backlog management and prioritization","Developed team processes to validate, build and test solutions.","Product manager for Pathways, a new feature which doubled engagement time and tripled user retention. Pathways was nominated for Product of the Year 2024 by Technical.ly Baltimore.","Led effort to create a new visual identity for our brand and website."
+		]
+	},{
+		"timeperiod": "Aug 2022 - Mar 2024",
+		"company": "EcoMap Technologies",
+		"title": "Design Engineer",
+		"website": "https://ecomap.tech",
+		"description": "First UI/UX hire, responsible for developing UX design and UX research processes, and redesigning the EcoMap platform to optimize for usability and meeting user needs.",
+		"highlights": ["Modernized app UI for the EcoMap platform, improving usability and trust.",
+		"Design and front-end development for our AI-powered Ecosystem Chatbot"]
+	},{
 			"timeperiod": "Aug 2020 - current",
 			"company": "FIFCO USA (Genesee Beer, Labatt USA & Seagram's Escapes)",
 			"title": "Web Designer & Developer",

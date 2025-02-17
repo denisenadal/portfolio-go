@@ -11,25 +11,18 @@
     },
     "list": [
         {
-            "Skills & Techniques": [
+            "Product Design": [
                 "Design Thinking",
                 "User-Centered Design",
                 "UX Research ",
                 "Product Discovery",
-                "Product Analytics",
+                "Customer Journey Mapping",
+                "Task Analysis",
                 "Usability Testing",
-                "Rapid Prototyping",
-                "Agile & Lean Methodologies"
+                "Wireframing & Prototyping"
             ]
         },{
-            "Tools & Technology": [
-                "Adobe Creative Suite",
-                "Sketch"," InVision","Balsamiq ","Figma",
-                "Mixpanel",
-                "Amplitude",
-                "Google Analytics/GTM",
-                "Netlify"
-            ]
+            "Product Management" :["Certified Scrum Product Owner","Certified Scrum Master","Agile & Lean Methodologies","Project Management"]
         },{
             "Programming Strengths": [
                 "JavaScript",
@@ -40,7 +33,8 @@
                 "Bootstrap", 
                 "Eleventy",
                 "Wordpress",
-                "PHP"
+                "PHP",
+                "Bubble/No-Code"
             ]
         },
         {
@@ -53,7 +47,8 @@
                 "MySQL",
                 "MongoDB",
                 "Hugo",
-                "Linux"
+                "Linux",
+                "Shopify"
             ]
         }
     ]

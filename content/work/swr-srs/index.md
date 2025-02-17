@@ -4,7 +4,7 @@ subtitle: "UI/UX Design"
 date: 2020-3-12T20:46:03-05:00
 date_range: "Feb - March 2020"
 draft: false
-image: {"name":"cover-image.PNG"," alt":"Creating a modern UI and experience for SWR admin site"}
+image: {"name":"cover-image.png"," alt":"Creating a modern UI and experience for SWR admin site"}
 type: "work"
 weight: 99
 tags: ["UI Design","UX Design"]

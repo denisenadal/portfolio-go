@@ -5,11 +5,11 @@ author = "Denise Nadal"
 theme = "dn-hugo-theme"
 dataDir = "data/_default"
 [params]
-    description="Denise Nadal's UI/UX + FE/Web Design Portfolio"
+    description="Denise Nadal's Product & Web Portfolio"
     keywords="UI/UX Design, Web Design, Front-End Development, Front-End Engineering,Design Portfolio, Development Portfolio, Engineering Portfolio, Design Wizard, Design Unicorn"
     image="images/unicorn-06.jpg"
     displayPicture = "images/denise.webp"
-    subtitle = "UI/UX + FE/Web Dev"
+    subtitle = "Product & Design"
     colors = ["pink","red","orange","yellow","green","blue","purple"]
 [security.funcs]
     getenv = [ "^HUGO_", "^WC_", "^FORMSPREE","^GTM" ]
