@@ -23,10 +23,22 @@ The `start` script also sources a .env file to load any private environment vari
 * document package scripts
 * remove targeted portfolios
 * update works gallery
-    - intranet
-    - genesee ny
-    - national meeting
-    
+    - FIFCO 
+        - intranet
+        - genesee ny
+        - national meeting
+    - EcoMap
+        - community hub
+        - submaps
+        - pathways
+        - research rollup
+            - onboarding mapping
+            - ecosystem tour
+            - conferences
+            - interviews etc
+            - mapping
+
+    https://www.figma.com/board/2J4JWdrxfzo1E8jB7Kukz0/Super-Connect-Flow-Charts?node-id=0-1&p=f&t=ePPkxFvoVY7HRIjH-0
 pink accessible -#E0008A
 ## What Projects?
 Change descriptions to better showcase each skill
